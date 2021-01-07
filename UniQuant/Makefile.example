@@ -1,0 +1,11 @@
+GRPC_INC=-I/opt/3rd/protobuf3/include -I/opt/3rd/grpc/include
+GRPC_LIB=-L/opt/3rd/grpc/lib -lgrpc -lgrpc++
+PROT_LIB=-L/opt/3rd/protobuf3/lib -lprotobuf
+
+all: command 
+
+command:
+	mkdir -p build
+	/opt/3rd/protobuf3/bin/protoc -Icommunicate --grpc_out=cpp/ --cpp_out=cpp/ --plugin=protoc-gen-grpc="/opt/3rd/grpc/bin/grpc_cpp_plugin" communicate/dealer.proto
+	/opt/anaconda3/bin/python -m grpc_tools.protoc -Icommunicate/ --python_out=communicate/ --grpc_python_out=communicate/ communicate/dealer.proto
+	sed -i 's/import dealer_pb2/from . import dealer_pb2/' communicate/dealer_pb2_grpc.py

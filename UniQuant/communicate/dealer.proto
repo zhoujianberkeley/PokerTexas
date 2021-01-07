@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package Dealer;
+
+// The greeting service definition.
+service Game {
+  // Sends a greeting
+  rpc GameStream (stream DealerRequest) returns (stream DealerRequest) {}
+}
+
+// The request message containing the user's command.
+message DealerRequest {
+  string user = 1;      // username
+  string token = 2;     // secure key
+  string identity = 3;
+  string command = 4;   //command content
+  int32 giveup = 5;     //in lib.texaspoker: class decision
+  int32 allin = 6;      //in lib.texaspoker: class decision
+  int32 check = 7;      //in lib.texaspoker: class decision
+  int32 callbet = 8;    //in lib.texaspoker: class decision
+  int32 raisebet = 9;   //in lib.texaspoker: class decision
+  int32 amount = 10;    //in lib.texaspoker: class decision
+  int32 pos = 11;       //player position
+  int32 type = 12;      //type of the message
+  int32 num = 13;       // 
+  int32 status = 14;    //state status
+  string version = 15;  
+  int32 actionNum = 16;
+  repeated int32 userMoney = 17;
+  string extra = 18;   //reserved for future use.
+}
+
