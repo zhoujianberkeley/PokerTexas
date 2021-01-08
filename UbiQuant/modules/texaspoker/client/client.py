@@ -322,7 +322,7 @@ class Client(object):
 
         while not self.allowheartbeat:
             self.heartbeaklock.release()
-            sleep(1)
+            time.sleep(1)
             self.heartbeatlock.acquire()
 
         self.heartbeaklock.release()
