@@ -42,7 +42,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     board_length = 0 if given_board is None else len(given_board)
     # When a board is given, exact calculation is much faster than Monte Carlo
     # simulation, so default to exact if a board is given
-    if exact or given_board is not None:
+    if exact or (given_board is not None):
         generate_boards = holdem_functions.generate_exhaustive_boards
     else:
         generate_boards = holdem_functions.generate_random_boards
