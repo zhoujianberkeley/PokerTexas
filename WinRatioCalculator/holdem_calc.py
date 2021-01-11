@@ -49,7 +49,12 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     if (None, None) in hole_cards:
         hole_cards_list = list(hole_cards)
         unknown_index = hole_cards.index((None, None))
+        max_times=2
+        current_times=0
         for filler_hole_cards in holdem_functions.generate_hole_cards(deck):
+            if current_times>max_times:
+                break
+            current_times += 1
             hole_cards_list[unknown_index] = filler_hole_cards
             deck_list = list(deck)
             deck_list.remove(filler_hole_cards[0])
