@@ -45,8 +45,8 @@ from AI.v1_1 import ai
 
 
 # **************************************modify here to set address and port ***********************
-address = 'localhost'
-port = 15000
+address = '47.103.23.116'
+port = 56703
 # *************************************************************************************************
 
 
@@ -370,7 +370,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         print('Error: enter the name for the client!')
 #    username = sys.argv[1]
-    username = "myusername"
+    username = "01David"
     logger = simple_logger()
 # ****************************************************************************************************
 
