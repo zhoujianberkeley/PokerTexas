@@ -141,7 +141,8 @@ class Hand(object):
             if self.cnt_num[i] == 4:
                 self.maxnum = i
                 self.level = 8
-                self.nums.remove(i)
+                for j in range(4):
+                    self.nums.remove(i)
                 return
 
 
@@ -154,16 +155,15 @@ class Hand(object):
                 self.level = 7
                 return
 
-
         for i in range(4):
-            if self.cnt_color[i] >=5:
-                if(max(self.cnt_num_eachcolor[i]) > self.maxnum):
-                    self.maxnum = max(self.cnt_num_eachcolor[i])
+            if self.cnt_color[i] >= 5:
                 self.nums = []
                 for card in cards:
                     if id2color(card) == i:
                         self.nums.append(id2num(card))
-                self.nums = self.nums[:min(len(self.nums), 5)]
+                self.nums.sort(reverse=True)
+                self.nums = self.nums[:5]
+                self.maxnum = self.nums[0]
                 self.level = 6
                 return
 
@@ -188,6 +188,8 @@ class Hand(object):
                 self.maxnum = i
                 self.level = 4
                 self.nums.remove(i)
+                self.nums.remove(i)
+                self.nums.remove(i)
                 self.nums = self.nums[:min(len(self.nums), 2)]
                 return
 
@@ -202,6 +204,7 @@ class Hand(object):
                 self.maxnum = i
                 self.level = 2
 
+                self.nums.remove(i)
                 self.nums.remove(i)
                 self.nums = self.nums[:min(len(self.nums), 3)]
                 return
@@ -294,9 +297,9 @@ def judge_two(cards0, cards1):
                     tmp1.append(hand1.tripple[1])
                 tmp0.sort(reverse=True)
                 tmp1.sort(reverse=True)
-                if tmp0 < tmp1:
+                if tmp0[0] < tmp1[0]:
                     return 1
-                elif tmp0 == tmp1:
+                elif tmp0[0] == tmp1[0]:
                     return 0
                 else:
                     return -1
@@ -352,7 +355,7 @@ class State(object):
         self.bigBlind = bigBlind       # bigBlind, every bet should be multiple of smallBlind which is half of bigBlind.
         self.button = button           # the button position
         self.currpos = 0               # current position
-        self.playernum = 0             # active player number
+        self.playernum = totalPlayer   # active player number
         self.moneypot = 0              # money in the pot
         self.minbet = bigBlind         # minimum bet to call in this round, total bet
         self.sharedcards = []          # shared careds in the game
