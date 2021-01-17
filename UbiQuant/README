@@ -12,7 +12,7 @@ We have developed a native AI program under the modules/texaspoker/AI and the in
 You can refer to this AI program example to develop your own program.
 
 You can use the data structure defined in lib/client_lib.
-You can refer to the printcard function in the client.py to see the mapping between numbers and cards.
+You can refer to the decode_card function in the client.py to see the mapping between numbers and cards.
 The level field int the 
 
 #How to run:

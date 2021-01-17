@@ -15,7 +15,10 @@ is multi-agent imperfect information game with 10^161 state space and 10^4 actio
 >
 >>OpenAI Poker gym -- it's a tournament environment
 >
->>  **Deep mind pokerbot -- This one looks promising, espeically the MonteCarlo_numpy.py (calculate winning probability) and** 
+>>  <b>Deep mind pokerbot -- This one looks promising, espeically the 
+>MonteCarlo_numpy.py (calculate winning probability) and 
+>DecisionMaker.py (decide the action) under Poker/poker/decisionmaker 
+>may be quite helpful. <b> <br> 
      
 <b>Links list below<b> <br>
 [Awesome-Game-AI](https://github.com/datamllab/awesome-game-ai#texas-holdem-projects)<br>
@@ -25,8 +28,7 @@ is multi-agent imperfect information game with 10^161 state space and 10^4 actio
 [DeepHoldem](https://github.com/happypepper/DeepHoldem) <br>
 [Deep mind pokerbot](https://github.com/dickreuter/Poker) <br>
 
-DecisionMaker.py (decide the action) under Poker/poker/decisionmaker
-    may be quite helpful.
+
 Folder UbiQuant
 =================
 

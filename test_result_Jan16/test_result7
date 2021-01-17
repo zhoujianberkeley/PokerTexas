@@ -1,0 +1,1446 @@
+/Users/jianzhou/opt/anaconda3/envs/env_generic/bin/python /Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py
+Error: enter the name for the client!
+self.key is inited to kxUEGLXn
+This ai is begin at the pos 1
+pos 0: 01feny
+pos 1: 01David
+pos 2: 01shanliren
+
+******client initialized****** client:1 step:0
+This ai is begin at the pos 1
+pos 0: 01feny
+pos 1: 01David
+pos 2: 01shanliren
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2120
+user at pos 1 has 5460
+user at pos 2 has 18600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[10, 31, 3, 30, 44]
+diamond, 4. 
+club, 9. 
+club, 2. 
+diamond, 9. 
+spade, K. 
+cards:[28, 14]
+spade, 9. 
+diamond, 5. 
+
+
+Have money 5500 left
+This ai is begin at the pos 2
+pos 0: 01shanliren
+pos 1: 01feny
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 18560
+user at pos 1 has 2120
+user at pos 2 has 5500
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5460, bet = 0, allin = 0
+
+
+my card:  ['8c', 'Kd']
+board card:  ['8d', '2h', 'Qd']
+my win_ratio:  0.7422018348623853
+all win_ratio:  [0.0074413863404689095, 0.7422018348623853, 0.2503567787971458]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[26, 1, 42, 37, 40]
+diamond, 8. 
+heart, 2. 
+diamond, Q. 
+heart, J. 
+spade, Q. 
+cards:[27, 46]
+club, 8. 
+diamond, K. 
+
+
+Have money 5560 left
+This ai is begin at the pos 1
+pos 0: 01shanliren
+pos 1: 01David
+pos 2: 01feny
+
+******client initialized****** client:1 step:0
+user at pos 0 has 18520
+user at pos 1 has 5560
+user at pos 2 has 2100
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 5540, bet = 20, allin = 0
+
+
+my card:  ['As', 'Kd']
+board card:  []
+my win_ratio:  0.6511059907834101
+all win_ratio:  [0.01576036866359447, 0.6511059907834101, 0.3331336405529954]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5520, bet = 0, allin = 0
+
+
+my card:  ['As', 'Kd']
+board card:  ['Td', '3s', '8c']
+my win_ratio:  0.5290899795501023
+all win_ratio:  [0.008537832310838446, 0.5290899795501023, 0.4623721881390593]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 callbet in round 1. actionNum: 6
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+jian position:  player: active = True, money = 5480, bet = 0, allin = 0
+
+
+my card:  ['As', 'Kd']
+board card:  ['Td', '3s', '8c', '9s']
+my win_ratio:  0.39835106382978724
+all win_ratio:  [0.009574468085106383, 0.39835106382978724, 0.5920744680851063]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 9
+[ACTION]: player at 0 callbet in round 2. actionNum: 10
+jian position:  player: active = True, money = 5480, bet = 0, allin = 0
+
+
+my card:  ['As', 'Kd']
+board card:  ['Td', '3s', '8c', '9s']
+my win_ratio:  0.39259656652360514
+all win_ratio:  [0.008583690987124463, 0.39259656652360514, 0.5988197424892704]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 2. actionNum: 11
+jian position:  player: active = True, money = 5440, bet = 0, allin = 0
+
+
+my card:  ['As', 'Kd']
+board card:  ['Td', '3s', '8c', '9s', '4c']
+my win_ratio:  0.3452513966480447
+all win_ratio:  [0.008938547486033519, 0.3452513966480447, 0.6458100558659218]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 3. actionNum: 12
+[ACTION]: player at 2 check in round 3. actionNum: 13
+[ACTION]: player at 0 check in round 3. actionNum: 14
+***********game over***************
+sharedcards:[34, 4, 27, 28, 11]
+diamond, 10. 
+spade, 3. 
+club, 8. 
+spade, 9. 
+club, 4. 
+cards:[48, 46]
+spade, A. 
+diamond, K. 
+
+
+Have money 5440 left
+This ai is begin at the pos 2
+pos 0: 01semiMarkov
+pos 1: 01shanliren
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 73520
+user at pos 1 has 18760
+user at pos 2 has 5440
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+jian position:  player: active = True, money = 5400, bet = 0, allin = 0
+
+
+my card:  ['8d', '4c']
+board card:  ['Qh', '7d', 'Qs']
+my win_ratio:  0.24124352331606216
+all win_ratio:  [0.07626943005181347, 0.24124352331606216, 0.6824870466321243]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+[ACTION]: player at 0 raisebet to 280 in round 1. actionNum: 7
+[ACTION]: player at 1 giveup in round 1. actionNum: 8
+***********game over***************
+sharedcards:[41, 22, 40, 50, 34]
+heart, Q. 
+diamond, 7. 
+spade, Q. 
+diamond, A. 
+diamond, 10. 
+cards:[26, 11]
+diamond, 8. 
+club, 4. 
+
+
+Have money 5400 left
+This ai is begin at the pos 2
+pos 0: 01yiqipashan
+pos 1: 01semiMarkov
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1600
+user at pos 1 has 73640
+user at pos 2 has 5400
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+jian position:  player: active = True, money = 5360, bet = 0, allin = 0
+
+
+my card:  ['Th', '4c']
+board card:  ['Kd', 'Js', 'Ad']
+my win_ratio:  0.3611862643080125
+all win_ratio:  [0.11108220603537981, 0.3611862643080125, 0.5277315296566077]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[46, 36, 50, 51, 27]
+diamond, K. 
+spade, J. 
+diamond, A. 
+club, A. 
+club, 8. 
+cards:[33, 11]
+heart, 10. 
+club, 4. 
+
+
+Have money 5360 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nanminglianghua
+pos 2: 01semiMarkov
+
+******client initialized****** client:0 step:0
+user at pos 0 has 5360
+user at pos 1 has 1560
+user at pos 2 has 73600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+jian position:  player: active = True, money = 5360, bet = 0, allin = 0
+
+
+my card:  ['3c', 'Ad']
+board card:  []
+my win_ratio:  0.541324200913242
+all win_ratio:  [0.03817351598173516, 0.541324200913242, 0.42050228310502286]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+jian position:  player: active = True, money = 5320, bet = 0, allin = 0
+
+
+my card:  ['3c', 'Ad']
+board card:  ['Qd', '9d', '2c']
+my win_ratio:  0.4634674922600619
+all win_ratio:  [0.04029927760577915, 0.4634674922600619, 0.49623323013415893]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+jian position:  player: active = True, money = 5280, bet = 0, allin = 0
+
+
+my card:  ['3c', 'Ad']
+board card:  ['Qd', '9d', '2c', '7h']
+my win_ratio:  0.37201933404940923
+all win_ratio:  [0.03587540279269603, 0.37201933404940923, 0.5921052631578947]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 2. actionNum: 9
+[ACTION]: player at 2 raisebet to 40 in round 3. actionNum: 10
+jian position:  player: active = True, money = 5280, bet = 0, allin = 0
+
+
+my card:  ['3c', 'Ad']
+board card:  ['Qd', '9d', '2c', '7h', 'As']
+my win_ratio:  0.8439955106621774
+all win_ratio:  [0.031425364758698095, 0.8439955106621774, 0.12457912457912458]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=240
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 240 in round 3. actionNum: 11
+[ACTION]: player at 2 giveup in round 3. actionNum: 12
+***********game over***************
+sharedcards:[42, 30, 3, 21, 48]
+diamond, Q. 
+diamond, 9. 
+club, 2. 
+heart, 7. 
+spade, A. 
+cards:[7, 50]
+club, 3. 
+diamond, A. 
+
+
+Have money 5520 left
+This ai is begin at the pos 2
+pos 0: 01Hope
+pos 1: 01semiMarkov
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 12620
+user at pos 1 has 73480
+user at pos 2 has 5520
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+jian position:  player: active = True, money = 5480, bet = 0, allin = 0
+
+
+my card:  ['Ts', 'Qc']
+board card:  ['9h', '2h', 'Ad']
+my win_ratio:  0.41956745623069003
+all win_ratio:  [0.020700308959835222, 0.41956745623069003, 0.5597322348094748]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[29, 1, 50, 15, 35]
+heart, 9. 
+heart, 2. 
+diamond, A. 
+club, 5. 
+club, 10. 
+cards:[32, 43]
+spade, 10. 
+club, Q. 
+
+
+Have money 5480 left
+This ai is begin at the pos 2
+pos 0: 01king
+pos 1: 01Hope
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 22350
+user at pos 1 has 12700
+user at pos 2 has 5480
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+jian position:  player: active = True, money = 5440, bet = 0, allin = 0
+
+
+my card:  ['Qh', '2c']
+board card:  ['Jh', '4d', 'Th']
+my win_ratio:  0.34731127197518097
+all win_ratio:  [0.04095139607032058, 0.34731127197518097, 0.6117373319544984]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[37, 10, 33, 51, 12]
+heart, J. 
+diamond, 4. 
+heart, 10. 
+club, A. 
+spade, 5. 
+cards:[41, 3]
+heart, Q. 
+club, 2. 
+
+
+Have money 5440 left
+This ai is begin at the pos 1
+pos 0: 01king
+pos 1: 01David
+pos 2: 01yiqipashan
+
+******client initialized****** client:1 step:0
+user at pos 0 has 22350
+user at pos 1 has 5440
+user at pos 2 has 1920
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+jian position:  player: active = True, money = 5420, bet = 20, allin = 0
+
+
+my card:  ['4c', '3c']
+board card:  []
+my win_ratio:  0.3583928571428571
+all win_ratio:  [0.05875, 0.3583928571428571, 0.5828571428571429]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5400, bet = 0, allin = 0
+
+
+my card:  ['4c', '3c']
+board card:  ['Jc', 'As', '3h']
+my win_ratio:  0.5749226006191951
+all win_ratio:  [0.04055727554179567, 0.5749226006191951, 0.3845201238390093]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+jian position:  player: active = True, money = 5400, bet = 0, allin = 0
+
+
+my card:  ['4c', '3c']
+board card:  ['Jc', 'As', '3h']
+my win_ratio:  0.5690402476780185
+all win_ratio:  [0.04267285861713106, 0.5690402476780185, 0.38828689370485037]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 1. actionNum: 7
+jian position:  player: active = True, money = 5360, bet = 0, allin = 0
+
+
+my card:  ['4c', '3c']
+board card:  ['Jc', 'As', '3h', '5s']
+my win_ratio:  0.5090322580645161
+all win_ratio:  [0.04521505376344086, 0.5090322580645161, 0.445752688172043]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 8
+[ACTION]: player at 2 callbet in round 2. actionNum: 9
+jian position:  player: active = True, money = 5320, bet = 0, allin = 0
+
+
+my card:  ['4c', '3c']
+board card:  ['Jc', 'As', '3h', '5s', '4s']
+my win_ratio:  0.7035398230088495
+all win_ratio:  [0.004424778761061947, 0.7035398230088495, 0.2920353982300885]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 3. actionNum: 10
+[ACTION]: player at 2 giveup in round 3. actionNum: 11
+***********game over***************
+sharedcards:[39, 48, 5, 12, 8]
+club, J. 
+spade, A. 
+heart, 3. 
+spade, 5. 
+spade, 4. 
+cards:[11, 7]
+club, 4. 
+club, 3. 
+
+
+Have money 5560 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01king
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2620
+user at pos 1 has 5560
+user at pos 2 has 22350
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+jian position:  player: active = True, money = 5540, bet = 20, allin = 0
+
+
+my card:  ['Ts', 'Th']
+board card:  []
+my win_ratio:  0.7448706099815157
+all win_ratio:  [0.006792975970425138, 0.7448706099815157, 0.24833641404805915]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[44, 3, 31, 47, 19]
+spade, K. 
+club, 2. 
+club, 9. 
+club, K. 
+club, 6. 
+cards:[32, 33]
+spade, 10. 
+heart, 10. 
+
+
+Have money 5600 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01feny
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2620
+user at pos 1 has 2040
+user at pos 2 has 5600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+jian position:  player: active = True, money = 5560, bet = 0, allin = 0
+
+
+my card:  ['Kh', 'Ts']
+board card:  ['4s', '6c', 'Jd']
+my win_ratio:  0.43982528263103804
+all win_ratio:  [0.013926002055498458, 0.43982528263103804, 0.5462487153134635]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[8, 19, 38, 17, 31]
+spade, 4. 
+club, 6. 
+diamond, J. 
+heart, 6. 
+club, 9. 
+cards:[45, 32]
+heart, K. 
+spade, 10. 
+
+
+Have money 5560 left
+This ai is begin at the pos 1
+pos 0: 01shouhu
+pos 1: 01David
+pos 2: 01feny
+
+******client initialized****** client:1 step:0
+user at pos 0 has 88060
+user at pos 1 has 5560
+user at pos 2 has 2000
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 5540, bet = 20, allin = 0
+
+
+my card:  ['3d', '2d']
+board card:  []
+my win_ratio:  0.32474747474747473
+all win_ratio:  [0.05367309458218549, 0.32474747474747473, 0.6215794306703397]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5520, bet = 0, allin = 0
+
+
+my card:  ['3d', '2d']
+board card:  ['8d', '6s', 'Th']
+my win_ratio:  0.15459183673469387
+all win_ratio:  [0.06, 0.15459183673469387, 0.7854081632653062]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[26, 16, 33, 14, 15]
+diamond, 8. 
+spade, 6. 
+heart, 10. 
+diamond, 5. 
+club, 5. 
+cards:[6, 2]
+diamond, 3. 
+diamond, 2. 
+
+
+Have money 5520 left
+This ai is begin at the pos 1
+pos 0: 01shouhu
+pos 1: 01David
+pos 2: 01shanliren
+
+******client initialized****** client:1 step:0
+user at pos 0 has 88140
+user at pos 1 has 5520
+user at pos 2 has 18400
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 5500, bet = 20, allin = 0
+
+
+my card:  ['Qc', '9s']
+board card:  []
+my win_ratio:  0.5405393053016453
+all win_ratio:  [0.030575868372943328, 0.5405393053016453, 0.42888482632541136]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5480, bet = 0, allin = 0
+
+
+my card:  ['Qc', '9s']
+board card:  ['Qd', 'Td', 'Ks']
+my win_ratio:  0.6767267267267267
+all win_ratio:  [0.06276276276276277, 0.6767267267267267, 0.2605105105105105]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 callbet in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+jian position:  player: active = True, money = 5440, bet = 0, allin = 0
+
+
+my card:  ['Qc', '9s']
+board card:  ['Qd', 'Td', 'Ks', '3h']
+my win_ratio:  0.7342019543973941
+all win_ratio:  [0.031704668838219326, 0.7342019543973941, 0.23409337676438655]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 2. actionNum: 8
+[ACTION]: player at 2 callbet in round 2. actionNum: 9
+jian position:  player: active = True, money = 5360, bet = 0, allin = 0
+
+
+my card:  ['Qc', '9s']
+board card:  ['Qd', 'Td', 'Ks', '3h', '8h']
+my win_ratio:  0.755331088664422
+all win_ratio:  [0.006734006734006734, 0.755331088664422, 0.23793490460157127]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 3. actionNum: 10
+[ACTION]: player at 2 giveup in round 3. actionNum: 11
+***********game over***************
+sharedcards:[42, 34, 44, 5, 25]
+diamond, Q. 
+diamond, 10. 
+spade, K. 
+heart, 3. 
+heart, 8. 
+cards:[43, 28]
+club, Q. 
+spade, 9. 
+
+
+Have money 5720 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01shouhu
+pos 2: 01tesla
+
+******client initialized****** client:0 step:0
+user at pos 0 has 5720
+user at pos 1 has 88100
+user at pos 2 has 6620
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+jian position:  player: active = True, money = 5720, bet = 0, allin = 0
+
+
+my card:  ['9s', '6c']
+board card:  []
+my win_ratio:  0.4266968325791855
+all win_ratio:  [0.05099547511312217, 0.4266968325791855, 0.5223076923076924]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 5
+jian position:  player: active = True, money = 5680, bet = 0, allin = 0
+
+
+my card:  ['9s', '6c']
+board card:  ['8s', 'Kh', 'Jh']
+my win_ratio:  0.2540805785123967
+all win_ratio:  [0.06544421487603305, 0.2540805785123967, 0.6804752066115702]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[24, 45, 37, 5, 9]
+spade, 8. 
+heart, K. 
+heart, J. 
+heart, 3. 
+heart, 4. 
+cards:[28, 19]
+spade, 9. 
+club, 6. 
+
+
+Have money 5680 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 01zhihe
+pos 1: 01shanliren
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 4640
+user at pos 1 has 18320
+user at pos 2 has 5680
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 280 in round 1. actionNum: 5
+jian position:  player: active = True, money = 5640, bet = 0, allin = 0
+
+
+my card:  ['Th', '9d']
+board card:  ['Qs', '2c', 'Qh']
+my win_ratio:  0.3930208333333333
+all win_ratio:  [0.04583333333333333, 0.3930208333333333, 0.5611458333333333]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[40, 3, 41, 2, 22]
+spade, Q. 
+club, 2. 
+heart, Q. 
+diamond, 2. 
+diamond, 7. 
+cards:[33, 30]
+heart, 10. 
+diamond, 9. 
+
+
+Have money 5640 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 01Hope
+pos 1: 01shouhu
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 12300
+user at pos 1 has 88080
+user at pos 2 has 5640
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5600, bet = 0, allin = 0
+
+
+my card:  ['5s', '9s']
+board card:  ['4d', '7h', 'Kh']
+my win_ratio:  0.23580183861082737
+all win_ratio:  [0.031767109295199186, 0.23580183861082737, 0.7324310520939734]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[10, 21, 45, 41, 13]
+diamond, 4. 
+heart, 7. 
+heart, K. 
+heart, Q. 
+heart, 5. 
+cards:[12, 28]
+spade, 5. 
+spade, 9. 
+
+
+Have money 5600 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01semiMarkov
+pos 2: 01whitegive
+
+******client initialized****** client:0 step:0
+user at pos 0 has 5600
+user at pos 1 has 72840
+user at pos 2 has 8960
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+jian position:  player: active = True, money = 5600, bet = 0, allin = 0
+
+
+my card:  ['Kh', '5d']
+board card:  []
+my win_ratio:  0.5102404274265361
+all win_ratio:  [0.04180765805877115, 0.5102404274265361, 0.4479519145146928]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[34, 41, 24, 22, 9]
+diamond, 10. 
+heart, Q. 
+spade, 8. 
+diamond, 7. 
+heart, 4. 
+cards:[45, 14]
+heart, K. 
+diamond, 5. 
+
+
+Have money 5680 left
+This ai is begin at the pos 1
+pos 0: 01whitegive
+pos 1: 01David
+pos 2: 01semiMarkov
+
+******client initialized****** client:1 step:0
+user at pos 0 has 8920
+user at pos 1 has 5680
+user at pos 2 has 72800
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 5660, bet = 20, allin = 0
+
+
+my card:  ['9h', 'Kh']
+board card:  []
+my win_ratio:  0.5830630630630631
+all win_ratio:  [0.02761261261261261, 0.5830630630630631, 0.38932432432432434]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5640, bet = 0, allin = 0
+
+
+my card:  ['9h', 'Kh']
+board card:  ['4s', '8s', '2s']
+my win_ratio:  0.33809278350515465
+all win_ratio:  [0.03463917525773196, 0.33809278350515465, 0.6272680412371134]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[8, 24, 0, 11, 28]
+spade, 4. 
+spade, 8. 
+spade, 2. 
+club, 4. 
+spade, 9. 
+cards:[29, 45]
+heart, 9. 
+heart, K. 
+
+
+Have money 5640 left
+This ai is begin at the pos 1
+pos 0: 01whitegive
+pos 1: 01David
+pos 2: 01semiMarkov
+
+******client initialized****** client:1 step:0
+user at pos 0 has 9000
+user at pos 1 has 5640
+user at pos 2 has 72760
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+jian position:  player: active = True, money = 5620, bet = 20, allin = 0
+
+
+my card:  ['6s', 'Td']
+board card:  []
+my win_ratio:  0.4365209471766849
+all win_ratio:  [0.04530965391621129, 0.4365209471766849, 0.5181693989071038]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+jian position:  player: active = True, money = 5600, bet = 0, allin = 0
+
+
+my card:  ['6s', 'Td']
+board card:  ['Ts', '9c', 'Ah']
+my win_ratio:  0.6981613891726252
+all win_ratio:  [0.042134831460674156, 0.6981613891726252, 0.2597037793667007]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[32, 31, 49, 10, 17]
+spade, 10. 
+club, 9. 
+heart, A. 
+diamond, 4. 
+heart, 6. 
+cards:[16, 34]
+spade, 6. 
+diamond, 10. 
+
+
+Have money 5680 left
+This ai is begin at the pos 2
+pos 0: 01whitegive
+pos 1: 01semiMarkov
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 9000
+user at pos 1 has 72720
+user at pos 2 has 5680
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 raisebet to 200 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+player at pos 2 illegalMove and is forced to give up. actionNum 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[16, 47, 44, 19, 33]
+spade, 6. 
+club, K. 
+spade, K. 
+club, 6. 
+heart, 10. 
+cards:[0, 49]
+spade, 2. 
+heart, A. 
+
+
+Have money 5640 left
+This ai is begin at the pos 2
+pos 0: 01semiMarkov
+pos 1: 01whitegive
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 72520
+user at pos 1 has 9240
+user at pos 2 has 5640
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 raisebet to 200 in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+player at pos 2 illegalMove and is forced to give up. actionNum 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[6, 48, 34, 27, 12]
+diamond, 3. 
+spade, A. 
+diamond, 10. 
+club, 8. 
+spade, 5. 
+cards:[37, 35]
+heart, J. 
+club, 10. 
+
+
+Have money 5600 left
+This ai is begin at the pos 2
+pos 0: 01whitegive
+pos 1: 01semiMarkov
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 9040
+user at pos 1 has 72760
+user at pos 2 has 5600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+jian position:  player: active = True, money = 5560, bet = 0, allin = 0
+
+
+my card:  ['Ac', 'Ts']
+board card:  ['7h', '5d', '4c']
+my win_ratio:  0.43498452012383904
+all win_ratio:  [0.035242518059855524, 0.43498452012383904, 0.5297729618163055]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[21, 14, 11, 35, 50]
+heart, 7. 
+diamond, 5. 
+club, 4. 
+club, 10. 
+diamond, A. 
+cards:[51, 32]
+club, A. 
+spade, 10. 
+
+
+Have money 5560 left
+This ai is begin at the pos 2
+pos 0: 01semiMarkov
+pos 1: 01whitegive
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 72840
+user at pos 1 has 9000
+user at pos 2 has 5560
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+jian position:  player: active = True, money = 5520, bet = 0, allin = 0
+
+
+my card:  ['3s', '9h']
+board card:  ['3d', '4d', 'Js']
+my win_ratio:  0.5258847320525784
+all win_ratio:  [0.01991911021233569, 0.5258847320525784, 0.4541961577350859]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 raisebet to 560 in round 1. actionNum: 7
+jian position:  player: active = True, money = 5520, bet = 0, allin = 0
+
+
+my card:  ['3s', '9h']
+board card:  ['3d', '4d', 'Js']
+my win_ratio:  0.5258568548387097
+all win_ratio:  [0.021018145161290323, 0.5258568548387097, 0.453125]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 1. actionNum: 8
+jian position:  player: active = True, money = 4960, bet = 0, allin = 0
+
+
+my card:  ['3s', '9h']
+board card:  ['3d', '4d', 'Js', '4h']
+my win_ratio:  0.5435706695005313
+all win_ratio:  [0.05589798087141339, 0.5435706695005313, 0.40053134962805526]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 9
+[ACTION]: player at 0 allin in round 2. actionNum: 10
+jian position:  player: active = True, money = 4960, bet = 0, allin = 0
+
+
+my card:  ['3s', '9h']
+board card:  ['3d', '4d', 'Js', '4h']
+my win_ratio:  0.5545405405405406
+all win_ratio:  [0.05237837837837838, 0.5545405405405406, 0.3930810810810811]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 allin in round 2. actionNum: 11
+***********game over***************
+sharedcards:[6, 10, 36, 9, 46]
+diamond, 3. 
+diamond, 4. 
+spade, J. 
+heart, 4. 
+diamond, K. 
+cards:[4, 29]
+spade, 3. 
+heart, 9. 
+
+
+Have money 0 left
+This ai is begin at the pos 2
+pos 0: 01whitegive
+pos 1: 01semiMarkov
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 8960
+user at pos 1 has 78440
+user at pos 2 has 2000
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+jian position:  player: active = True, money = 1960, bet = 0, allin = 0
+
+
+my card:  ['8c', '9d']
+board card:  ['7s', 'Ah', 'Ad']
+my win_ratio:  0.3444845360824742
+all win_ratio:  [0.05469072164948453, 0.3444845360824742, 0.6008247422680413]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[20, 49, 50, 13, 32]
+spade, 7. 
+heart, A. 
+diamond, A. 
+heart, 5. 
+spade, 10. 
+cards:[27, 30]
+club, 8. 
+diamond, 9. 
+
+
+Have money 1960 left
+This ai is begin at the pos 1
+pos 0: 01semiMarkov
+pos 1: 01David
+pos 2: 01king
+
+******client initialized****** client:1 step:0
+user at pos 0 has 78480
+user at pos 1 has 1960
+user at pos 2 has 21950
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 1940, bet = 20, allin = 0
+
+
+my card:  ['Ac', '5s']
+board card:  []
+my win_ratio:  0.5628
+all win_ratio:  [0.03911111111111111, 0.5628, 0.3980888888888889]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+jian position:  player: active = True, money = 1920, bet = 40, allin = 0
+
+
+my card:  ['Ac', '5s']
+board card:  []
+my win_ratio:  0.5600092678405931
+all win_ratio:  [0.0376274328081557, 0.5600092678405931, 0.40236329935125115]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+jian position:  player: active = True, money = 1880, bet = 0, allin = 0
+
+
+my card:  ['Ac', '5s']
+board card:  ['6h', 'Tc', 'Qc']
+my win_ratio:  0.4361427094105481
+all win_ratio:  [0.04322647362978283, 0.4361427094105481, 0.5206308169596691]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[17, 35, 43, 44, 4]
+heart, 6. 
+club, 10. 
+club, Q. 
+spade, K. 
+spade, 3. 
+cards:[51, 12]
+club, A. 
+spade, 5. 
+
+
+Have money 1880 left
+This ai is begin at the pos 1
+pos 0: 01Momentum
+pos 1: 01David
+pos 2: 01king
+
+******client initialized****** client:1 step:0
+user at pos 0 has 4040
+user at pos 1 has 1880
+user at pos 2 has 22110
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 1860, bet = 20, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  []
+my win_ratio:  0.5815187557182068
+all win_ratio:  [0.03513266239707228, 0.5815187557182068, 0.38334858188472093]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+jian position:  player: active = True, money = 1840, bet = 40, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  []
+my win_ratio:  0.5750678733031674
+all win_ratio:  [0.031945701357466064, 0.5750678733031674, 0.3929864253393665]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+jian position:  player: active = True, money = 1800, bet = 0, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  ['9c', '2d', '5h']
+my win_ratio:  0.49860103626943003
+all win_ratio:  [0.02098445595854922, 0.49860103626943003, 0.4804145077720207]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 check in round 1. actionNum: 9
+jian position:  player: active = True, money = 1800, bet = 0, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  ['9c', '2d', '5h', 'Td']
+my win_ratio:  0.39126730564430245
+all win_ratio:  [0.014589989350372737, 0.39126730564430245, 0.5941427050053248]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 10
+[ACTION]: player at 2 check in round 2. actionNum: 11
+[ACTION]: player at 0 raisebet to 240 in round 2. actionNum: 12
+jian position:  player: active = True, money = 1800, bet = 0, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  ['9c', '2d', '5h', 'Td']
+my win_ratio:  0.3869797225186766
+all win_ratio:  [0.015208110992529349, 0.3869797225186766, 0.597812166488794]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 2. actionNum: 13
+[ACTION]: player at 2 giveup in round 2. actionNum: 14
+jian position:  player: active = True, money = 1560, bet = 0, allin = 0
+
+
+my card:  ['6c', 'Ac']
+board card:  ['9c', '2d', '5h', 'Td', '5c']
+my win_ratio:  0.41685393258426967
+all win_ratio:  [0.05955056179775281, 0.41685393258426967, 0.5235955056179775]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 3. actionNum: 15
+***********game over***************
+sharedcards:[31, 2, 13, 34, 15]
+club, 9. 
+diamond, 2. 
+heart, 5. 
+diamond, 10. 
+club, 5. 
+cards:[19, 51]
+club, 6. 
+club, A. 
+
+
+Have money 1560 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nanminglianghua
+pos 2: 01Sediel
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1560
+user at pos 1 has 880
+user at pos 2 has 4160
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+jian position:  player: active = True, money = 1560, bet = 0, allin = 0
+
+
+my card:  ['5d', '5c']
+board card:  []
+my win_ratio:  0.595614828209765
+all win_ratio:  [0.01279385171790235, 0.595614828209765, 0.3915913200723327]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+jian position:  player: active = True, money = 1520, bet = 0, allin = 0
+
+
+my card:  ['5d', '5c']
+board card:  ['7c', '3h', '2c']
+my win_ratio:  0.6555555555555556
+all win_ratio:  [0.0035493827160493828, 0.6555555555555556, 0.34089506172839507]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 7
+[ACTION]: player at 2 giveup in round 1. actionNum: 8
+***********game over***************
+sharedcards:[23, 5, 3, 25, 41]
+club, 7. 
+heart, 3. 
+club, 2. 
+heart, 8. 
+heart, Q. 
+cards:[14, 15]
+diamond, 5. 
+club, 5. 
+
+
+Have money 1640 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nanminglianghua
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1640
+user at pos 1 has 840
+user at pos 2 has 17400
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+jian position:  player: active = True, money = 1640, bet = 0, allin = 0
+
+
+my card:  ['7d', '2d']
+board card:  []
+my win_ratio:  0.3561427280939476
+all win_ratio:  [0.05158084914182475, 0.3561427280939476, 0.5922764227642277]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+jian position:  player: active = True, money = 1600, bet = 40, allin = 0
+
+
+my card:  ['7d', '2d']
+board card:  []
+my win_ratio:  0.3475045372050817
+all win_ratio:  [0.053584392014519054, 0.3475045372050817, 0.5989110707803993]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 8
+jian position:  player: active = True, money = 1560, bet = 0, allin = 0
+
+
+my card:  ['7d', '2d']
+board card:  ['3d', '5c', '7h']
+my win_ratio:  0.654253112033195
+all win_ratio:  [0.02946058091286307, 0.654253112033195, 0.3162863070539419]
+jian decison:  giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+$$$ This client made a decision at pos 0
+player at pos 0 illegalMove and is forced to give up. actionNum 9
+[ACTION]: player at 1 giveup in round 1. actionNum: 10
+***********game over***************
+sharedcards:[6, 15, 21, 29, 14]
+diamond, 3. 
+club, 5. 
+heart, 7. 
+heart, 9. 
+diamond, 5. 
+cards:[22, 2]
+diamond, 7. 
+diamond, 2. 
+
+
+Have money 1560 left
+This ai is begin at the pos 1
+pos 0: 01nanminglianghua
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+user at pos 0 has 720
+user at pos 1 has 1560
+user at pos 2 has 17600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+jian position:  player: active = True, money = 1540, bet = 20, allin = 0
+
+
+my card:  ['7c', '5h']
+board card:  []
+my win_ratio:  0.372463768115942
+all win_ratio:  [0.057608695652173914, 0.372463768115942, 0.5699275362318841]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+jian position:  player: active = True, money = 1520, bet = 40, allin = 0
+
+
+my card:  ['7c', '5h']
+board card:  []
+my win_ratio:  0.37547339945897207
+all win_ratio:  [0.05820559062218215, 0.37547339945897207, 0.5663210099188458]
+jian decison:  giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+jian position:  player: active = True, money = 1480, bet = 0, allin = 0
+
+
+my card:  ['7c', '5h']
+board card:  ['6s', 'Js', '4c']
+my win_ratio:  0.414778578784758
+all win_ratio:  [0.025952626158599383, 0.414778578784758, 0.5592687950566426]
+jian decison:  giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 9
+[ACTION]: player at 2 callbet in round 1. actionNum: 10
