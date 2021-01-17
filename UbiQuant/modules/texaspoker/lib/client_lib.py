@@ -391,10 +391,10 @@ class State(object):
     def round_over(self):
         if self.playernum == 1:
             return 1
-        for i in range(self.totalPlayer):
+        for i in range(self.totalPlayer): # check whether players are all in
             if (self.player[i].active is True) and (self.player[i].allin == 0):
                 return 0
-        for i in range(self.totalPlayer):
+        for i in range(self.totalPlayer): #
             if self.player[i].active is True and (self.player[i].bet != self.minbet and self.player[i].allin == 0):
                 return 0
         if self.turnNum != 0 and self.minbet == 0:
@@ -434,6 +434,7 @@ class Decision(object):
         return False
 
     def fix(self):
+        # fix misbehaviors like bet larger than amount
         amount = self.amount
         setname = ''
         for k, v in self.__dict__.items():
@@ -448,10 +449,11 @@ class Decision(object):
                 if amount != 0:
                     setattr(self, 'amount', amount)
                 else:
+                    # 如果本轮中加注的amount为0，则是跟注，而不是加注
                     setattr(self, 'callbet', 1)
                     setattr(self, 'raisebet', 0)
 
-
+# enter the name for the client!
     def __str__(self):
         return 'giveup=%s, allin=%s, check=%s, callbet=%s, raisebet=%s, amount=%s' % (self.giveup,self.allin,self.check,
                                                                             self.callbet, self.raisebet, self.amount)
