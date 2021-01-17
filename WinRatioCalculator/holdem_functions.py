@@ -44,12 +44,12 @@ def generate_deck(hole_cards, board):
         taken_cards.extend(board)
     for taken_card in taken_cards:
         deck.remove(taken_card)
-    return tuple(deck)
+    return tuple(deck) #TODO more effecint if use range(0, 52) to represnet cards
 
 # Generate all possible hole card combinations
-def generate_hole_cards(deck):
+def generate_hole_cards(deck, number=2):
     import itertools
-    return itertools.combinations(deck, 2)
+    return itertools.combinations(deck, number)
 
 # Generate num_iterations random boards
 def generate_random_boards(deck, num_iterations, board_length):

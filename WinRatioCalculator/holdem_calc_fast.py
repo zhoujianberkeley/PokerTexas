@@ -48,44 +48,45 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
         generate_boards = holdem_functions.generate_exhaustive_boards
     else:
         generate_boards = holdem_functions.generate_random_boards
-    if (None, None) in hole_cards:
+
+    num_unkonwn_pairs = sum([card == (None, None) for card in hole_cards])
+    if num_unkonwn_pairs == 1:
         hole_cards_list = list(hole_cards)
         unknown_index = hole_cards.index((None, None))
         # max_times=2
         # current_times=0
+        start_time = time.time()
         for filler_hole_cards in holdem_functions.generate_hole_cards(deck):
             # if current_times>max_times:
             #     break
             # current_times += 1
-            if random.random() < 0.1:
-                continue
             hole_cards_list[unknown_index] = filler_hole_cards
             deck_list = list(deck)
             deck_list.remove(filler_hole_cards[0])
             deck_list.remove(filler_hole_cards[1])
+            holdem_functions.find_winner(generate_boards, tuple(deck_list),
+                                         tuple(hole_cards_list), num,
+                                         board_length, given_board, winner_list,
+                                         result_histograms)
+        print("Time elapsed in for loop:", time.time() - start_time)
+    elif num_unkonwn_pairs == 2:
+        hole_cards_list = list(hole_cards)
+        unknown_index1 = hole_cards.index((None, None))
+        unknown_index2 = hole_cards.index((None, None), unknown_index1+1)
+        start_time = time.time()
+        for filler_hole_cards2 in holdem_functions.generate_hole_cards(deck, 4):
 
-            deck2 = tuple(deck_list)
-            hole_cards2 = tuple(hole_cards_list)
+            hole_cards_list[unknown_index1] = filler_hole_cards2[0:2]
+            hole_cards_list[unknown_index2] = filler_hole_cards2[2:4]
+            deck_list = list(deck)
+            [deck_list.remove(i) for i in filler_hole_cards2]
 
-            if (None, None) in tuple(hole_cards2):
-                hole_cards_list2 = list(hole_cards2)
-                unknown_index2 = hole_cards2.index((None, None))
-                for filler_hole_cards2 in holdem_functions.generate_hole_cards(deck2):
-                    if random.random() < 0.1:
-                        continue
-                    hole_cards_list2[unknown_index2] = filler_hole_cards2
-                    deck2_list = list(deck2)
-                    deck2_list.remove(filler_hole_cards2[0])
-                    deck2_list.remove(filler_hole_cards2[1])
-                    holdem_functions.find_winner(generate_boards, tuple(deck2_list),
-                                                 tuple(hole_cards_list2), num,
-                                                 board_length, given_board, winner_list,
-                                                 result_histograms)
-            else:
-                holdem_functions.find_winner(generate_boards, tuple(deck_list),
-                                             tuple(hole_cards_list), num,
-                                             board_length, given_board, winner_list,
-                                             result_histograms)
+            holdem_functions.find_winner(generate_boards, tuple(deck_list),
+                                         tuple(hole_cards_list), num,
+                                         board_length, given_board, winner_list,
+                                         result_histograms)
+        print("Time elapsed in for loop:", time.time() - start_time)
+
     else:
         holdem_functions.find_winner(generate_boards, deck, hole_cards, num,
                                      board_length, given_board, winner_list,
