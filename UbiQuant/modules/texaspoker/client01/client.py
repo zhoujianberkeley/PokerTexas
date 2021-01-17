@@ -1,3 +1,4 @@
+import glob
 import sys
 import threading
 import grpc
@@ -15,7 +16,7 @@ sys.path.append('.')
 # `ISTESTING` is set to True when you are testing your program
 # should be set to False when test is finished.
 #**************************************************************************
-ISTESTING = True
+ISTESTING = False
 #******************************************************************************
 
 # *********************modify here to change import path if you need ***********************
@@ -39,14 +40,15 @@ from lib.simple_logger import simple_logger
 
 
 # **************************************modify here to use your own AI! ***************************
-from AI.v1_1 import ai
+# from AI.v1_1 import ai
+from AI.jianAI_version1 import ai
 # *************************************************************************************************
 
 
 
 # **************************************modify here to set address and port ***********************
 address = '47.103.23.116'
-port = 56703
+port = 56720
 # *************************************************************************************************
 
 
@@ -297,10 +299,10 @@ class Client(object):
                 self.logger.info('***********game over***************')
                 self.logger.info('sharedcards:%s' % str(self.state.sharedcards))
                 for x in self.state.sharedcards:
-                    self.logger.info('%s. '%printcard(x))
+                    self.logger.info('%s. ' % decode_card(x))
                 self.logger.info('cards:%s' % str(self.state.player[self.mypos].cards))
                 for x in self.state.player[self.mypos].cards:
-                    self.logger.info('%s. '%printcard(x))
+                    self.logger.info('%s. ' % decode_card(x))
                 self.logger.info('\n')
                 self.logger.info('Have money {} left'.format(res.userMoney[self.mypos]))
 
@@ -330,7 +332,7 @@ class Client(object):
         return dealer_pb2.DealerRequest(user=self.username, command='heartbeat', type=0, pos=self.mypos,
                                         token=self.key, status=self.step)
 
-def printcard(num):
+def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
     value = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
     return '%s, %s' %(name[num%4], value[num//4])
@@ -370,7 +372,9 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         print('Error: enter the name for the client!')
 #    username = sys.argv[1]
-    username = "01David"
+#     username = "02David"
+    username = glob.glob('*David_key.txt')[0][:-8]
+
     logger = simple_logger()
 # ****************************************************************************************************
 
