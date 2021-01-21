@@ -1,3 +1,7 @@
+# model files
+/AI/experiments/
+/AI/models/
+
 # Pycharm fils
 *.idea
 *DS_Store
