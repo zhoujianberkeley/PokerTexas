@@ -29,7 +29,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/datamllab/rlcard",
-    keywords=["Reinforcement Learning", "game", "RL", "AI"],
+    keywords=["Reinforcement Learning", "game", "RL", "PretrainAI"],
     packages=setuptools.find_packages(exclude=('tests',)),
     package_data={
         'rlcard': ['models/pretrained/leduc_holdem_nfsp/*',

@@ -1,6 +1,6 @@
 # model files
-/AI/experiments/
-/AI/models/
+/PretrainAI/experiments/
+/PretrainAI/models/
 
 # Pycharm fils
 *.idea

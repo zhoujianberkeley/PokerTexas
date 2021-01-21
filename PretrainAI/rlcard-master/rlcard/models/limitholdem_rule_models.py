@@ -12,7 +12,7 @@ class LimitholdemRuleAgentV1(object):
 
     @staticmethod
     def step(state):
-        ''' Predict the action when given raw state. A simple rule-based AI.
+        ''' Predict the action when given raw state. A simple rule-based PretrainAI.
         Args:
             state (dict): Raw state from the game
 
