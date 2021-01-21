@@ -68,7 +68,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     for index, element in enumerate(winner_list):
         combined_winner_list[index % (num_players + 1)] += element
     for index, element in enumerate(result_histograms):
-        combined_histograms[(index / num_poker_hands) % num_players][
+        combined_histograms[int((index / num_poker_hands) % num_players)][
             (index % num_poker_hands)] += element
     if verbose:
         holdem_functions.print_results(hole_cards, combined_winner_list,

@@ -86,7 +86,8 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
                                          board_length, given_board, winner_list,
                                          result_histograms)
         print("Time elapsed in for loop:", time.time() - start_time)
-
+    elif num_unkonwn_pairs > 2:
+        raise NotImplementedError("The number of unknown pairs are at most 2!")
     else:
         holdem_functions.find_winner(generate_boards, deck, hole_cards, num,
                                      board_length, given_board, winner_list,
