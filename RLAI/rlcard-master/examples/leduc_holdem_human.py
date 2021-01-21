@@ -1,4 +1,4 @@
-''' A toy example of playing against pretrianed PretrainAI on Leduc Hold'em
+''' A toy example of playing against pretrianed RLAI on Leduc Hold'em
 '''
 
 import rlcard
