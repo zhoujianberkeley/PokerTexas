@@ -56,11 +56,44 @@ def cal_odds():
 def adjust_win_ratio():
     pass
 
-def cal_raise_amount():
+def cal_raise_amount(state, mypos, type):
     '''
-    基于之前玩家的raise，计算我们如果raise，所需要的raise的数量
+    基于之前玩家的raise，计算我们如果raise，所需要增加的总筹码
     '''
-    pass
+    increase = state.last_raised
+    minimum = state.minbet
+    pot = state.moneypot # money in the pot
+    min_raise_amount = increase + minimum
+
+    min_remains = remaining_money(state, mypos)
+    if type == 'fullpot':
+        raise_amount = pot
+    elif type == 'halfpot':
+        raise_amount = pot//2
+    else:
+        raise_amount = min_raise_amount
+
+    if raise_amount > min_remains:
+        raise_amount = min_remains
+        print(f'raise_amount {raise_amount} > min_remains {min_remains}, decrease to {min_remains}')
+
+    if raise_amount < min_raise_amount:
+        raise_amount = min_raise_amount
+        print(f'raise_amount {raise_amount} < min_raise_amount {min_raise_amount}, increase to {min_raise_amount}')
+
+    return raise_amount
+
+def remaining_money(state, mypos):
+    '''
+    查其他玩家最少还剩多少钱
+    '''
+    remains = []
+    for play_num in range(len(state.player)):
+        if play_num == mypos:
+            continue
+        else:
+            remains.append(state.player[play_num].money)
+    return min(remains)
 
 def add_bet(state, total):
     '''
