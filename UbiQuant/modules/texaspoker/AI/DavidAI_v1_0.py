@@ -48,17 +48,16 @@ def cal_odds():
 
 def adjust_win_ratio(state, mypos, win_ratio, records):
     '''
-
+    观察到all in, 胜率 - a_penalty
+    观察到raise, 胜率 - r_penalty
     '''
-    #  观察到all in, 胜率 - x1
-    #  观察到raise, 胜率 - x2
     round = state.turnNum = 0  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
     records = records[f'round{round}']
 
     r_num, r_penalty = 0, 0.02
     a_num, a_penalty = 0, 0.05
     for position in records:
-        if position == f"position{mypos}":
+        if position == f"position{mypos}": #跳过自己的position
             continue
         for action in records[position]:
             if "raisebet" in action:
@@ -138,7 +137,7 @@ def add_bet(state, total):
     return decision
 
 
-def ai(id, state):
+def ai(id, state, records):
     weight = [0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
     remain_card = list(range(0, 52))
     cards = state.sharedcards + state.player[id].cards
@@ -148,10 +147,13 @@ def ai(id, state):
 
     # cal win ratio
     win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+    my_win_props = win_props[1]
+    # adjust win ratio
+    my_win_props = adjust_win_ratio(state, id, my_win_props, records)
 
     # 根据win ratio做决定
     decision = Decision()
-    my_win_props = win_props[1]
+
 
     if id == 2 and state.turnNum == 0: #第一轮最后一个，就直接check
         decision.check = 1
