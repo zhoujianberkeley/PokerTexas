@@ -1,4 +1,5 @@
 import glob
+import pickle
 import sys
 import threading
 import grpc
@@ -16,7 +17,7 @@ sys.path.append('.')
 # `ISTESTING` is set to True when you are testing your program
 # should be set to False when test is finished.
 #**************************************************************************
-ISTESTING = False
+ISTESTING = True
 #******************************************************************************
 
 # *********************modify here to change import path if you need ***********************
@@ -40,15 +41,15 @@ from lib.simple_logger import simple_logger
 
 
 # **************************************modify here to use your own RLAI! ***************************
-# from RLAI.v1_1 import ai
-from RLAI.jianAI_version1 import ai
+from AI.v1_1 import ai
+# from AI.jianAI_version1 import ai
 # *************************************************************************************************
 
 
 
 # **************************************modify here to set address and port ***********************
 address = '47.103.23.116'
-port = 56720
+port = 56711
 # *************************************************************************************************
 
 
@@ -89,6 +90,10 @@ class Client(object):
         self.ai = AI
         self._lock = threading.Lock()
         self._decision_so_far = []  # history of the decision info from the server
+        self._decision_record = {}  # history of the decision info from the server,
+        # first key is round, second key is player id, value is decision
+
+
         self._new_response = []     # response list from the server
         self._new_request = []      # request list waiting to send to the server
 
@@ -130,6 +135,17 @@ class Client(object):
             string += 'raisebet to {} '.format(res.amount)
         string += 'in round {}. actionNum: {}'.format(self.round, res.actionNum)
         self.logger.info(string)
+        # print(self._decision_record)
+        self.record_decision(res, string)
+
+    def record_decision(self, res, record):
+        _round = f"round{self.round}"
+        _position = f"position{res.pos}"
+        if _round not in self._decision_record.keys():
+            self._decision_record[_round] = {}
+        if _position not in self._decision_record[_round].keys():
+            self._decision_record[_round][_position] = []
+        self._decision_record[_round][_position].append(record)
 
     def chat_with_server(self):
         while True:
@@ -170,7 +186,11 @@ class Client(object):
                 # server asking for a decision from the client
                 self.state.currpos = res.pos
                 if res.pos == self.mypos:
+                    print("-------------------------------------")
+                    print(self._decision_so_far)
+                    print("-------------------------------------")
                     decision = self.ai(self.mypos, self.state)
+
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')
                         print(decision, flush=True)
@@ -307,6 +327,13 @@ class Client(object):
                 self.logger.info('Have money {} left'.format(res.userMoney[self.mypos]))
 
                 self.stoped = True
+                # save decision record
+                record_path = "records"
+                if not os.path.exists(record_path):
+                    os.makedirs(record_path)
+                with open(os.path.join(record_path, 'decision_record.pickle'), 'wb') as f:
+                    # Pickle the 'data' dictionary using the highest protocol available.
+                    pickle.dump(self._decision_record, f, pickle.HIGHEST_PROTOCOL)
 
                 # self.client_reset(self.username, self.ai, self.logger, self.mypos)
                 if ISTESTING:
