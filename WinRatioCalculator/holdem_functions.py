@@ -51,6 +51,18 @@ def generate_hole_cards(deck, number=2):
     import itertools
     return itertools.combinations(deck, number)
 
+def generate_random_hole_cards(deck, number=2, num_iterations=10000):
+    import itertools, random
+    pool = tuple(itertools.combinations(deck, number))
+
+    rng = range(len(pool))
+    random_indices = random.sample(rng, num_iterations)
+    counter = 0
+    while counter < num_iterations:
+        yield pool[random_indices[counter]]
+        counter += 1
+
+
 # Generate num_iterations random boards
 def generate_random_boards(deck, num_iterations, board_length):
     import random

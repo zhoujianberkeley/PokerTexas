@@ -27,9 +27,18 @@ def translate_card(cards):
         results.append(value + color[0])
     return results
 
-def cal_win_ratio():
-    # todo Jian will finish
-    pass
+def cal_win_ratio(hole_cards, board_cards, num_iter=2):
+    '''
+    calculate win ratio
+    '''
+    import holdem_calc_fast
+    if len(board_cards) == 0:
+        win_props = holdem_calc_fast.calculate(board=None, exact=False, num=num_iter, input_file=None,
+                                               hole_cards=hole_cards + ["?", "?", "?", "?"], verbose=False)
+    else:
+        win_props = holdem_calc_fast.calculate(board=board_cards, exact=False, num=num_iter, input_file=None,
+                                               hole_cards=hole_cards + ["?", "?", "?", "?"], verbose=False)
+    return win_props
 
 def cal_odds():
     '''
@@ -72,13 +81,7 @@ def ai(id, state):
     board_cards = translate_card(state.sharedcards)
 
     # cal win ratio
-    import holdem_calc
-    if len(board_cards) == 0:
-        win_props = holdem_calc.calculate(board=None, exact=False, num=20, input_file=None,
-                              hole_cards=my_hole_cards + ["?", "?"], verbose=False)
-    else:
-        win_props = holdem_calc.calculate(board=board_cards, exact=False, num=20, input_file=None,
-                              hole_cards=my_hole_cards + ["?", "?"], verbose=False)
+    win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
 
     # 根据win ratio做决定
     decision = Decision()
