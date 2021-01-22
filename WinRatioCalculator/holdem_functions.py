@@ -264,6 +264,42 @@ def print_results(hole_cards, winner_list, result_histograms):
             print(hand_rankings[index], ": ", float(elem) / float_iterations)
         print
 
+#record Winning Percentages
+def record_result(hole_cards, winner_list, result_histograms,df):
+    float_iterations = float(sum(winner_list))
+    # print("Winning Percentages:")
+    for index, hole_card in enumerate(hole_cards):
+        winning_percentage = float(winner_list[index + 1]) / float_iterations
+        if hole_card == (None, None):
+            print("(?, ?) : ", winning_percentage)
+        else:
+            # df[hole_card] = winning_percentage
+
+            #同花，重复4次
+            if str(hole_card[0])[1] == str(hole_card[1])[1]:
+                for i in range(4):
+                    df = df.append([{'card': str(hole_card), 'winning_percentage': winning_percentage}])
+                print(hole_card, ": ", winning_percentage)
+                return df
+            else:
+                #非对子，不同花，重复A(2,4)次
+                if str(hole_card[0])[0] != str(hole_card[1])[0]:
+
+                    for i in range(12):
+                        df = df.append([{'card': str(hole_card),'winning_percentage':winning_percentage}])
+                    print(hole_card, ": ", winning_percentage)
+                    return df
+                #对子，不同花，重复C(2,4)次
+                if str(hole_card[0])[0] == str(hole_card[1])[0]:
+
+                    for i in range(6):
+                        df = df.append([{'card': str(hole_card),'winning_percentage':winning_percentage}])
+                    print(hole_card, ": ", winning_percentage)
+                    return df
+
+
+
+
 # Returns the winning percentages
 def find_winning_percentage(winner_list):
     float_iterations = float(sum(winner_list))
