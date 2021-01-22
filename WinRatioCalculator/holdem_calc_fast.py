@@ -2,7 +2,9 @@ import random
 import time
 import holdem_functions
 import holdem_argparser
-
+import numba
+import numpy as np
+from numba import jit
 
 def main():
     hole_cards, num, exact, board, file_name = holdem_argparser.parse_args()
@@ -28,6 +30,8 @@ def run(hole_cards, num, exact, board, file_name, verbose):
         deck = holdem_functions.generate_deck(hole_cards, board) # generact deck of cards
         return run_simulation(hole_cards, num, exact, board, deck, verbose)
 
+# @jit(nopython=True)
+# @jit(nopython=False)
 def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     num_players = len(hole_cards)
     # Create results data structures which track results of comparisons
@@ -49,7 +53,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     else:
         generate_boards = holdem_functions.generate_random_boards
 
-    num_unkonwn_pairs = sum([card == (None, None) for card in hole_cards])
+    num_unkonwn_pairs = np.sum([card == (None, None) for card in hole_cards])
     if num_unkonwn_pairs == 1:
         hole_cards_list = list(hole_cards)
         unknown_index = hole_cards.index((None, None))
