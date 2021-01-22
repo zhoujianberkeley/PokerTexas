@@ -4,6 +4,8 @@
 '''
 import re
 
+from numba import np
+
 from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
@@ -49,13 +51,6 @@ def cal_win_ratio(hole_cards, board_cards, num_other_player=2, num_iter=2):
         win_props = holdem_calc_fast.calculate(board=board_cards, exact=False, num=num_iter, input_file=None,
                                                hole_cards=hole_cards + other_players, verbose=False)
     return win_props
-
-
-def cal_odds(action, ):
-    """
-    计算赔率,在指定
-    """
-    pass
 
 
 def count_raise(records, round, mypos):
@@ -107,14 +102,55 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
     return _adjust_win_ratio
 
 
+def cal_odds(state, mypos, action, amount=None):
+    """
+    4. 桌面赔率:当前桌面上有我的筹码x1，总筹码y1,假设轮到我现在决定要不要跟注z1，如果胜率 	   其中p是对手跟注z1的概率，一般来讲不应该下注。
+	跟注：赔率=(x1+z1) / (y1+z1+ sum of p乘以z1)
+	加注：赔率=(x1+z1) / (y1+z1+z1) if 除我之外只有一个玩家
+		 赔率=(x1+z1) / (y1+z1+z1 + p乘以z1) if 除我之外有两个玩家
+    """
+    pot = state.moneypot   # money in the pot
+
+    player = state.player[id]
+    totalbet = player.totalbet + player.bet
+
+    if action == "check":
+        if not can_I_check(mypos, state):
+            odds = np.infinity
+        else:
+            odds = totalbet/pot
+    elif action == "callbet":
+        if not can_I_callbet(mypos, state):
+            odds = np.infinity
+        else:
+            # player.delta是跟注额度
+            # sum([p.delta for p in state.player if p.active]) 是所有active player的跟注额度，p.delta = 0如果p已经callbet/raisebet
+            if state.playernum == 2:
+                odds = (totalbet + player.delta) / \
+                       (pot + amount + sum([p.delta for p in state.player if (p.active and p is not player)]))
+            elif state.playernum > 2:
+                odds = (totalbet + player.delta) / \
+                       (pot + player.delta + sum([0.5*p.delta for p in state.player if (p.active and p is not player)]))
+    elif action == "raisebet":
+        if state.playernum == 2:
+            odds = (totalbet + amount) / \
+                   (pot + amount + sum([(amount - p.bet) for p in state.player if (p.active and p is not player)]))
+        elif state.playernum > 2:
+            odds = (totalbet + amount) / \
+                   (pot + amount + sum([0.5*(amount - p.bet) for p in state.player if (p.active and p is not player)]))
+            #todo 考虑 对方没钱的时候
+    else:
+        raise NotImplementedError("illegal action")
+    return odds
+
+
+
 def cal_raise_amount(state, mypos, type):
-    '''
+    """
     基于之前玩家的raise，计算我们如果raise，所需要增加的总筹码
-    '''
-    increase = state.last_raised
-    minimum = state.minbet
+    """
     pot = state.moneypot  # money in the pot
-    min_raise_amount = increase + minimum
+    min_raise_amount = state.last_raised + state.minbet
     min_remains = remaining_money(state, mypos)
 
     if type == 'fullpot':
@@ -123,15 +159,14 @@ def cal_raise_amount(state, mypos, type):
         raise_amount = pot // 2
     else:
         raise_amount = min_raise_amount
-
+    # 如果加注 大于 其他玩家所剩的最少的筹码数量，向下调整到所剩的最少的筹码数量
     if raise_amount > min_remains:
         raise_amount = min_remains
         print(f'raise_amount {raise_amount} > min_remains {min_remains}, decrease to {min_remains}')
-
+    # 如果加注 小于 最小加注量，向上调整到最小加注量
     if raise_amount < min_raise_amount:
         raise_amount = min_raise_amount
         print(f'raise_amount {raise_amount} < min_raise_amount {min_raise_amount}, increase to {min_raise_amount}')
-
     return raise_amount
 
 
@@ -175,11 +210,11 @@ def decide_raise_amount_type():
 
 def check_legal(id, state):
     max_bet_in_current_round = max([player.bet for player in state.player])
-
     # 需要跟注
     if state.player[id].bet < max_bet_in_current_round:
+    # 可以改成
+    # if state.player[id].bet < state.minbet:
         return False
-
     return True
 
 def callbet_legal(id,state):
@@ -198,6 +233,10 @@ def callbet_legal(id,state):
 def raise_legal(id,state):
     return
 
+
+
+def can_I_callbet(id, state):
+    pass
 
 
 def ai(id, state, records):
