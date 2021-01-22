@@ -6,6 +6,7 @@ from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
 from lib.client_lib import Decision
+import time
 import random
 
 # todo 先看能否check，在give up 之前
@@ -47,9 +48,9 @@ def cal_win_ratio(hole_cards, board_cards, num_other_player = 2,num_iter=2):
 
 
 
-def cal_odds():
+def cal_odds(type):
     '''
-    计算赔率
+    计算赔率,在指定
     '''
     pass
 
@@ -143,35 +144,95 @@ def add_bet(state, total):
     decision.amount = real_amount
     return decision
 
+def decide_raise_amount_type():
+    '''
+    由于不确定到底使用哪种raise amount，现在暂时先random一下
+    '''
+    random.seed(time.time())
+    return random.sample(['fullpot','halfpot','other'],1)
 
-def ai(id, state):
+def can_I_check(id,state):
+    max_bet_in_current_round = max([player.bet for player in state.player])
 
+    #需要跟注
+    if state.player[id].bet<max_bet_in_current_round:
+        return False
+
+    return True
+
+def ai(id, state, records):
 
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
+
+    # cal win ratio
+    win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+    my_win_props = win_props[1]
+    # adjust win ratio
+    my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+
+    decision = Decision()
+
     # 在最初局，只使用二人对弈胜率来评判牌力大小
     if not state.turnNum:
-        hole_card_power = cal_win_ratio(my_hole_cards,board_cards,num_other_player=2)
+        hole_card_power = cal_win_ratio(my_hole_cards,board_cards,num_other_player=1)[1]
 
+
+        #一等手牌
         if hole_card_power>0.76:
-            return
 
+            num_active_player = sum([player.active for player in state.player])
+
+            #还剩两个对手，持续下注
+            if num_active_player>2:
+                decision.amount = cal_raise_amount(state,state.currpos,decide_raise_amount_type())
+                decision.raisebet = 1
+                return decision
+
+            #call或check
+            if num_active_player <= 2:
+                if can_I_check(id,state):
+                    decision.check =1
+                    return decision
+                else:
+                    decision.callbet=1
+                    return decision
+
+
+
+        #二等手牌
         if hole_card_power>0.71:
             return
 
+        #三等手牌
         if hole_card_power>0.65:
             return
+
+        #四等手牌
         if hole_card_power>0.57:
 
             return
 
+        ##三人局，0号button，1号小盲，2号大盲
 
-        return
+        #弱势手牌，无成本直接弃牌
+        if state.currpos==0:
+            decision.giveup =1
+            return decision
+
+        if state.currpos==1:
+            return
+
+        if state.currpos==2:
+            return
+
 
 
     #桌面上已出现公共牌，3，4，5张策略相同
     else:
 
-        return
+        if can_I_check():
+
+            return
 
 
