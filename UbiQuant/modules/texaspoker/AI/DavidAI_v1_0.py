@@ -46,8 +46,41 @@ def cal_odds():
     '''
     pass
 
-def adjust_win_ratio():
-    pass
+def adjust_win_ratio(state, mypos, win_ratio, records):
+    '''
+
+    '''
+    #  观察到all in, 胜率 - x1
+    #  观察到raise, 胜率 - x2
+    round = state.turnNum = 0  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
+    records = records[f'round{round}']
+
+    r_num, r_penalty = 0, 0.02
+    a_num, a_penalty = 0, 0.05
+    for position in records:
+        if position == f"position{mypos}":
+            continue
+        for action in records[position]:
+            if "raisebet" in action:
+                r_num += 1
+            if "allin" in action:
+                a_num += 1
+
+    if round == 0:
+        # pre-flop round
+        adjust_win_ratio = win_ratio
+    elif round == 1:
+        # flop round
+        adjust_win_ratio = win_ratio - r_num*r_penalty - a_num*a_penalty
+    elif round == 2:
+        # turn round
+        adjust_win_ratio = win_ratio - r_num * r_penalty - a_num * a_penalty
+    elif round == 3:
+        # river round
+        adjust_win_ratio = win_ratio - r_num * r_penalty - a_num * a_penalty
+    else:
+        raise NotImplementedError(f"{round} is not valid round number")
+    return adjust_win_ratio
 
 def cal_raise_amount(state, mypos, type):
     '''
@@ -57,8 +90,8 @@ def cal_raise_amount(state, mypos, type):
     minimum = state.minbet
     pot = state.moneypot # money in the pot
     min_raise_amount = increase + minimum
-
     min_remains = remaining_money(state, mypos)
+
     if type == 'fullpot':
         raise_amount = pot
     elif type == 'halfpot':

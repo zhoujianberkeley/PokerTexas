@@ -12,10 +12,11 @@ from rlcard.utils import print_card
 env = rlcard.make('no-limit-holdem', config={'record_action': True})
 
 human_agent = HumanAgent(env.action_num)
-human_agent2 = HumanAgent(env.action_num)
-# random_agent = RandomAgent(action_num=env.action_num)
+# human_agent2 = HumanAgent(env.action_num)
+# env.set_agents([human_agent, human_agent2])
+random_agent = RandomAgent(action_num=env.action_num)
+env.set_agents([human_agent, random_agent])
 
-env.set_agents([human_agent, human_agent2])
 
 
 while (True):
