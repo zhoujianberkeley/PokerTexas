@@ -39,9 +39,9 @@ from lib.simple_logger import simple_logger
 
 
 
-# **************************************modify here to use your own AI! ***************************
-# from AI.v1_1 import ai
-from AI.jianAI_version1 import ai
+# **************************************modify here to use your own RLAI! ***************************
+# from RLAI.v1_1 import ai
+from RLAI.jianAI_version1 import ai
 # *************************************************************************************************
 
 
@@ -379,7 +379,7 @@ if __name__ == '__main__':
 # ****************************************************************************************************
 
 
-# ************************************ modify here to use your own AI! ********************************
+# ************************************ modify here to use your own RLAI! ********************************
 
     c = Client(username, ai, logger)
     ClientJob(c).run()

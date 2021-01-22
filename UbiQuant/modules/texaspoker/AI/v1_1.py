@@ -1,5 +1,5 @@
 '''
-    AI: v1_1版本
+    RLAI: v1_1版本
     详见AI-v1.1_interpretation.txt
 '''
 from lib.client_lib import State

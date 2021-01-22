@@ -1,3 +1,8 @@
+### Jian todo in Jan. 20th
+Must finish - Configure and test Deep mind pokerbot 
+
+
+
 ### Jian wrote in Jan. 17th
 
 

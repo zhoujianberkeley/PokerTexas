@@ -1,3 +1,7 @@
+# model files
+/RLAI/experiments/
+/RLAI/models/
+
 # Pycharm fils
 *.idea
 *DS_Store
