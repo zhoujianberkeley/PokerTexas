@@ -139,8 +139,8 @@ class Client(object):
         self.record_decision(res, string)
 
     def record_decision(self, res, record):
-        _round = f"round{self.round}"
-        _position = f"position{res.pos}"
+        _round = self.round
+        _position = res.pos
         if _round not in self._decision_record.keys():
             self._decision_record[_round] = {}
         if _position not in self._decision_record[_round].keys():
@@ -190,6 +190,7 @@ class Client(object):
                     print(self._decision_so_far)
                     print("-------------------------------------")
                     decision = self.ai(self.mypos, self.state)
+                    # decision = self.ai(self.mypos, self.state, self._decision_record)
 
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')

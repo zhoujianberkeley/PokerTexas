@@ -2,6 +2,8 @@
     DavidAI: v1_0版本
     详见德扑策略.md
 '''
+import re
+
 from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
@@ -40,30 +42,42 @@ def cal_win_ratio(hole_cards, board_cards, num_iter=2):
                                                hole_cards=hole_cards + ["?", "?", "?", "?"], verbose=False)
     return win_props
 
-def cal_odds():
+def cal_odds(action, ):
     '''
     计算赔率
     '''
     pass
+
+def count_raise(records, round, mypos):
+    '''
+    计算某一轮的的raise和all in 次数
+    剔除了自己的raise，剔除了大小盲的raise
+    '''
+    record = records[round]
+    r_num = 0
+    a_num = 0
+    for position in record.keys():
+        if position == mypos:  # 跳过自己的position
+            continue
+        for action in record[position]:
+            if re.findall("actionNum: [01]",action):  # 跳过actionNum 0 和 actionNum 1，大小盲
+                continue
+
+            if "raisebet" in action:
+                r_num += 1
+            if "allin" in action:
+                a_num += 1
+    return r_num, a_num
 
 def adjust_win_ratio(state, mypos, win_ratio, records):
     '''
     观察到all in, 胜率 - a_penalty
     观察到raise, 胜率 - r_penalty
     '''
-    round = state.turnNum = 0  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
-    records = records[f'round{round}']
+    round = state.turnNum  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
 
-    r_num, r_penalty = 0, 0.02
-    a_num, a_penalty = 0, 0.05
-    for position in records:
-        if position == f"position{mypos}": #跳过自己的position
-            continue
-        for action in records[position]:
-            if "raisebet" in action:
-                r_num += 1
-            if "allin" in action:
-                a_num += 1
+    r_penalty, a_penalty = 0.02, 0.05
+    r_num, a_num = count_raise(records, round, mypos)
 
     if round == 0:
         # pre-flop round
@@ -148,6 +162,7 @@ def ai(id, state, records):
     # cal win ratio
     win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
     my_win_props = win_props[1]
+
     # adjust win ratio
     my_win_props = adjust_win_ratio(state, id, my_win_props, records)
 
