@@ -27,18 +27,25 @@ def translate_card(cards):
         results.append(value + color[0])
     return results
 
-def cal_win_ratio(hole_cards, board_cards, num_iter=2):
+def cal_win_ratio(hole_cards, board_cards, num_other_player = 2,num_iter=2):
     '''
     calculate win ratio
     '''
     import holdem_calc_fast
+
+    other_players = []
+    for i in range(num_other_player):
+        other_players = other_players+["?","?"]
+
     if len(board_cards) == 0:
         win_props = holdem_calc_fast.calculate(board=None, exact=False, num=num_iter, input_file=None,
-                                               hole_cards=hole_cards + ["?", "?", "?", "?"], verbose=False)
+                                               hole_cards=hole_cards + other_players, verbose=False)
     else:
         win_props = holdem_calc_fast.calculate(board=board_cards, exact=False, num=num_iter, input_file=None,
-                                               hole_cards=hole_cards + ["?", "?", "?", "?"], verbose=False)
+                                               hole_cards=hole_cards + other_players, verbose=False)
     return win_props
+
+
 
 def cal_odds():
     '''
@@ -73,102 +80,33 @@ def add_bet(state, total):
 
 
 def ai(id, state):
-    weight = [0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
-    remain_card = list(range(0, 52))
-    cards = state.sharedcards + state.player[id].cards
-    player = state.player[id]
+
+
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
+    # 在最初局，只使用二人对弈胜率来评判牌力大小
+    if not state.turnNum:
+        hole_card_power = cal_win_ratio(my_hole_cards,board_cards,num_other_player=2)
 
-    # cal win ratio
-    win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+        if hole_card_power>0.76:
+            return
 
-    # 根据win ratio做决定
-    decision = Decision()
-    my_win_props = win_props[1]
+        if hole_card_power>0.71:
+            return
 
-    if id == 2 and state.turnNum == 0: #第一轮最后一个，就直接check
-        decision.check = 1
-        return decision
+        if hole_card_power>0.65:
+            return
+        if hole_card_power>0.57:
 
-    if id == 0 and state.turnNum == 3: #最后一轮第一个不能放弃
-        decision.check = 1
-        return decision
-
-
-
-    if my_win_props > 0.6:
-        decision.raisebet = 1
-        try:
-            decision.amount = max(state.bigBlind, state.last_raise)
-        except AttributeError:
-            decision.amount = state.bigBlind
-
-        if decision.amount > 400:
-            if my_win_props > 0.6:
-                decision.raisebet = 1
-                decision.amount =  decision.amount
-            else:
-                decision.callbet = 1
-                decision.raisebet = 0
-        if decision.amount > 600:
-            if my_win_props > 0.7:
-                decision.raisebet = 1
-                decision.amount = 2*decision.amount
-            else:
-                decision.callbet = 1
-                decision.raisebet = 0
-
-        if my_win_props > 0.7:
-            decision.raisebet = 1
-            decision.amount = 2 * decision.amount
-        if my_win_props > 0.8:
-            decision.raisebet = 1
-            decision.amount = 3 * decision.amount
-
-        if my_win_props > 0.9:
-            decision.raisebet = 1
-            decision.amount = 10 * decision.amount
+            return
 
 
+        return
 
-    elif my_win_props > (0.3) and state.turnNum == 0:
-        decision.callbet = 1
-    elif my_win_props > (0.45) and state.turnNum == 1:
-        decision.callbet = 1
-    elif my_win_props > (0.3) and state.turnNum == 2 and decision.amount < 200:
-        decision.callbet = 1
 
-    # elif my_win_props < 0.2:
-    #     decision.check = 1
-    elif my_win_props < 0.15:
-        decision.giveup = 1
+    #桌面上已出现公共牌，3，4，5张策略相同
     else:
-        decision.giveup = 1
 
-    # 最后一轮第二个，但是第一个放弃了，我不能放弃
-    if decision.giveup == 1 and id == 1 and state.turnNum == 3 and state.playernum ==2:
-        decision.giveup = 0
-        decision.check = 1
-
-
-    delta = state.minbet - state.player[state.currpos].bet
-    if decision.callbet == 1 and delta == state.player[state.currpos].money:
-        decision.callbet = 0
-        decision.allin = 1
-    if decision.callbet == 1 and state.minbet == 0:
-        t = random.randint(0,2)
-        if t == 0:
-            decision.callbet = 0
-            decision.raisebet = 1
-            decision.amount = state.bigBlind
-    print("jian position: ", state.player[id])
-    print("\n")
-    print("my card: ", my_hole_cards)
-    print("board card: ", board_cards)
-    print("my win_ratio: ", my_win_props)
-    print("all win_ratio: ", win_props)
-    print("jian decison: ", decision)
-    return decision
+        return
 
 
