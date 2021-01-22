@@ -340,6 +340,11 @@ class Player(object):
         self.allin = 1
         self.money = 0
 
+    # calculate difference to minibet
+    @property
+    def delta(self):
+        return self.state.minbet - self.bet
+
     def getcards(self):
         return self.cards + self.state.sharedcards
 
