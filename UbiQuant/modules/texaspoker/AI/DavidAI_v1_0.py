@@ -173,7 +173,7 @@ def decide_raise_amount_type():
     return random.sample(['fullpot', 'halfpot', 'other'], 1)
 
 
-def can_I_check(id, state):
+def check_legal(id, state):
     max_bet_in_current_round = max([player.bet for player in state.player])
 
     # 需要跟注
@@ -181,6 +181,23 @@ def can_I_check(id, state):
         return False
 
     return True
+
+def callbet_legal(id,state):
+    mypos = state.currpos
+    money_in_hand = remaining_money(state, mypos)
+
+    max_bet_in_current_round = max([player.bet for player in state.player])
+
+    # 需要跟注
+    if max_bet_in_current_round-state.player[id].bet<money_in_hand:
+        return True
+
+    return False
+
+
+def raise_legal(id,state):
+    return
+
 
 
 def ai(id, state, records):
@@ -213,7 +230,7 @@ def ai(id, state, records):
 
             # call或check
             if num_active_player <= 2:
-                if can_I_check(id, state):
+                if check_legal(id, state):
                     decision.check = 1
                     return decision
                 else:
@@ -250,5 +267,5 @@ def ai(id, state, records):
     # 桌面上已出现公共牌，3，4，5张策略相同
     else:
 
-        if can_I_check():
+        if check_legal():
             return
