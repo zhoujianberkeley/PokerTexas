@@ -307,8 +307,8 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
         return False
 
 # todo shentingwei 暂定逻辑 待修改
-def can_I_allin(id,state):
-    if not can_I_check(id,state) and not can_I_callbet(id,state) and not can_I_raisebet(id,state):
+def can_I_allin(id,state,records,amount):
+    if not can_I_check(id,state) and not can_I_callbet(id,state) and not can_I_raisebet(id,state,records,amount):
         return True
     return False
 
@@ -468,7 +468,7 @@ def ai(id, state, records, num_iter=5):
         dict_of_move['check'] = can_I_check(id,state)
         dict_of_move['callbet'] = can_I_callbet(id,state)
         dict_of_move['raisebet'] = can_I_raisebet(id,state,records,amount)
-        dict_of_move['allin'] = can_I_allin(id,state)
+        dict_of_move['allin'] = can_I_allin(id,state,records,amount)
 
         best_action = 'callbet'
         min_odds = np.inf
