@@ -8,7 +8,7 @@ import logging
 import datetime
 
 
-class Logger(object):
+class AI_Logger(object):
     '''
     record the log when u want
     u need to create a folder log under the folder tool
@@ -28,7 +28,7 @@ class Logger(object):
             logRecordFile = loggerFolder+exeFileName+"_"+datetime.datetime.now().strftime("%Y-%m-%d.log")
             fileHandler=logging.FileHandler(logRecordFile, encoding='utf-8')
             fileHandler.setFormatter(formatter)
-            fileHandler.setLevel(logging.DEBUG)
+            fileHandler.setLevel(logging.INFO)
             self.logger.addHandler(fileHandler)
 
         
@@ -59,7 +59,7 @@ class Logger(object):
 
 if __name__=='__main__':
     fileName = 'loggerTest'
-    logger = Logger(fileName)
+    logger = AI_Logger(fileName)
     logger.debug("some word")
     logger.info('start running '+fileName)
     logger.warning('something wrong with '+fileName)

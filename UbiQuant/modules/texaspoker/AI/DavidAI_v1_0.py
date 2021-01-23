@@ -1,19 +1,23 @@
-'''
+"""
     DavidAI: v1_0版本
     详见德扑策略.md
-'''
-import re
+"""
 
 import numpy as np
+import random
+import re
+import time
+
 from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
 from lib.client_lib import Decision
-import time
-import random
+from lib.AI_logger import AI_Logger
 
 
-# todo 先看能否check，在give up 之前
+logger = AI_Logger('debug_logger')
+
+record_logger = AI_Logger('record_logger')
 
 def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
@@ -32,10 +36,6 @@ def translate_card(cards):
         results.append(value + color[0])
     return results
 
-def hole_cards_power_rank(hole_cards):
-    rank_first = [('Ad','As'),('As','Ks'),('Kd','Ks'),('Kd','As'),('Qd','Qs')]
-    rank_second = [('Qd','As'),('Kd','Qs'),('Jd','Js'),('Td','Ts'),('As','Qs'),('Qs','Ks'),('As','Js')]
-    rank_third = [()]
 
 def cal_win_ratio(hole_cards, board_cards, num_other_player, num_iter):
     """
@@ -59,6 +59,9 @@ def am_I_the_last_raiser(records, round, mypos):
     '''
     主要为了判断本轮最新一次加注的是不是自己，防止出现在某一轮中一直加注.(不确定官方网站处理时是否会自动处理这种行为）
     '''
+    if round not in records.keys():
+        return False
+
     record = records[round]
     latest_raiser = ''
     for position in record.keys():
@@ -110,8 +113,13 @@ def count_raise(records, round, mypos, skip_self=True):
     剔除了自己的raise，剔除了大小盲的raise
     skip_self:是否跳过自己的flag变量
     """
-    record = records[round]
+
     r_num, a_num = 0, 0
+    if round not in records.keys():
+        logger.debug(f"{round} not in records keys")
+        return r_num, a_num
+
+    record = records[round]
     for position in record.keys():
         if position == mypos and skip_self:  # 跳过自己的position
             continue
@@ -160,18 +168,18 @@ def cal_odds(state, mypos, action, amount=None):
 		 赔率=(x1+z1) / (y1+z1+z1 + p乘以z1) if 除我之外有两个玩家
     """
     pot = state.moneypot  # money in the pot
-
-    player = state.player[id]
+    logger.debug("id2"+str(mypos))
+    player = state.player[mypos]
     totalbet = player.totalbet + player.bet
 
     if action == "check":
         if not can_I_check(mypos, state):
-            odds = np.infinity
+            odds = np.inf
         else:
             odds = totalbet / pot
     elif action == "callbet":
         if not can_I_callbet(mypos, state):
-            odds = np.infinity
+            odds = np.inf
         else:
             # player.delta是跟注额度
             # sum([p.diff_callbet for p in state.player if p.active]) 是所有active player的跟注额度，p.diff_callbet = 0如果p已经callbet/raisebet
@@ -290,7 +298,7 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
     # min_raise_amount = state.last_raised + state.minbet
     min_raise_amount = amount
     if allow_continue_raisebet:
-        if state.player[id].money> (min_raise_amount - state.player[id].bet):
+        if state.player[id].money> (min_raise_amount - state.player[id].bet): 
             return True
         return False
     else:  # 只有本轮的最新加注者不是我自己时才能加注
@@ -298,7 +306,7 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
             return True
         return False
 
-# todo shentingwei 暂定逻辑
+# todo shentingwei 暂定逻辑 待修改
 def can_I_allin(id,state):
     if state.player[id].money<40:
         return True
@@ -307,6 +315,18 @@ def can_I_allin(id,state):
 def ai(id, state, records, num_iter=5):
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
+
+    record_logger.info('***********record start***************')
+    record_logger.info('sharedcards:%s' % str(state.sharedcards))
+    for x in state.sharedcards:
+        record_logger.info('%s. ' % decode_card(x))
+    record_logger.info('cards:%s' % str(state.player[id].cards))
+    for x in state.player[id].cards:
+        record_logger.info('%s. ' % decode_card(x))
+    record_logger.info('\n')
+    record_logger.info('Have money {} left'.format(state.player[id].money))
+    record_logger.info('\n')
+    record_logger.info(f"round {state.turnNum}")
 
     decision = Decision()
 
@@ -317,6 +337,8 @@ def ai(id, state, records, num_iter=5):
 
         # 算2个人的牌力
         hole_card_power = cal_win_ratio(my_hole_cards, board_cards, num_other_player=1, num_iter=num_iter)[1]
+        record_logger.info(f"pre flop round， 牌力{hole_card_power}")
+        record_logger.info('***********record finish***************')
 
         # 一等手牌
         if hole_card_power > 0.76:
@@ -414,7 +436,8 @@ def ai(id, state, records, num_iter=5):
 
                 # adjust win ratio
                 my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-                if can_I_callbet(id,state) and my_win_props > cal_odds(state,state.currpos,'callbet'):
+
+                if can_I_callbet(id, state) and my_win_props > cal_odds(state,state.currpos,'callbet'):
                     decision.callbet = 1
                     return decision
 
@@ -434,9 +457,11 @@ def ai(id, state, records, num_iter=5):
         # cal win ratio
         win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=2)
         my_win_props = win_props[1]
-
+        record_logger.info(f"牌力{my_win_props}")
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+        record_logger.info(f"调整牌力{my_win_props}")
+        record_logger.info('***********record finish***************')
         amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
         # 提取合法的行为
         dict_of_move = dict()
@@ -446,24 +471,24 @@ def ai(id, state, records, num_iter=5):
         dict_of_move['allin'] = can_I_allin(id,state)
 
         best_action = 'callbet'
-        min_odds = np.infinity
+        min_odds = np.inf
         for action in dict_of_move.keys():
             amount = 0
                 # todo Jian update decide raise amount type
             if dict_of_move[action]:
-                current_odds = cal_odds(state,state.currpos,action,amount)
-                if current_odds<min_odds:
-                    min_odds=current_odds
+                current_odds = cal_odds(state, state.currpos, action, amount)
+                if current_odds < min_odds:
+                    min_odds = current_odds
                     best_action = action
-
+        record_logger.info(f"赔率：{min_odds}")
         if my_win_props < min_odds:
-            if can_I_check():
+            if can_I_check(id,state):
                 decision.check = 1
             else:
                 decision.giveup= 1
             return decision
 
-        eval('decision.'+best_action+'=1')
+        exec('decision.'+best_action+'=1')
         if best_action == 'raisebet': # todo Jian update decide raise amount type
             decision.amount = amount
         return decision
