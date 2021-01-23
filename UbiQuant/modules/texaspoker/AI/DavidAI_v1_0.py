@@ -4,7 +4,7 @@
 '''
 import re
 
-from numba import np
+from numpy import np
 
 from lib.client_lib import State
 from lib.client_lib import Player
@@ -306,6 +306,8 @@ def ai(id, state, records, num_iter=5):
     if state.turnNum == 0:
         r_num, a_num = count_raise(records,state.turnNum,state.currpos,skip_self=False)
         time_of_rise = r_num + a_num
+
+        # 算2个人的牌力
         hole_card_power = cal_win_ratio(my_hole_cards, board_cards, num_other_player=1, num_iter=num_iter)[1]
 
         # 一等手牌
@@ -345,11 +347,12 @@ def ai(id, state, records, num_iter=5):
 
         # 三等手牌
         if hole_card_power > 0.65:
+            # 没有人rasie
             if time_of_rise==0 and can_I_raisebet(id,state,records):
                 decision.raisebet = 1
                 decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
                 return decision
-
+            # 有人rasie，我3bet
             if time_of_rise == 1 and state.currpos==2 and can_I_raisebet(id,state,records):
                 decision.raisebet = 1
                 decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
@@ -365,6 +368,7 @@ def ai(id, state, records, num_iter=5):
 
         # 四等手牌
         if hole_card_power > 0.57:
+            # 只玩带A或者对子牌 #todo jian understand the logic
             if do_hole_cards_have_A_suit(my_hole_cards) or do_hole_cards_have_pair(my_hole_cards):
                 if can_I_check(id,state):
                     decision.check =1
@@ -387,14 +391,14 @@ def ai(id, state, records, num_iter=5):
 
         #小盲位
         if state.currpos == 1:
-            if state.minbet ==40:
-                win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+            if state.minbet == 40:
+                win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=1) #todo recalculate 3个人win props
                 my_win_props = win_props[1]
 
                 # adjust win ratio
                 my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-                if my_win_props< cal_odds(state,state.currpos,'callbet') and can_I_callbet(id,state):
-                    decision.callbet == 1
+                if can_I_callbet(id,state) and my_win_props< cal_odds(state,state.currpos,'callbet'):
+                    decision.callbet = 1
                     return decision
 
             decision.giveup=1
@@ -408,45 +412,43 @@ def ai(id, state, records, num_iter=5):
             decision.giveup=1
             return decision
 
-
-
     # 桌面上已出现公共牌，3，4，5张策略相同
     else:
         # cal win ratio
-        win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+        win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=2)
         my_win_props = win_props[1]
 
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-
+        # 提取合法的行为
         dict_of_move = dict()
-
         dict_of_move['check'] = can_I_check(id,state)
         dict_of_move['callbet'] = can_I_callbet(id,state)
         dict_of_move['raisebet'] = can_I_raisebet(id,state,records)
+        # todo tingwei 加all in
 
         best_action = 'callbet'
-        min_odds = 1
+        min_odds = np.infinity
         for action in dict_of_move.keys():
             amount = 0
             if action == 'raisebet':
                 amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                # todo Jian update decide raise amount type
             if dict_of_move[action]:
                 current_odds = cal_odds(state,state.currpos,action,amount)
                 if current_odds<min_odds:
                     min_odds=current_odds
                     best_action = action
 
-        if my_win_props<min_odds:
+        if my_win_props < min_odds:
             if can_I_check():
-                decision.check =1
+                decision.check = 1
             else:
-                decision.giveup=1
-
+                decision.giveup= 1
             return decision
 
         eval('decision.'+best_action+'=1')
-        if best_action == 'raisebet':
+        if best_action == 'raisebet': # todo Jian update decide raise amount type
             decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
         return decision
 
