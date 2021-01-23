@@ -104,12 +104,12 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
 
 def cal_odds(state, mypos, action, amount=None):
     """
-    4. 桌面赔率:当前桌面上有我的筹码x1，总筹码y1,假设轮到我现在决定要不要跟注z1，如果胜率 	   其中p是对手跟注z1的概率，一般来讲不应该下注。
+    桌面赔率:当前桌面上有我的筹码x1，总筹码y1,假设轮到我现在决定要不要跟注z1，如果胜率 	   其中p是对手跟注z1的概率
 	跟注：赔率=(x1+z1) / (y1+z1+ sum of p乘以z1)
 	加注：赔率=(x1+z1) / (y1+z1+z1) if 除我之外只有一个玩家
 		 赔率=(x1+z1) / (y1+z1+z1 + p乘以z1) if 除我之外有两个玩家
     """
-    pot = state.moneypot   # money in the pot
+    pot = state.moneypot  # money in the pot
 
     player = state.player[id]
     totalbet = player.totalbet + player.bet
@@ -118,7 +118,7 @@ def cal_odds(state, mypos, action, amount=None):
         if not can_I_check(mypos, state):
             odds = np.infinity
         else:
-            odds = totalbet/pot
+            odds = totalbet / pot
     elif action == "callbet":
         if not can_I_callbet(mypos, state):
             odds = np.infinity
@@ -130,19 +130,20 @@ def cal_odds(state, mypos, action, amount=None):
                        (pot + amount + sum([p.delta for p in state.player if (p.active and p is not player)]))
             elif state.playernum > 2:
                 odds = (totalbet + player.delta) / \
-                       (pot + player.delta + sum([0.5*p.delta for p in state.player if (p.active and p is not player)]))
+                       (pot + player.delta + sum(
+                           [0.5 * p.delta for p in state.player if (p.active and p is not player)]))
     elif action == "raisebet":
         if state.playernum == 2:
             odds = (totalbet + amount) / \
                    (pot + amount + sum([(amount - p.bet) for p in state.player if (p.active and p is not player)]))
         elif state.playernum > 2:
             odds = (totalbet + amount) / \
-                   (pot + amount + sum([0.5*(amount - p.bet) for p in state.player if (p.active and p is not player)]))
-            #todo 考虑 对方没钱的时候
+                   (pot + amount + sum(
+                       [0.5 * (amount - p.bet) for p in state.player if (p.active and p is not player)]))
+            # todo 考虑 对方没钱的时候
     else:
         raise NotImplementedError("illegal action")
     return odds
-
 
 
 def cal_raise_amount(state, mypos, type):
@@ -212,8 +213,8 @@ def can_I_check(id, state):
     max_bet_in_current_round = max([player.bet for player in state.player])
     # 需要跟注
     if state.player[id].bet < max_bet_in_current_round:
-    # 可以改成
-    # if state.player[id].bet < state.minbet:
+        # 可以改成
+        # if state.player[id].bet < state.minbet:
         return False
     return True
 
