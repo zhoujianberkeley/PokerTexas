@@ -473,14 +473,19 @@ def ai(id, state, records, num_iter=5):
         best_action = 'callbet'
         min_odds = np.inf
         for action in dict_of_move.keys():
-            amount = 0
-                # todo Jian update decide raise amount type
             if dict_of_move[action]:
-                current_odds = cal_odds(state, state.currpos, action, amount)
+                if action == 'raisebet': # todo Jian update decide raise amount type
+                    _amount = amount
+                    current_odds = cal_odds(state, state.currpos, action, _amount)
+                    record_logger.info(f"{action} {amount}的赔率：{current_odds}")
+                else:
+                    current_odds = cal_odds(state, state.currpos, action, _amount=None)
+                    record_logger.info(f"{action} 的赔率：{current_odds}")
+
                 if current_odds < min_odds:
                     min_odds = current_odds
                     best_action = action
-        record_logger.info(f"赔率：{min_odds}")
+        record_logger.info(f"最小赔率：{min_odds}")
         if my_win_props < min_odds:
             if can_I_check(id,state):
                 decision.check = 1
