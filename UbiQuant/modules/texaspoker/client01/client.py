@@ -17,7 +17,7 @@ sys.path.append('.')
 # `ISTESTING` is set to True when you are testing your program
 # should be set to False when test is finished.
 #**************************************************************************
-ISTESTING = True
+ISTESTING = False
 #******************************************************************************
 
 # *********************modify here to change import path if you need ***********************
@@ -34,15 +34,15 @@ from lib.client_lib import MessageType_GameOver
 from lib.client_lib import MessageType_InvalidToken
 from lib.client_lib import MessageType_GameStarted
 from lib.client_lib import MessageType_IllegalDecision
-from lib.simple_logger import simple_logger
+from lib.AI_logger import AI_Logger
 # *******************************************************************************************
 
 
 
 
 # **************************************modify here to use your own RLAI! ***************************
-from AI.v1_1 import ai
-# from AI.jianAI_version1 import ai
+# from AI.v1_1 import ai
+from AI.DavidAI_v1_0 import ai
 # *************************************************************************************************
 
 
@@ -105,7 +105,7 @@ class Client(object):
         self.logger = logger
         self.step = -1
         if self.logger is None:
-            self.logger = simple_logger()
+            self.logger = AI_Logger()
         self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
 
         self.initialized = False
@@ -189,8 +189,9 @@ class Client(object):
                     print("-------------------------------------")
                     print(self._decision_so_far)
                     print("-------------------------------------")
-                    decision = self.ai(self.mypos, self.state)
-                    # decision = self.ai(self.mypos, self.state, self._decision_record)
+                    # decision = self.ai(self.mypos, self.state)
+                    logger.debug("self.mypos: " + str(self.mypos))
+                    decision = self.ai(self.mypos, self.state, self._decision_record)
 
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')
@@ -403,7 +404,7 @@ if __name__ == '__main__':
 #     username = "02David"
     username = glob.glob('*David_key.txt')[0][:-8]
 
-    logger = simple_logger()
+    logger = AI_Logger()
 # ****************************************************************************************************
 
 

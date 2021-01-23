@@ -1,20 +1,21 @@
-'''
+"""
     DavidAI: v1_0版本
     详见德扑策略.md
-'''
-import re
+"""
 
-from numpy import np
+import numpy as np
+import random
+import re
+import time
 
 from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
 from lib.client_lib import Decision
-import time
-import random
+from lib.AI_logger import AI_Logger
 
 
-# todo 先看能否check，在give up 之前
+logger = AI_Logger()
 
 def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
@@ -107,8 +108,14 @@ def count_raise(records, round, mypos, skip_self=True):
     剔除了自己的raise，剔除了大小盲的raise
     skip_self:是否跳过自己的flag变量
     """
-    record = records[round]
+    logger.debug("records" + str(records))
+
     r_num, a_num = 0, 0
+    if round not in records.keys():
+        logger.debug(f"{round} not in records keys")
+        return r_num, a_num
+
+    record = records[round]
     for position in record.keys():
         if position == mypos and skip_self:  # 跳过自己的position
             continue
@@ -157,18 +164,18 @@ def cal_odds(state, mypos, action, amount=None):
 		 赔率=(x1+z1) / (y1+z1+z1 + p乘以z1) if 除我之外有两个玩家
     """
     pot = state.moneypot  # money in the pot
-
-    player = state.player[id]
+    logger.debug("id2"+str(mypos))
+    player = state.player[mypos]
     totalbet = player.totalbet + player.bet
 
     if action == "check":
         if not can_I_check(mypos, state):
-            odds = np.infinity
+            odds = np.inf
         else:
             odds = totalbet / pot
     elif action == "callbet":
         if not can_I_callbet(mypos, state):
-            odds = np.infinity
+            odds = np.inf
         else:
             # player.delta是跟注额度
             # sum([p.diff_callbet for p in state.player if p.active]) 是所有active player的跟注额度，p.diff_callbet = 0如果p已经callbet/raisebet
@@ -285,15 +292,13 @@ def can_I_raisebet(id, state, records, allow_continue_raisebet=False):
     #有钱加注
     min_raise_amount = state.last_raised + state.minbet
     if allow_continue_raisebet:
-        if state.player[id].money> (min_raise_amount - state.player[id].bet): #todo money
+        if state.player[id].money> (min_raise_amount - state.player[id].bet):  # todo money
             return True
         return False
     else:  # 只有本轮的最新加注者不是我自己时才能加注
         if state.player[id].bet>min_raise_amount and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
             return True
         return False
-
-
 
 
 def ai(id, state, records, num_iter=5):
@@ -397,7 +402,7 @@ def ai(id, state, records, num_iter=5):
 
                 # adjust win ratio
                 my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-                if can_I_callbet(id,state) and my_win_props< cal_odds(state,state.currpos,'callbet'):
+                if can_I_callbet(id, state) and my_win_props< cal_odds(state,state.currpos,'callbet'):
                     decision.callbet = 1
                     return decision
 
@@ -428,25 +433,26 @@ def ai(id, state, records, num_iter=5):
         # todo tingwei 加all in
 
         best_action = 'callbet'
-        min_odds = np.infinity
+        min_odds = np.inf
         for action in dict_of_move.keys():
             amount = 0
             if action == 'raisebet':
                 amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
                 # todo Jian update decide raise amount type
             if dict_of_move[action]:
-                current_odds = cal_odds(state,state.currpos,action,amount)
-                if current_odds<min_odds:
-                    min_odds=current_odds
+                current_odds = cal_odds(state, state.currpos, action, amount)
+                if current_odds < min_odds:
+                    min_odds = current_odds
                     best_action = action
 
         if my_win_props < min_odds:
-            if can_I_check():
+            if can_I_check(id,state):
                 decision.check = 1
             else:
                 decision.giveup= 1
             return decision
 
+        logger.debug(f"decision.{best_action}=1")
         eval('decision.'+best_action+'=1')
         if best_action == 'raisebet': # todo Jian update decide raise amount type
             decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
