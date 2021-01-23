@@ -392,7 +392,7 @@ def ai(id, state, records, num_iter=5):
         #小盲位
         if state.currpos == 1:
             if state.minbet == 40:
-                win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=1) #todo recalculate 3个人win props
+                win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=1) #todo tingwei recalculate 3个人win props
                 my_win_props = win_props[1]
 
                 # adjust win ratio
