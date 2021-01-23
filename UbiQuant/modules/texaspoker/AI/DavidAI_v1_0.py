@@ -334,6 +334,7 @@ def can_I_allin(id,state,records,amount):
     return False
 
 def ai(id, state, records, num_iter=5):
+    # todo logger加下user at pos 是谁
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
 
