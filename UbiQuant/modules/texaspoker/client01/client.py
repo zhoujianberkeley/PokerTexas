@@ -109,7 +109,7 @@ class Client(object):
         self.step = -1
         self.logger = logger
         if self.logger is None:
-            self.logger = AI_Logger('root_logger')
+            self.logger = AI_Logger('root_logger.log')
         self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
 
         self.initialized = False
@@ -411,7 +411,7 @@ if __name__ == '__main__':
     username = glob.glob('*David_key.txt')[0][:-8]
 
     from lib.simple_logger import file_logger
-    fileName = 'action_logger'
+    fileName = 'action_logger.log'
     logger = file_logger(fileName)
 # ****************************************************************************************************
 

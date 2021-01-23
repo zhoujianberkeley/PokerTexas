@@ -461,7 +461,7 @@ def ai(id, state, records, num_iter=5):
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
         record_logger.info(f"调整牌力{my_win_props}")
-        record_logger.info('***********record finish***************')
+        record_logger.info('***********my decision***************')
         amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
         # 提取合法的行为
         dict_of_move = dict()
