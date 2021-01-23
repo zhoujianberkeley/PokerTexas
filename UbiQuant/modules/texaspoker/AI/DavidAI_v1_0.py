@@ -52,17 +52,67 @@ def cal_win_ratio(hole_cards, board_cards, num_other_player=2, num_iter=2):
                                                hole_cards=hole_cards + other_players, verbose=False)
     return win_props
 
+def am_I_the_last_raiser(records,round,mypos):
+    '''
+    主要为了判断本轮最新一次加注的是不是自己，防止出现在某一轮中一直加注.(不确定官方网站处理时是否会自动处理这种行为）
+    '''
+    record = records[round]
+    latest_raiser = ''
+    for position in record.keys():
+        for action in record[position]:
+            if re.findall("actionNum: [01]", action):  # 跳过actionNum 0 和 actionNum 1，大小盲
+                continue
+            if "raisebet" in action or "allin" in action:
+                latest_raiser = position
 
-def count_raise(records, round, mypos):
+    return latest_raiser == mypos
+
+def do_hole_cards_have_pair(hole_cards):
+    return hole_cards[0][0]==hole_cards[1][0]
+
+def do_hole_cards_have_A_suit(hole_cards):
+    return hole_cards[0][1]==hole_cards[1][1] and (hole_cards[0][0]=='A' or hole_cards[1][0]=='A')
+
+def action_of_a_player_in_a_round(records,round,player_pos):
     """
     计算某一轮的的raise和all in 次数
     剔除了自己的raise，剔除了大小盲的raise
+    """
+    action_dict = dict()
+    record = records[round]
+    r_num = 0
+    a_num = 0
+    c_num = 0
+    for position in record.keys():
+        if position != player_pos:
+            continue
+        for action in record[position]:
+            if re.findall("actionNum: [01]", action):  # 跳过actionNum 0 和 actionNum 1，大小盲
+                continue
+
+            if "raisebet" in action:
+                r_num += 1
+            if "allin" in action:
+                a_num += 1
+            if 'check' in action:
+                c_num +=1
+
+    action_dict['raisebet']=r_num
+    action_dict['allin'] = a_num
+    action_dict['check'] = c_num
+    return action_dict
+
+def count_raise(records, round, mypos,skip_self=True):
+    """
+    计算某一轮的的raise和all in 次数
+    剔除了自己的raise，剔除了大小盲的raise
+    skip_self:是否跳过自己的flag变量
     """
     record = records[round]
     r_num = 0
     a_num = 0
     for position in record.keys():
-        if position == mypos:  # 跳过自己的position
+        if position == mypos and skip_self:  # 跳过自己的position
             continue
         for action in record[position]:
             if re.findall("actionNum: [01]", action):  # 跳过actionNum 0 和 actionNum 1，大小盲
@@ -169,7 +219,7 @@ def cal_raise_amount(state, mypos, type):
         raise_amount = min_raise_amount
         print(f'raise_amount {raise_amount} < min_raise_amount {min_raise_amount}, increase to {min_raise_amount}')
     return raise_amount
-
+    ##疑问:那这样的话，是不是假设剩下人的最小筹码如果赶不上min_raise_amount，我还是会选择raise？
 
 def remaining_money(state, mypos):
     '''
@@ -210,43 +260,57 @@ def decide_raise_amount_type():
 
 
 def can_I_check(id, state):
-    max_bet_in_current_round = max([player.bet for player in state.player])
     # 需要跟注
-    if state.player[id].bet < max_bet_in_current_round:
-        # 可以改成
-        # if state.player[id].bet < state.minbet:
+    if state.player[id].bet < state.minbet:
         return False
     return True
 
-
 def can_I_callbet(id, state):
-    pass
+
+    # 有钱跟注,而且严格区分callbet和check，如果前人没有raise，就不能call
+    if state.minbet-state.player[id].bet<state.player[id].money and not can_I_check(id,state):
+        return True
+    return False
+
+
+def can_I_raisebet(id, state,records,allow_continue_raisebet = False):
+    #有钱加注
+    min_raise_amount = state.last_raised + state.minbet
+    if allow_continue_raisebet:
+        if state.player[id].bet>min_raise_amount:
+            return True
+        return False
+    else:#只有本轮的最新加注者不是我自己时才能加注
+        if state.player[id].bet>min_raise_amount and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
+            return True
+        return False
+
+
 
 
 def ai(id, state, records):
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
 
-    # cal win ratio
-    win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
-    my_win_props = win_props[1]
 
-    # adjust win ratio
-    my_win_props = adjust_win_ratio(state, id, my_win_props, records)
 
     decision = Decision()
 
     # 在最初局，只使用二人对弈胜率来评判牌力大小
     if not state.turnNum:
+
+
+        raisebet,all_in = count_raise(records,state.turnNum,state.currpos,skip_self=False)
+        time_of_rise = raisebet+all_in
         hole_card_power = cal_win_ratio(my_hole_cards, board_cards, num_other_player=1)[1]
 
         # 一等手牌
         if hole_card_power > 0.76:
 
-            num_active_player = sum([player.active for player in state.player])
-
+            # num_active_player = sum([player.active for player in state.player])
+            num_active_player = state.playernum
             # 还剩两个对手，持续下注
-            if num_active_player > 2:
+            if num_active_player > 2 and can_I_raisebet(id,state,records,allow_continue_raisebet=True):
                 decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
                 decision.raisebet = 1
                 return decision
@@ -262,15 +326,57 @@ def ai(id, state, records):
 
         # 二等手牌
         if hole_card_power > 0.71:
-            return
+
+            #之前没有起raise的或者没有3bet的,优先raise
+            if time_of_rise<=1 and can_I_raisebet(id,state,records):
+                decision.raisebet = 1
+                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                return decision
+
+            #出现4bet，该弃牌了
+            if time_of_rise >=3:
+                decision.giveup =1
+                return decision
+
+            decision.callbet=1
+            return decision
+
+
 
         # 三等手牌
         if hole_card_power > 0.65:
-            return
+            if time_of_rise==0 and can_I_raisebet(id,state,records):
+                decision.raisebet = 1
+                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                return decision
+
+            if time_of_rise == 1 and state.currpos==2 and can_I_raisebet(id,state,records):
+                decision.raisebet = 1
+                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                return decision
+
+            #出现3bet及以上，而且不是我发起的，弃牌
+            if time_of_rise >=2 and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
+                decision.giveup=1
+                return decision
+
+            decision.callbet = 1
+            return decision
 
         # 四等手牌
         if hole_card_power > 0.57:
-            return
+            if do_hole_cards_have_A_suit(my_hole_cards) or do_hole_cards_have_pair(my_hole_cards):
+                if can_I_check(id,state):
+                    decision.check =1
+                    return decision
+
+                #最多只跟一個大盲
+                if can_I_callbet(id,state) and time_of_rise<=1 and state.minbet ==40:
+                    decision.callbet =1
+                    return decision
+
+            decision.giveup =1
+            return decision
 
         ##三人局，0号button，1号小盲，2号大盲
 
@@ -279,16 +385,68 @@ def ai(id, state, records):
             decision.giveup = 1
             return decision
 
+        #小盲位
         if state.currpos == 1:
-            return
+            if state.minbet ==40:
+                win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+                my_win_props = win_props[1]
+
+                # adjust win ratio
+                my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+                if my_win_props< cal_odds(state,state.currpos,'callbet') and can_I_callbet(id,state):
+                    decision.callbet == 1
+                    return decision
+
+            decision.giveup=1
+            return decision
 
         if state.currpos == 2:
-            return
+            if can_I_check(id,state):
+                decision.check=1
+                return decision
+
+            decision.giveup=1
+            return decision
 
 
 
     # 桌面上已出现公共牌，3，4，5张策略相同
     else:
+        # cal win ratio
+        win_props = cal_win_ratio(my_hole_cards, board_cards, num_iter=2)
+        my_win_props = win_props[1]
 
-        if can_I_check():
-            return
+        # adjust win ratio
+        my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+
+        dict_of_move = dict()
+
+        dict_of_move['check'] = can_I_check(id,state)
+        dict_of_move['callbet'] = can_I_callbet(id,state)
+        dict_of_move['raisebet'] = can_I_raisebet(id,state,records)
+
+        best_action = 'callbet'
+        min_odds = 1
+        for action in dict_of_move.keys():
+            amount = 0
+            if action == 'raisebet':
+                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+            if dict_of_move[action]:
+                current_odds = cal_odds(state,state.currpos,action,amount)
+                if current_odds<min_odds:
+                    min_odds=current_odds
+                    best_action = action
+
+        if my_win_props<min_odds:
+            if can_I_check():
+                decision.check =1
+            else:
+                decision.giveup=1
+
+            return decision
+
+        eval('decision.'+best_action+'=1')
+        if best_action == 'raisebet':
+            decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+        return decision
+
