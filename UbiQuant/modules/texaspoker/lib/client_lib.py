@@ -343,11 +343,11 @@ class Player(object):
 
     @property
     def diff_callbet(self):
-        # calculate difference to state.minbet if we call bet
+        # calculate difference to state.minbet if the player call bet
         return self.state.minbet - self.bet
 
     def diff_raisebet(self, raise_amount):
-        # calculate difference to state.minbet if we raise bet
+        # calculate difference to state.minbet if the player raise bet
         return raise_amount - self.bet
 
     #todo Tingwei move can I * to here

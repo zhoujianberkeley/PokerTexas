@@ -120,7 +120,6 @@ class BlankCardImage(ImageTk.PhotoImage):  # FIXME: not used
 
 
 class BorderLessCardImage(ImageTk.PhotoImage):  # FIXME: not used
-
     def __init__(self, rank: str, suit: str, scale_factor: float):
         self.scale_factor = scale_factor
         card_filename = get_card_filename(rank=rank, suit=suit)

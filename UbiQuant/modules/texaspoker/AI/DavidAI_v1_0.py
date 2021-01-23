@@ -150,7 +150,6 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
 
 
 def cal_odds(state, mypos, action, amount=None):
-    #todo consider all in
     """
     桌面赔率:当前桌面上有我的筹码x1，总筹码y1,假设轮到我现在决定要不要跟注z1，如果胜率 	   其中p是对手跟注z1的概率
 	跟注：赔率=(x1+z1) / (y1+z1+ sum of p乘以z1)
@@ -175,12 +174,12 @@ def cal_odds(state, mypos, action, amount=None):
             # sum([p.diff_callbet for p in state.player if p.active]) 是所有active player的跟注额度，p.diff_callbet = 0如果p已经callbet/raisebet
             if state.playernum == 2:
                 odds = (totalbet + player.diff_callbet) / \
-                       (pot + amount + sum([p.diff_callbet for p in state.player if (p.active and p is not player)]))
+                       (pot + player.diff_callbet + sum([p.diff_callbet for p in state.player if (p.active and p is not player)]))
             elif state.playernum > 2:
                 odds = (totalbet + player.diff_callbet) / \
                        (pot + player.diff_callbet + sum(
                            [0.5 * p.diff_callbet for p in state.player if (p.active and p is not player)]))
-    elif action == "raisebet":
+    elif action == "raisebet": # todo 考虑 对方没钱的时候
         if state.playernum == 2:
             odds = (totalbet + amount) / \
                    (pot + amount + sum([(amount - p.bet) for p in state.player if (p.active and p is not player)]))
@@ -188,7 +187,17 @@ def cal_odds(state, mypos, action, amount=None):
             odds = (totalbet + amount) / \
                    (pot + amount + sum(
                        [0.5 * (amount - p.bet) for p in state.player if (p.active and p is not player)]))
-            # todo 考虑 对方没钱的时候
+    elif action == "allin":
+        # 如果allin 加的注 > raisebet所需要最小的注，odds和raisebet一样的
+        if player.money > state.last_raised + state.minbet:
+            return cal_odds(state, mypos, action="raisebet", amount=player.money)
+        # 如果allin 加的注 < raisebet所需要最小的注
+        if state.playernum == 2:
+            odds = (totalbet + player.money) / \
+                   (pot + player.money + sum([p.diff_callbet for p in state.player if (p.active and p is not player)]))
+        elif state.playernum > 2:
+            odds = (totalbet + player.money) / \
+                   (pot + player.money + sum([0.5*p.diff_callbet for p in state.player if (p.active and p is not player)]))
     else:
         raise NotImplementedError("illegal action")
     return odds

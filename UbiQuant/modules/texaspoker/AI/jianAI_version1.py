@@ -8,7 +8,6 @@ from lib.client_lib import Hand
 from lib.client_lib import Decision
 import random
 
-# todo 先看能否check，在give up 之前
 
 def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
