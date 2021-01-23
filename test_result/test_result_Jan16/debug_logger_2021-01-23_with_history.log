@@ -1,0 +1,853 @@
+2021-01-23 21:26:29,810 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:26:29,810 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:26:29,810 AI_logger.py[line:40] - INFO - root : cards:[16, 35]
+2021-01-23 21:26:29,810 AI_logger.py[line:40] - INFO - root : spade, 6. 
+2021-01-23 21:26:29,810 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:26:29,811 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:26:29,811 AI_logger.py[line:40] - INFO - root : Have money 1400 left
+2021-01-23 21:26:29,811 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:26:29,820 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:26:29,945 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.456
+2021-01-23 21:26:29,946 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:26:29,946 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:27:01,007 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:27:01,007 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : cards:[47, 18]
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : club, K. 
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : Have money 1360 left
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:27:01,008 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:27:01,135 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.5168979591836734
+2021-01-23 21:27:01,136 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:27:01,136 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:28:21,897 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:28:21,897 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:28:21,897 AI_logger.py[line:40] - INFO - root : cards:[8, 36]
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : spade, 4. 
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : spade, J. 
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : Have money 1320 left
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:28:21,898 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:28:22,016 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.49453061224489797
+2021-01-23 21:28:22,017 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:28:22,017 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : cards:[31, 38]
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : club, 9. 
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : Have money 1280 left
+2021-01-23 21:29:31,969 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:29:31,970 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:29:32,090 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.49142857142857144
+2021-01-23 21:29:32,090 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:29:32,090 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : cards:[22, 14]
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : diamond, 5. 
+2021-01-23 21:29:40,670 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:29:40,671 AI_logger.py[line:40] - INFO - root : Have money 1280 left
+2021-01-23 21:29:40,671 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:29:40,671 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:29:40,790 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.40391836734693876
+2021-01-23 21:29:40,790 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:29:40,791 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : cards:[28, 10]
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : spade, 9. 
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : diamond, 4. 
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : Have money 1280 left
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:30:02,191 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:30:02,312 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.3631020408163265
+2021-01-23 21:30:02,312 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:30:02,312 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:31:20,047 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : cards:[45, 12]
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : spade, 5. 
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : Have money 1260 left
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:31:20,048 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:31:20,168 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.504
+2021-01-23 21:31:20,168 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:31:20,168 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : cards:[27, 5]
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : club, 8. 
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : heart, 3. 
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : Have money 1240 left
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:31:31,798 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:31:31,917 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.34791836734693876
+2021-01-23 21:31:31,917 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:31:32,240 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:32:25,474 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:32:25,474 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : cards:[42, 30]
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : diamond, Q. 
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : diamond, 9. 
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:32:25,475 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:32:25,595 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.564734693877551
+2021-01-23 21:32:25,595 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:32:25,595 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : sharedcards:[19, 41, 13]
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : club, 6. 
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : heart, 5. 
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : cards:[42, 30]
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : diamond, Q. 
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : diamond, 9. 
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : Have money 1160 left
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:32:30,598 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:32:30,648 AI_logger.py[line:40] - INFO - root : 牌力0.7913968547641073
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : 调整牌力0.7913968547641073
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : raisebet 40的赔率：0.5
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : 最小赔率：0.5
+2021-01-23 21:32:30,649 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : cards:[3, 35]
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : club, 2. 
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : Have money 1280 left
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:35:06,030 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:35:06,150 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.4124081632653061
+2021-01-23 21:35:06,150 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:35:06,150 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : cards:[27, 7]
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : club, 8. 
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : club, 3. 
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : Have money 1260 left
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:36:58,682 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:36:58,802 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.40685714285714286
+2021-01-23 21:36:58,803 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:36:59,109 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : cards:[41, 36]
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : spade, J. 
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : Have money 1260 left
+2021-01-23 21:37:09,961 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:09,962 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:37:10,081 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.5937959183673469
+2021-01-23 21:37:10,082 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:37:10,082 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : sharedcards:[16, 18, 38]
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : spade, 6. 
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : cards:[41, 36]
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : spade, J. 
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : Have money 1180 left
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:20,710 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:37:20,758 AI_logger.py[line:40] - INFO - root : 牌力0.7742830712303422
+2021-01-23 21:37:20,758 AI_logger.py[line:40] - INFO - root : 调整牌力0.7642830712303422
+2021-01-23 21:37:20,759 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:37:20,759 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.4444444444444444
+2021-01-23 21:37:20,759 AI_logger.py[line:40] - INFO - root : raisebet 160的赔率：0.46153846153846156
+2021-01-23 21:37:20,759 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4444444444444444
+2021-01-23 21:37:20,759 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : sharedcards:[16, 18, 38, 2]
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : spade, 6. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : diamond, 2. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : cards:[41, 36]
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : spade, J. 
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : Have money 1100 left
+2021-01-23 21:37:25,329 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:25,330 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:37:25,375 AI_logger.py[line:40] - INFO - root : 牌力0.7009661835748793
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : 调整牌力0.6809661835748793
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.4666666666666667
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : raisebet 240的赔率：0.47619047619047616
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4666666666666667
+2021-01-23 21:37:25,376 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : sharedcards:[16, 18, 38, 2, 32]
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : spade, 6. 
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : diamond, 2. 
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : spade, T. 
+2021-01-23 21:37:30,454 AI_logger.py[line:40] - INFO - root : cards:[41, 36]
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : spade, J. 
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : Have money 980 left
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:30,455 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : 牌力0.8161616161616162
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : 调整牌力0.7861616161616162
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.4888888888888889
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4888888888888889
+2021-01-23 21:37:30,498 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:37:38,127 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : cards:[24, 1]
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : spade, 8. 
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : Have money 1260 left
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:37:38,129 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:37:38,248 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.31020408163265306
+2021-01-23 21:37:38,248 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:37:38,569 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : cards:[42, 18]
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : diamond, Q. 
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : Have money 1260 left
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:38:32,380 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:38:32,499 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.5115102040816326
+2021-01-23 21:38:32,499 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:38:32,499 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:39:03,596 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:03,596 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:39:03,596 AI_logger.py[line:40] - INFO - root : cards:[10, 20]
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : diamond, 4. 
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : spade, 7. 
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:03,597 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:39:03,717 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.3560816326530612
+2021-01-23 21:39:03,717 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:39:03,717 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : sharedcards:[1, 25, 22]
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : cards:[10, 20]
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : diamond, 4. 
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : spade, 7. 
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:39:06,656 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:06,657 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : 牌力0.6045328399629972
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : 调整牌力0.6045328399629972
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : check 的赔率：0.4
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : raisebet 40的赔率：0.4444444444444444
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:39:06,708 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:39:11,755 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : sharedcards:[1, 25, 22, 18]
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : cards:[10, 20]
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : diamond, 4. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : spade, 7. 
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:11,756 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:39:11,805 AI_logger.py[line:40] - INFO - root : 牌力0.5869565217391305
+2021-01-23 21:39:11,805 AI_logger.py[line:40] - INFO - root : 调整牌力0.5869565217391305
+2021-01-23 21:39:11,806 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:39:11,806 AI_logger.py[line:40] - INFO - root : check 的赔率：0.4
+2021-01-23 21:39:11,806 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.4
+2021-01-23 21:39:11,806 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:39:11,806 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+2021-01-23 21:39:16,881 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : sharedcards:[1, 25, 22, 18, 0]
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : diamond, 6. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : spade, 2. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : cards:[10, 20]
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : diamond, 4. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : spade, 7. 
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:16,882 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:39:16,924 AI_logger.py[line:40] - INFO - root : 牌力0.6262626262626263
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : 调整牌力0.6262626262626263
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : check 的赔率：0.4
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.4
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:39:16,925 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : cards:[51, 43]
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : club, Q. 
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : Have money 1320 left
+2021-01-23 21:39:31,204 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:31,205 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:39:31,323 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.6741224489795918
+2021-01-23 21:39:31,323 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:39:31,323 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : cards:[21, 6]
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : heart, 7. 
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : diamond, 3. 
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : Have money 1380 left
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:39:46,018 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:39:46,137 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.32212244897959186
+2021-01-23 21:39:46,137 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:39:46,138 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : cards:[25, 1]
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : Have money 1340 left
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:22,392 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:40:22,512 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.3990204081632653
+2021-01-23 21:40:22,512 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:40:22,512 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:40:27,009 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : sharedcards:[50, 17, 5]
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : diamond, A. 
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : heart, 6. 
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : heart, 3. 
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : cards:[25, 1]
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : Have money 1340 left
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:27,010 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : 牌力0.5411655874190564
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : 调整牌力0.5411655874190564
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : raisebet 40的赔率：0.4
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:40:27,060 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : sharedcards:[50, 17, 5, 46]
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : diamond, A. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : heart, 6. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : heart, 3. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : diamond, K. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : cards:[25, 1]
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : Have money 1300 left
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:34,183 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : 牌力0.30628019323671496
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : 调整牌力0.30628019323671496
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.5
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : 最小赔率：0.5
+2021-01-23 21:40:34,231 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : sharedcards:[50, 17, 5, 46, 21]
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : diamond, A. 
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : heart, 6. 
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : heart, 3. 
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : diamond, K. 
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : heart, 7. 
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : cards:[25, 1]
+2021-01-23 21:40:39,293 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:40:39,294 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:40:39,294 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:39,294 AI_logger.py[line:40] - INFO - root : Have money 1300 left
+2021-01-23 21:40:39,294 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:39,294 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : 牌力0.9717171717171718
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : 调整牌力0.9717171717171718
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.42857142857142855
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : raisebet 80的赔率：0.4
+2021-01-23 21:40:39,335 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:40:39,336 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : sharedcards:[50, 17, 5, 46, 21]
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : diamond, A. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : heart, 6. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : heart, 3. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : diamond, K. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : heart, 7. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : cards:[25, 1]
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : heart, 2. 
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : Have money 1220 left
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:40:43,372 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:40:43,414 AI_logger.py[line:40] - INFO - root : 牌力0.9717171717171718
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : 调整牌力0.9717171717171718
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.375
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : raisebet 240的赔率：0.4166666666666667
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : 最小赔率：0.375
+2021-01-23 21:40:43,415 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:41:27,889 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:27,889 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:41:27,889 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:27,889 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:27,890 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:27,890 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:27,890 AI_logger.py[line:40] - INFO - root : Have money 1580 left
+2021-01-23 21:41:27,890 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:27,890 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:41:28,010 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.6048979591836735
+2021-01-23 21:41:28,011 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:41:28,011 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49]
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:34,535 AI_logger.py[line:40] - INFO - root : Have money 1540 left
+2021-01-23 21:41:34,536 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:34,536 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:41:34,589 AI_logger.py[line:40] - INFO - root : 牌力0.5716928769657724
+2021-01-23 21:41:34,589 AI_logger.py[line:40] - INFO - root : 调整牌力0.5616928769657724
+2021-01-23 21:41:34,590 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:34,590 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.42857142857142855
+2021-01-23 21:41:34,590 AI_logger.py[line:40] - INFO - root : raisebet 80的赔率：0.4
+2021-01-23 21:41:34,590 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4
+2021-01-23 21:41:34,590 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+2021-01-23 21:41:38,645 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:38,645 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49]
+2021-01-23 21:41:38,645 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:38,645 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : Have money 1460 left
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:38,646 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : 牌力0.61054579093432
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : 调整牌力0.59054579093432
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.38461538461538464
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : 最小赔率：0.38461538461538464
+2021-01-23 21:41:38,697 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49, 7]
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:43,757 AI_logger.py[line:40] - INFO - root : club, 3. 
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : Have money 1420 left
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:43,758 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:41:43,804 AI_logger.py[line:40] - INFO - root : 牌力0.5173913043478261
+2021-01-23 21:41:43,804 AI_logger.py[line:40] - INFO - root : 调整牌力0.4973913043478261
+2021-01-23 21:41:43,804 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:43,805 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.42105263157894735
+2021-01-23 21:41:43,805 AI_logger.py[line:40] - INFO - root : raisebet 240的赔率：0.39285714285714285
+2021-01-23 21:41:43,805 AI_logger.py[line:40] - INFO - root : 最小赔率：0.39285714285714285
+2021-01-23 21:41:43,805 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=240
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49, 7]
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : club, 3. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : Have money 1180 left
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:47,852 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:41:47,898 AI_logger.py[line:40] - INFO - root : 牌力0.5743961352657004
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : 调整牌力0.5543961352657004
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.3673469387755102
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : raisebet 800的赔率：0.40789473684210525
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : 最小赔率：0.3673469387755102
+2021-01-23 21:41:47,899 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:41:52,962 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:52,962 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49, 7, 25]
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : club, 3. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : Have money 900 left
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:52,963 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:41:53,007 AI_logger.py[line:40] - INFO - root : 牌力0.4686868686868687
+2021-01-23 21:41:53,007 AI_logger.py[line:40] - INFO - root : 调整牌力0.4486868686868687
+2021-01-23 21:41:53,007 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:53,007 AI_logger.py[line:40] - INFO - root : callbet 的赔率：0.42028985507246375
+2021-01-23 21:41:53,008 AI_logger.py[line:40] - INFO - root : raisebet 880的赔率：0.39215686274509803
+2021-01-23 21:41:53,008 AI_logger.py[line:40] - INFO - root : 最小赔率：0.39215686274509803
+2021-01-23 21:41:53,008 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=880
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : sharedcards:[33, 4, 49, 7, 25]
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : heart, T. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : heart, A. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : club, 3. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : cards:[38, 45]
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : diamond, J. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:41:56,553 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:56,554 AI_logger.py[line:40] - INFO - root : Have money 20 left
+2021-01-23 21:41:56,554 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:41:56,554 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:41:56,597 AI_logger.py[line:40] - INFO - root : 牌力0.4686868686868687
+2021-01-23 21:41:56,597 AI_logger.py[line:40] - INFO - root : 调整牌力0.4486868686868687
+2021-01-23 21:41:56,597 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:41:56,598 AI_logger.py[line:40] - INFO - root : allin 的赔率：0.3253012048192771
+2021-01-23 21:41:56,598 AI_logger.py[line:40] - INFO - root : 最小赔率：0.3253012048192771
+2021-01-23 21:41:56,598 AI_logger.py[line:40] - INFO - root : giveup=0, allin=1, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : cards:[35, 51]
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : Have money 1960 left
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:08,338 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:42:08,457 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.6520816326530612
+2021-01-23 21:42:08,457 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:42:08,457 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+2021-01-23 21:42:13,935 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:13,935 AI_logger.py[line:40] - INFO - root : sharedcards:[40, 24, 31]
+2021-01-23 21:42:13,935 AI_logger.py[line:40] - INFO - root : spade, Q. 
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : spade, 8. 
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : club, 9. 
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : cards:[35, 51]
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : Have money 1880 left
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:13,936 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:42:13,988 AI_logger.py[line:40] - INFO - root : 牌力0.5124884366327475
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : 调整牌力0.5024884366327474
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : raisebet 40的赔率：0.4444444444444444
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : 最小赔率：0.4444444444444444
+2021-01-23 21:42:13,989 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=40
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : sharedcards:[40, 24, 31, 11]
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : spade, Q. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : spade, 8. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : club, 9. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : club, 4. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : cards:[35, 51]
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : Have money 1840 left
+2021-01-23 21:42:21,067 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:21,068 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:42:21,115 AI_logger.py[line:40] - INFO - root : 牌力0.6217391304347826
+2021-01-23 21:42:21,115 AI_logger.py[line:40] - INFO - root : 调整牌力0.6117391304347826
+2021-01-23 21:42:21,115 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:42:21,115 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:42:21,115 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.5
+2021-01-23 21:42:21,116 AI_logger.py[line:40] - INFO - root : 最小赔率：0.5
+2021-01-23 21:42:21,116 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : sharedcards:[40, 24, 31, 11, 0]
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : spade, Q. 
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : spade, 8. 
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : club, 9. 
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : club, 4. 
+2021-01-23 21:42:26,179 AI_logger.py[line:40] - INFO - root : spade, 2. 
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : cards:[35, 51]
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : club, T. 
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : Have money 1840 left
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:26,180 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : 牌力0.32727272727272727
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : 调整牌力0.31727272727272726
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : check 的赔率：0.5
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.5
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : 最小赔率：0.5
+2021-01-23 21:42:26,225 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : cards:[34, 6]
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : diamond, T. 
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : diamond, 3. 
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : Have money 1840 left
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:32,338 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:42:32,458 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.4137142857142857
+2021-01-23 21:42:32,458 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:42:32,458 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : cards:[6, 26]
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : diamond, 3. 
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : diamond, 8. 
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:51,266 AI_logger.py[line:40] - INFO - root : Have money 1800 left
+2021-01-23 21:42:51,267 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:42:51,267 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:42:51,385 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.40946938775510205
+2021-01-23 21:42:51,385 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:42:51,385 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : cards:[45, 3]
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : heart, K. 
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : club, 2. 
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : Have money 1800 left
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:43:06,602 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:43:06,721 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.484734693877551
+2021-01-23 21:43:06,721 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:43:06,721 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+2021-01-23 21:44:10,049 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : cards:[25, 4]
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : Have money 1760 left
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:10,050 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:44:10,170 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.35183673469387755
+2021-01-23 21:44:10,171 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:44:10,171 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : sharedcards:[22, 51, 41]
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : cards:[25, 4]
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:44:16,155 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:16,156 AI_logger.py[line:40] - INFO - root : Have money 1760 left
+2021-01-23 21:44:16,156 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:16,156 AI_logger.py[line:40] - INFO - root : round 1
+2021-01-23 21:44:16,543 AI_logger.py[line:40] - INFO - root : 牌力0.0767
+2021-01-23 21:44:16,543 AI_logger.py[line:40] - INFO - root : 调整牌力0.0767
+2021-01-23 21:44:16,543 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:44:16,544 AI_logger.py[line:40] - INFO - root : check 的赔率：0.3333333333333333
+2021-01-23 21:44:16,544 AI_logger.py[line:40] - INFO - root : raisebet 40的赔率：0.4
+2021-01-23 21:44:16,544 AI_logger.py[line:40] - INFO - root : 最小赔率：0.3333333333333333
+2021-01-23 21:44:16,544 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:44:25,865 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:44:25,865 AI_logger.py[line:40] - INFO - root : sharedcards:[22, 51, 41, 28]
+2021-01-23 21:44:25,865 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:44:25,865 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : spade, 9. 
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : cards:[25, 4]
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : Have money 1760 left
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:25,866 AI_logger.py[line:40] - INFO - root : round 2
+2021-01-23 21:44:26,223 AI_logger.py[line:40] - INFO - root : 牌力0.0405
+2021-01-23 21:44:26,223 AI_logger.py[line:40] - INFO - root : 调整牌力0.0405
+2021-01-23 21:44:26,224 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:44:26,224 AI_logger.py[line:40] - INFO - root : check 的赔率：0.3333333333333333
+2021-01-23 21:44:26,224 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.3333333333333333
+2021-01-23 21:44:26,224 AI_logger.py[line:40] - INFO - root : 最小赔率：0.3333333333333333
+2021-01-23 21:44:26,224 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : sharedcards:[22, 51, 41, 28, 11]
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : diamond, 7. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : club, A. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : heart, Q. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : spade, 9. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : club, 4. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : cards:[25, 4]
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : heart, 8. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : spade, 3. 
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : Have money 1760 left
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:36,108 AI_logger.py[line:40] - INFO - root : round 3
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : 牌力0.0072
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : 调整牌力0.0072
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : ***********my decision***************
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : check 的赔率：0.3333333333333333
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : raisebet 0的赔率：0.3333333333333333
+2021-01-23 21:44:36,467 AI_logger.py[line:40] - INFO - root : 最小赔率：0.3333333333333333
+2021-01-23 21:44:36,468 AI_logger.py[line:40] - INFO - root : giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : ***********record start***************
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : sharedcards:[]
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : cards:[34, 28]
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : diamond, T. 
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : spade, 9. 
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : Have money 1720 left
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : 
+
+2021-01-23 21:44:51,922 AI_logger.py[line:40] - INFO - root : round 0
+2021-01-23 21:44:52,043 AI_logger.py[line:40] - INFO - root : pre flop round， 牌力0.5124897959183673
+2021-01-23 21:44:52,043 AI_logger.py[line:40] - INFO - root : ***********record finish***************
+2021-01-23 21:44:52,043 AI_logger.py[line:40] - INFO - root : giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
