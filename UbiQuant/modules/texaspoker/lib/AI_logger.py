@@ -22,13 +22,13 @@ class AI_Logger(object):
             formatter = logging.Formatter(fmt=fmt)
             streamHandler  = logging.StreamHandler()
             streamHandler.setFormatter(formatter)
-            streamHandler.setLevel(logging.DEBUG)
+            streamHandler.setLevel(logging.INFO)
             self.logger.addHandler(streamHandler)
             
             logRecordFile = loggerFolder+exeFileName+"_"+datetime.datetime.now().strftime("%Y-%m-%d.log")
             fileHandler=logging.FileHandler(logRecordFile, encoding='utf-8')
             fileHandler.setFormatter(formatter)
-            fileHandler.setLevel(logging.DEBUG)
+            fileHandler.setLevel(logging.INFO)
             self.logger.addHandler(fileHandler)
 
         

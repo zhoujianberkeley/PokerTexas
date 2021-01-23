@@ -15,7 +15,9 @@ from lib.client_lib import Decision
 from lib.AI_logger import AI_Logger
 
 
-logger = AI_Logger()
+logger = AI_Logger('debug_logger')
+
+record_logger = AI_Logger('record_logger')
 
 def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
@@ -57,6 +59,9 @@ def am_I_the_last_raiser(records, round, mypos):
     '''
     主要为了判断本轮最新一次加注的是不是自己，防止出现在某一轮中一直加注.(不确定官方网站处理时是否会自动处理这种行为）
     '''
+    if round not in records.keys():
+        return False
+
     record = records[round]
     latest_raiser = ''
     for position in record.keys():
@@ -108,7 +113,6 @@ def count_raise(records, round, mypos, skip_self=True):
     剔除了自己的raise，剔除了大小盲的raise
     skip_self:是否跳过自己的flag变量
     """
-    logger.debug("records" + str(records))
 
     r_num, a_num = 0, 0
     if round not in records.keys():
@@ -312,6 +316,18 @@ def ai(id, state, records, num_iter=5):
     my_hole_cards = translate_card(state.player[id].cards)
     board_cards = translate_card(state.sharedcards)
 
+    record_logger.info('***********record start***************')
+    record_logger.info('sharedcards:%s' % str(state.sharedcards))
+    for x in state.sharedcards:
+        record_logger.info('%s. ' % decode_card(x))
+    record_logger.info('cards:%s' % str(state.player[id].cards))
+    for x in state.player[id].cards:
+        record_logger.info('%s. ' % decode_card(x))
+    record_logger.info('\n')
+    record_logger.info('Have money {} left'.format(state.player[id].money))
+    record_logger.info('\n')
+    record_logger.info(f"round {state.turnNum}")
+
     decision = Decision()
 
     # 在最初局，只使用二人对弈胜率来评判牌力大小
@@ -321,6 +337,8 @@ def ai(id, state, records, num_iter=5):
 
         # 算2个人的牌力
         hole_card_power = cal_win_ratio(my_hole_cards, board_cards, num_other_player=1, num_iter=num_iter)[1]
+        record_logger.info(f"pre flop round， 牌力{hole_card_power}")
+        record_logger.info('***********record finish***************')
 
         # 一等手牌
         if hole_card_power > 0.76:
@@ -439,9 +457,11 @@ def ai(id, state, records, num_iter=5):
         # cal win ratio
         win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=2)
         my_win_props = win_props[1]
-
+        record_logger.info(f"牌力{my_win_props}")
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+        record_logger.info(f"调整牌力{my_win_props}")
+        record_logger.info('***********record finish***************')
         amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
         # 提取合法的行为
         dict_of_move = dict()
@@ -460,7 +480,7 @@ def ai(id, state, records, num_iter=5):
                 if current_odds < min_odds:
                     min_odds = current_odds
                     best_action = action
-
+        record_logger.info(f"赔率：{min_odds}")
         if my_win_props < min_odds:
             if can_I_check(id,state):
                 decision.check = 1
@@ -468,8 +488,7 @@ def ai(id, state, records, num_iter=5):
                 decision.giveup= 1
             return decision
 
-        logger.debug(f"decision.{best_action}=1")
-        eval('decision.'+best_action+'=1')
+        exec('decision.'+best_action+'=1')
         if best_action == 'raisebet': # todo Jian update decide raise amount type
             decision.amount = amount
         return decision

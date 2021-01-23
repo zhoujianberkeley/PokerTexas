@@ -49,7 +49,10 @@ from AI.DavidAI_v1_0 import ai
 
 # **************************************modify here to set address and port ***********************
 address = '47.103.23.116'
-port = 56711
+port = 56720 # 56703-56720
+# 56720是有前端的port，UI链接http://47.103.23.116:56702/card?name=01David&passwd=kxUEGLXn
+# 如果是非56720别的port，得把client02,client03都得连进去
+
 # *************************************************************************************************
 
 
@@ -65,6 +68,7 @@ port = 56711
 # The server will give the blindbet automatically and brodcast the desicion to all the player.
 #*********
 
+record_logger = AI_Logger('record_logger')
 
 CLIENT_VERSION = 'V1.4'
 
@@ -102,10 +106,10 @@ class Client(object):
         self.bigBlind = -1
         self.totalPlayer = -1
         self.button = -1
-        self.logger = logger
         self.step = -1
+        self.logger = logger
         if self.logger is None:
-            self.logger = AI_Logger()
+            self.logger = AI_Logger('root_logger')
         self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
 
         self.initialized = False
@@ -192,6 +196,8 @@ class Client(object):
                     # decision = self.ai(self.mypos, self.state)
                     logger.debug("self.mypos: " + str(self.mypos))
                     decision = self.ai(self.mypos, self.state, self._decision_record)
+
+                    record_logger.info(decision)
 
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')
@@ -329,13 +335,13 @@ class Client(object):
                 self.logger.info('Have money {} left'.format(res.userMoney[self.mypos]))
 
                 self.stoped = True
-                # save decision record
-                record_path = "records"
-                if not os.path.exists(record_path):
-                    os.makedirs(record_path)
-                with open(os.path.join(record_path, 'decision_record.pickle'), 'wb') as f:
-                    # Pickle the 'data' dictionary using the highest protocol available.
-                    pickle.dump(self._decision_record, f, pickle.HIGHEST_PROTOCOL)
+                # # save decision record
+                # record_path = "records"
+                # if not os.path.exists(record_path):
+                #     os.makedirs(record_path)
+                # with open(os.path.join(record_path, 'decision_record.pickle'), 'wb') as f:
+                #     # Pickle the 'data' dictionary using the highest protocol available.
+                #     pickle.dump(self._decision_record, f, pickle.HIGHEST_PROTOCOL)
 
                 # self.client_reset(self.username, self.ai, self.logger, self.mypos)
                 if ISTESTING:
@@ -404,7 +410,9 @@ if __name__ == '__main__':
 #     username = "02David"
     username = glob.glob('*David_key.txt')[0][:-8]
 
-    logger = AI_Logger()
+    from lib.simple_logger import file_logger
+    fileName = 'action_logger'
+    logger = file_logger(fileName)
 # ****************************************************************************************************
 
 
