@@ -327,7 +327,9 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
             return True
         return False
 
-# todo shentingwei 暂定逻辑 待修改
+# todo shentingwei 逻辑无误，不过可以优化
+# 目前的设定是因为出现过有好手牌但是没钱进一步raise了所以要all in
+# 目前因为cal_odd里有对all in赔率的计算，所以即使可以all_in也可能因为赔率太大而give up
 def can_I_allin(id,state,records,amount):
     if not can_I_check(id,state) and not can_I_callbet(id,state) and not can_I_raisebet(id,state,records,amount):
         return True
