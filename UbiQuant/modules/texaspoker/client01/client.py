@@ -49,7 +49,7 @@ from AI.DavidAI_v1_0 import ai
 
 # **************************************modify here to set address and port ***********************
 address = '47.103.23.116'
-port = 56720 # 56703-56720
+port = 56713 # 56703-56720
 # 56720是有前端的port，UI链接http://47.103.23.116:56702/card?name=01David&passwd=kxUEGLXn
 # 如果是非56720别的port，得把client02,client03都得连进去
 
