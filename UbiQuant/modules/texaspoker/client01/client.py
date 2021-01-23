@@ -411,7 +411,7 @@ if __name__ == '__main__':
     username = glob.glob('*David_key.txt')[0][:-8]
 
     from lib.simple_logger import file_logger
-    fileName = '../../../../test_result/test_result_Jan16/action_logger_loose_with_player_num_bug'
+    fileName = 'action_logger.log'
     logger = file_logger(fileName)
 # ****************************************************************************************************
 
