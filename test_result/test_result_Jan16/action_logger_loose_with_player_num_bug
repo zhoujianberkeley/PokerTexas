@@ -1,0 +1,3007 @@
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 9
+[ACTION]: player at 2 callbet in round 2. actionNum: 10
+[ACTION]: player at 2 check in round 3. actionNum: 11
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 12
+[ACTION]: player at 2 giveup in round 3. actionNum: 13
+***********game over***************
+sharedcards:[2, 4, 13, 30, 0]
+diamond, 2. 
+spade, 3. 
+heart, 5. 
+diamond, 9. 
+spade, 2. 
+cards:[47, 11]
+club, K. 
+club, 4. 
+
+
+Have money 1980 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 02nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 raisebet to 840 in round 1. actionNum: 7
+[ACTION]: player at 1 giveup in round 1. actionNum: 8
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 1. actionNum: 9
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 10
+[ACTION]: player at 0 raisebet to 880 in round 2. actionNum: 11
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 2. actionNum: 12
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 13
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 14
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 3. actionNum: 15
+***********game over***************
+sharedcards:[2, 8, 50, 11, 4]
+diamond, 2. 
+spade, 4. 
+diamond, A. 
+club, 4. 
+spade, 3. 
+cards:[6, 15]
+diamond, 3. 
+club, 5. 
+
+
+Have money 3820 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 1 check in round 3. actionNum: 9
+[ACTION]: player at 0 check in round 3. actionNum: 10
+***********game over***************
+sharedcards:[43, 5, 47, 27, 26]
+club, Q. 
+heart, 3. 
+club, K. 
+club, 8. 
+diamond, 8. 
+cards:[28, 20]
+spade, 9. 
+spade, 7. 
+
+
+Have money 3780 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 480 in round 1. actionNum: 7
+player at pos 0 illegalMove and is forced to give up. actionNum 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[9, 3, 32, 2, 22]
+heart, 4. 
+club, 2. 
+spade, 10. 
+diamond, 2. 
+diamond, 7. 
+cards:[26, 46]
+diamond, 8. 
+diamond, K. 
+
+
+Have money 3700 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 02zhihe
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 6
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+[ACTION]: player at 1 callbet in round 1. actionNum: 8
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 9
+[ACTION]: player at 2 raisebet to 240 in round 2. actionNum: 10
+player at pos 1 illegalMove and is forced to give up. actionNum 11
+***********game over***************
+sharedcards:[32, 27, 36, 49, 3]
+spade, 10. 
+club, 8. 
+spade, J. 
+heart, A. 
+club, 2. 
+cards:[50, 47]
+diamond, A. 
+club, K. 
+
+
+Have money 3620 left
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 120 in round 1. actionNum: 6
+player at pos 1 illegalMove and is forced to give up. actionNum 7
+***********game over***************
+sharedcards:[35, 29, 32, 22, 26]
+club, 10. 
+heart, 9. 
+spade, 10. 
+diamond, 7. 
+diamond, 8. 
+cards:[49, 2]
+heart, A. 
+diamond, 2. 
+
+
+Have money 3580 left
+This ai is begin at the pos 1
+pos 0: 02zhihe
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 7
+[ACTION]: player at 0 giveup in round 1. actionNum: 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 1. actionNum: 9
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 10
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 11
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 2. actionNum: 12
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 3. actionNum: 13
+[ACTION]: player at 2 check in round 3. actionNum: 14
+***********game over***************
+sharedcards:[20, 33, 38, 45, 7]
+spade, 7. 
+heart, 10. 
+diamond, J. 
+heart, K. 
+club, 3. 
+cards:[47, 32]
+club, K. 
+spade, 10. 
+
+
+Have money 3820 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 80 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[18, 6, 10, 28, 46]
+diamond, 6. 
+diamond, 3. 
+diamond, 4. 
+spade, 9. 
+diamond, K. 
+cards:[23, 33]
+club, 7. 
+heart, 10. 
+
+
+Have money 3820 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 8
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+[ACTION]: player at 0 giveup in round 2. actionNum: 10
+***********game over***************
+sharedcards:[19, 42, 27, 34, 11]
+club, 6. 
+diamond, Q. 
+club, 8. 
+diamond, 10. 
+club, 4. 
+cards:[15, 7]
+club, 5. 
+club, 3. 
+
+
+Have money 3780 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[10, 0, 45, 27, 30]
+diamond, 4. 
+spade, 2. 
+heart, K. 
+club, 8. 
+diamond, 9. 
+cards:[16, 21]
+spade, 6. 
+heart, 7. 
+
+
+Have money 3760 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 02zhihe
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[29, 36, 3, 5, 16]
+heart, 9. 
+spade, J. 
+club, 2. 
+heart, 3. 
+spade, 6. 
+cards:[24, 1]
+spade, 8. 
+heart, 2. 
+
+
+Have money 3760 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 640 in round 3. actionNum: 9
+player at pos 0 illegalMove and is forced to give up. actionNum 10
+***********game over***************
+sharedcards:[6, 44, 29, 14, 13]
+diamond, 3. 
+spade, K. 
+heart, 9. 
+diamond, 5. 
+heart, 5. 
+cards:[27, 18]
+club, 8. 
+diamond, 6. 
+
+
+Have money 3740 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 02zhihe
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 1 callbet in round 1. actionNum: 7
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 8
+[ACTION]: player at 2 callbet in round 2. actionNum: 9
+[ACTION]: player at 1 raisebet to 40 in round 3. actionNum: 10
+[ACTION]: player at 2 callbet in round 3. actionNum: 11
+***********game over***************
+sharedcards:[48, 36, 34, 42, 13]
+spade, A. 
+spade, J. 
+diamond, 10. 
+diamond, Q. 
+heart, 5. 
+cards:[21, 41]
+heart, 7. 
+heart, Q. 
+
+
+Have money 3740 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02zhihe
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 allin in round 1. actionNum: 6
+[ACTION]: player at 1 callbet in round 1. actionNum: 7
+***********game over***************
+sharedcards:[39, 8, 35, 11, 26]
+club, J. 
+spade, 4. 
+club, 10. 
+club, 4. 
+diamond, 8. 
+cards:[37, 27]
+heart, J. 
+club, 8. 
+
+
+Have money 3740 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 02nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 raisebet to 1120 in round 2. actionNum: 7
+[ACTION]: player at 2 callbet in round 2. actionNum: 8
+[ACTION]: player at 1 raisebet to 600 in round 3. actionNum: 9
+[ACTION]: player at 2 callbet in round 3. actionNum: 10
+***********game over***************
+sharedcards:[45, 42, 28, 33, 34]
+heart, K. 
+diamond, Q. 
+spade, 9. 
+heart, 10. 
+diamond, 10. 
+cards:[1, 46]
+heart, 2. 
+diamond, K. 
+
+
+Have money 3740 left
+This ai is begin at the pos 1
+pos 0: 02nishuodedoudui
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 1. actionNum: 7
+[ACTION]: player at 0 check in round 1. actionNum: 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 9
+[ACTION]: player at 2 check in round 2. actionNum: 10
+[ACTION]: player at 0 check in round 2. actionNum: 11
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 3. actionNum: 12
+[ACTION]: player at 2 raisebet to 40 in round 3. actionNum: 13
+[ACTION]: player at 0 giveup in round 3. actionNum: 14
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 3. actionNum: 15
+***********game over***************
+sharedcards:[2, 20, 21, 9, 8]
+diamond, 2. 
+spade, 7. 
+heart, 7. 
+heart, 4. 
+spade, 4. 
+cards:[39, 47]
+club, J. 
+club, K. 
+
+
+Have money 3660 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 02nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 9
+[ACTION]: player at 0 check in round 2. actionNum: 10
+[ACTION]: player at 1 check in round 3. actionNum: 11
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 12
+[ACTION]: player at 0 check in round 3. actionNum: 13
+***********game over***************
+sharedcards:[0, 48, 49, 3, 16]
+spade, 2. 
+spade, A. 
+heart, A. 
+club, 2. 
+spade, 6. 
+cards:[23, 24]
+club, 7. 
+spade, 8. 
+
+
+Have money 3620 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 02zhihe
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 520 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[17, 12, 9, 8, 27]
+heart, 6. 
+spade, 5. 
+heart, 4. 
+spade, 4. 
+club, 8. 
+cards:[15, 46]
+club, 5. 
+diamond, K. 
+
+
+Have money 3600 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[2, 6, 15, 12, 40]
+diamond, 2. 
+diamond, 3. 
+club, 5. 
+spade, 5. 
+spade, Q. 
+cards:[38, 7]
+diamond, J. 
+club, 3. 
+
+
+Have money 3580 left
+This ai is begin at the pos 1
+pos 0: 02zhihe
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 80 in round 1. actionNum: 5
+[ACTION]: player at 0 callbet in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 7
+[ACTION]: player at 0 callbet in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 40 in round 3. actionNum: 9
+[ACTION]: player at 0 giveup in round 3. actionNum: 10
+***********game over***************
+sharedcards:[18, 31, 51, 5, 3]
+diamond, 6. 
+club, 9. 
+club, A. 
+heart, 3. 
+club, 2. 
+cards:[10, 7]
+diamond, 4. 
+club, 3. 
+
+
+Have money 3560 left
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 02nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[34, 6, 21, 26, 3]
+diamond, 10. 
+diamond, 3. 
+heart, 7. 
+diamond, 8. 
+club, 2. 
+cards:[38, 25]
+diamond, J. 
+heart, 8. 
+
+
+Have money 3520 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 7
+[ACTION]: player at 0 raisebet to 80 in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 200 in round 2. actionNum: 9
+[ACTION]: player at 0 raisebet to 440 in round 2. actionNum: 10
+[ACTION]: player at 2 callbet in round 2. actionNum: 11
+[ACTION]: player at 2 raisebet to 1000 in round 3. actionNum: 12
+[ACTION]: player at 0 callbet in round 3. actionNum: 13
+***********game over***************
+sharedcards:[13, 48, 1, 25, 24]
+heart, 5. 
+spade, A. 
+heart, 2. 
+heart, 8. 
+spade, 8. 
+cards:[36, 15]
+spade, J. 
+club, 5. 
+
+
+Have money 3500 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 80 in round 2. actionNum: 9
+[ACTION]: player at 2 callbet in round 2. actionNum: 10
+[ACTION]: player at 2 check in round 3. actionNum: 11
+[ACTION]: player at 0 raisebet to 120 in round 3. actionNum: 12
+[ACTION]: player at 2 giveup in round 3. actionNum: 13
+***********game over***************
+sharedcards:[22, 13, 32, 50, 34]
+diamond, 7. 
+heart, 5. 
+spade, 10. 
+diamond, A. 
+diamond, 10. 
+cards:[23, 44]
+club, 7. 
+spade, K. 
+
+
+Have money 3480 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 02nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 1 check in round 3. actionNum: 9
+[ACTION]: player at 0 check in round 3. actionNum: 10
+***********game over***************
+sharedcards:[39, 20, 32, 5, 7]
+club, J. 
+spade, 7. 
+spade, 10. 
+heart, 3. 
+club, 3. 
+cards:[16, 42]
+spade, 6. 
+diamond, Q. 
+
+
+Have money 3440 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 02zhihe
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[31, 10, 49, 8, 41]
+club, 9. 
+diamond, 4. 
+heart, A. 
+spade, 4. 
+heart, Q. 
+cards:[35, 29]
+club, 10. 
+heart, 9. 
+
+
+Have money 3400 left
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 520 in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[8, 44, 27, 12, 34]
+spade, 4. 
+spade, K. 
+club, 8. 
+spade, 5. 
+diamond, 10. 
+cards:[17, 14]
+heart, 6. 
+diamond, 5. 
+
+
+Have money 3360 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 8
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[17, 40, 4, 16, 15]
+heart, 6. 
+spade, Q. 
+spade, 3. 
+spade, 6. 
+club, 5. 
+cards:[36, 9]
+spade, J. 
+heart, 4. 
+
+
+Have money 3340 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 280 in round 2. actionNum: 8
+[ACTION]: player at 0 callbet in round 2. actionNum: 9
+[ACTION]: player at 2 raisebet to 840 in round 3. actionNum: 10
+[ACTION]: player at 0 callbet in round 3. actionNum: 11
+***********game over***************
+sharedcards:[13, 28, 6, 47, 15]
+heart, 5. 
+spade, 9. 
+diamond, 3. 
+club, K. 
+club, 5. 
+cards:[23, 12]
+club, 7. 
+spade, 5. 
+
+
+Have money 3320 left
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 1. actionNum: 7
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 9
+[ACTION]: player at 2 callbet in round 1. actionNum: 10
+[ACTION]: player at 2 check in round 2. actionNum: 11
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 12
+[ACTION]: player at 2 callbet in round 2. actionNum: 13
+[ACTION]: player at 2 check in round 3. actionNum: 14
+[ACTION]: player at 0 raisebet to 1600 in round 3. actionNum: 15
+[ACTION]: player at 2 giveup in round 3. actionNum: 16
+***********game over***************
+sharedcards:[19, 33, 49, 42, 45]
+club, 6. 
+heart, 10. 
+heart, A. 
+diamond, Q. 
+heart, K. 
+cards:[15, 13]
+club, 5. 
+heart, 5. 
+
+
+Have money 3240 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02zhihe
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 80 in round 2. actionNum: 9
+[ACTION]: player at 2 callbet in round 2. actionNum: 10
+[ACTION]: player at 2 check in round 3. actionNum: 11
+[ACTION]: player at 0 raisebet to 120 in round 3. actionNum: 12
+[ACTION]: player at 2 callbet in round 3. actionNum: 13
+***********game over***************
+sharedcards:[50, 33, 8, 29, 22]
+diamond, A. 
+heart, 10. 
+spade, 4. 
+heart, 9. 
+diamond, 7. 
+cards:[34, 28]
+diamond, 10. 
+spade, 9. 
+
+
+Have money 3220 left
+This ai is begin at the pos 2
+pos 0: 02zhihe
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 9
+[ACTION]: player at 0 check in round 2. actionNum: 10
+[ACTION]: player at 1 check in round 3. actionNum: 11
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 12
+[ACTION]: player at 0 check in round 3. actionNum: 13
+***********game over***************
+sharedcards:[47, 36, 41, 30, 40]
+club, K. 
+spade, J. 
+heart, Q. 
+diamond, 9. 
+spade, Q. 
+cards:[34, 1]
+diamond, 10. 
+heart, 2. 
+
+
+Have money 3300 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02zhihe
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 2. actionNum: 9
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 2. actionNum: 10
+[ACTION]: player at 1 raisebet to 80 in round 3. actionNum: 11
+[ACTION]: player at 2 giveup in round 3. actionNum: 12
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 3. actionNum: 13
+***********game over***************
+sharedcards:[23, 11, 10, 44, 18]
+club, 7. 
+club, 4. 
+diamond, 4. 
+spade, K. 
+diamond, 6. 
+cards:[31, 48]
+club, 9. 
+spade, A. 
+
+
+Have money 3220 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 1
+pos 0: 02zhihe
+pos 1: 01David
+pos 2: 02nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[45, 2, 49, 41, 7]
+heart, K. 
+diamond, 2. 
+heart, A. 
+heart, Q. 
+club, 3. 
+cards:[12, 20]
+spade, 5. 
+spade, 7. 
+
+
+Have money 3200 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 120 in round 2. actionNum: 9
+[ACTION]: player at 2 giveup in round 2. actionNum: 10
+***********game over***************
+sharedcards:[47, 5, 29, 12, 37]
+club, K. 
+heart, 3. 
+heart, 9. 
+spade, 5. 
+heart, J. 
+cards:[32, 38]
+spade, 10. 
+diamond, J. 
+
+
+Have money 3180 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 02nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 80 in round 1. actionNum: 6
+[ACTION]: player at 2 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[7, 27, 16, 38, 46]
+club, 3. 
+club, 8. 
+spade, 6. 
+diamond, J. 
+diamond, K. 
+cards:[42, 20]
+diamond, Q. 
+spade, 7. 
+
+
+Have money 3160 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 2. actionNum: 9
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 2. actionNum: 10
+[ACTION]: player at 1 check in round 3. actionNum: 11
+[ACTION]: player at 2 raisebet to 800 in round 3. actionNum: 12
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 3. actionNum: 13
+player at pos 1 illegalMove and is forced to give up. actionNum 14
+***********game over***************
+sharedcards:[40, 45, 39, 0, 35]
+spade, Q. 
+heart, K. 
+club, J. 
+spade, 2. 
+club, 10. 
+cards:[37, 47]
+heart, J. 
+club, K. 
+
+
+Have money 2280 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 02zhihe
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 1 raisebet to 1360 in round 2. actionNum: 8
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 2. actionNum: 10
+[ACTION]: player at 1 raisebet to 720 in round 3. actionNum: 11
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 3. actionNum: 12
+***********game over***************
+sharedcards:[9, 36, 2, 44, 30]
+heart, 4. 
+spade, J. 
+diamond, 2. 
+spade, K. 
+diamond, 9. 
+cards:[49, 48]
+heart, A. 
+spade, A. 
+
+
+Have money 4520 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 02zhihe
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 80 in round 1. actionNum: 5
+[ACTION]: player at 2 callbet in round 1. actionNum: 6
+[ACTION]: player at 1 raisebet to 120 in round 2. actionNum: 7
+[ACTION]: player at 2 giveup in round 2. actionNum: 8
+***********game over***************
+sharedcards:[17, 14, 1, 9, 3]
+heart, 6. 
+diamond, 5. 
+heart, 2. 
+heart, 4. 
+club, 2. 
+cards:[26, 0]
+diamond, 8. 
+spade, 2. 
+
+
+Have money 4520 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02nishuodedoudui
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 520 in round 1. actionNum: 5
+player at pos 2 illegalMove and is forced to give up. actionNum 6
+***********game over***************
+sharedcards:[45, 26, 44, 8, 10]
+heart, K. 
+diamond, 8. 
+spade, K. 
+spade, 4. 
+diamond, 4. 
+cards:[24, 31]
+spade, 8. 
+club, 9. 
+
+
+Have money 4520 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 raisebet to 120 in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 120 in round 1. actionNum: 6
+[ACTION]: player at 2 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[45, 16, 18, 0, 9]
+heart, K. 
+spade, 6. 
+diamond, 6. 
+spade, 2. 
+heart, 4. 
+cards:[22, 41]
+diamond, 7. 
+heart, Q. 
+
+
+Have money 4500 left
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 120 in round 1. actionNum: 7
+[ACTION]: player at 0 callbet in round 1. actionNum: 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 callbet in round 1. actionNum: 9
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 10
+[ACTION]: player at 2 raisebet to 200 in round 2. actionNum: 11
+[ACTION]: player at 0 callbet in round 2. actionNum: 12
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 2. actionNum: 13
+[ACTION]: player at 2 raisebet to 360 in round 3. actionNum: 14
+[ACTION]: player at 0 giveup in round 3. actionNum: 15
+***********game over***************
+sharedcards:[38, 50, 31, 17, 42]
+diamond, J. 
+diamond, A. 
+club, 9. 
+heart, 6. 
+diamond, Q. 
+cards:[34, 45]
+diamond, 10. 
+heart, K. 
+
+
+Have money 4300 left
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 raisebet to 120 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 2 raisebet to 120 in round 1. actionNum: 6
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 160 in round 2. actionNum: 8
+[ACTION]: player at 0 callbet in round 2. actionNum: 9
+[ACTION]: player at 2 raisebet to 320 in round 3. actionNum: 10
+[ACTION]: player at 0 callbet in round 3. actionNum: 11
+***********game over***************
+sharedcards:[29, 42, 21, 33, 8]
+heart, 9. 
+diamond, Q. 
+heart, 7. 
+heart, 10. 
+spade, 4. 
+cards:[37, 24]
+heart, J. 
+spade, 8. 
+
+
+Have money 4280 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 raisebet to 120 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[3, 49, 36, 6, 40]
+club, 2. 
+heart, A. 
+spade, J. 
+diamond, 3. 
+spade, Q. 
+cards:[42, 2]
+diamond, Q. 
+diamond, 2. 
+
+
+Have money 4280 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 120 in round 1. actionNum: 6
+[ACTION]: player at 2 allin in round 1. actionNum: 7
+***********game over***************
+sharedcards:[39, 19, 17, 40, 46]
+club, J. 
+club, 6. 
+heart, 6. 
+spade, Q. 
+diamond, K. 
+cards:[27, 33]
+club, 8. 
+heart, 10. 
+
+
+Have money 4260 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+player at pos 2 illegalMove and is forced to give up. actionNum 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 7
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 2. actionNum: 8
+***********game over***************
+sharedcards:[11, 9, 13, 26, 14]
+club, 4. 
+heart, 4. 
+heart, 5. 
+diamond, 8. 
+diamond, 5. 
+cards:[48, 28]
+spade, A. 
+spade, 9. 
+
+
+Have money 4180 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 raisebet to 120 in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[46, 50, 15, 14, 17]
+diamond, K. 
+diamond, A. 
+club, 5. 
+diamond, 5. 
+heart, 6. 
+cards:[25, 1]
+heart, 8. 
+heart, 2. 
+
+
+Have money 4180 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[3, 17, 12, 15, 4]
+club, 2. 
+heart, 6. 
+spade, 5. 
+club, 5. 
+spade, 3. 
+cards:[7, 32]
+club, 3. 
+spade, 10. 
+
+
+Have money 4180 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 3. actionNum: 9
+[ACTION]: player at 2 raisebet to 40 in round 3. actionNum: 10
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 3. actionNum: 11
+***********game over***************
+sharedcards:[26, 16, 49, 3, 32]
+diamond, 8. 
+spade, 6. 
+heart, A. 
+club, 2. 
+spade, 10. 
+cards:[47, 38]
+club, K. 
+diamond, J. 
+
+
+Have money 4100 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[0, 12, 14, 33, 42]
+spade, 2. 
+spade, 5. 
+diamond, 5. 
+heart, 10. 
+diamond, Q. 
+cards:[41, 28]
+heart, Q. 
+spade, 9. 
+
+
+Have money 4060 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[17, 48, 21, 20, 26]
+heart, 6. 
+spade, A. 
+heart, 7. 
+spade, 7. 
+diamond, 8. 
+cards:[11, 15]
+club, 4. 
+club, 5. 
+
+
+Have money 4060 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 7
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 8
+[ACTION]: player at 0 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[27, 10, 38, 16, 21]
+club, 8. 
+diamond, 4. 
+diamond, J. 
+spade, 6. 
+heart, 7. 
+cards:[40, 30]
+spade, Q. 
+diamond, 9. 
+
+
+Have money 3980 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[22, 30, 15, 37, 10]
+diamond, 7. 
+diamond, 9. 
+club, 5. 
+heart, J. 
+diamond, 4. 
+cards:[12, 41]
+spade, 5. 
+heart, Q. 
+
+
+Have money 3980 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 1 raisebet to 40 in round 3. actionNum: 9
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 3. actionNum: 10
+***********game over***************
+sharedcards:[9, 33, 46, 20, 31]
+heart, 4. 
+heart, 10. 
+diamond, K. 
+spade, 7. 
+club, 9. 
+cards:[5, 28]
+heart, 3. 
+spade, 9. 
+
+
+Have money 3940 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[51, 18, 17, 25, 29]
+club, A. 
+diamond, 6. 
+heart, 6. 
+heart, 8. 
+heart, 9. 
+cards:[42, 45]
+diamond, Q. 
+heart, K. 
+
+
+Have money 3980 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[7, 15, 27, 1, 33]
+club, 3. 
+club, 5. 
+club, 8. 
+heart, 2. 
+heart, 10. 
+cards:[46, 31]
+diamond, K. 
+club, 9. 
+
+
+Have money 3980 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[36, 17, 4, 37, 44]
+spade, J. 
+heart, 6. 
+spade, 3. 
+heart, J. 
+spade, K. 
+cards:[30, 13]
+diamond, 9. 
+heart, 5. 
+
+
+Have money 4000 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[47, 39, 12, 40, 38]
+club, K. 
+club, J. 
+spade, 5. 
+spade, Q. 
+diamond, J. 
+cards:[1, 36]
+heart, 2. 
+spade, J. 
+
+
+Have money 3960 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[20, 3, 39, 16, 24]
+spade, 7. 
+club, 2. 
+club, J. 
+spade, 6. 
+spade, 8. 
+cards:[9, 30]
+heart, 4. 
+diamond, 9. 
+
+
+Have money 3940 left
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 3. actionNum: 9
+[ACTION]: player at 0 check in round 3. actionNum: 10
+***********game over***************
+sharedcards:[38, 23, 49, 36, 43]
+diamond, J. 
+club, 7. 
+heart, A. 
+spade, J. 
+club, Q. 
+cards:[7, 30]
+club, 3. 
+diamond, 9. 
+
+
+Have money 3920 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 check in round 1. actionNum: 7
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 check in round 1. actionNum: 9
+[ACTION]: player at 1 check in round 2. actionNum: 10
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 11
+[ACTION]: player at 0 check in round 2. actionNum: 12
+[ACTION]: player at 1 check in round 3. actionNum: 13
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 14
+[ACTION]: player at 0 check in round 3. actionNum: 15
+***********game over***************
+sharedcards:[35, 47, 0, 24, 13]
+club, 10. 
+club, K. 
+spade, 2. 
+spade, 8. 
+heart, 5. 
+cards:[50, 51]
+diamond, A. 
+club, A. 
+
+
+Have money 4080 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 7
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 8
+[ACTION]: player at 0 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[20, 45, 28, 22, 3]
+spade, 7. 
+heart, K. 
+spade, 9. 
+diamond, 7. 
+club, 2. 
+cards:[48, 37]
+spade, A. 
+heart, J. 
+
+
+Have money 4000 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[29, 14, 44, 35, 3]
+heart, 9. 
+diamond, 5. 
+spade, K. 
+club, 10. 
+club, 2. 
+cards:[22, 36]
+diamond, 7. 
+spade, J. 
+
+
+Have money 3960 left
+This ai is begin at the pos 2
+pos 0: 01chengpuxiongwei
+pos 1: 01nishuodedoudui
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[19, 16, 37, 6, 14]
+club, 6. 
+spade, 6. 
+heart, J. 
+diamond, 3. 
+diamond, 5. 
+cards:[28, 13]
+spade, 9. 
+heart, 5. 
+
+
+Have money 3980 left
+This ai is begin at the pos 1
+pos 0: 01chengpuxiongwei
+pos 1: 01David
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+player at pos 0 illegalMove and is forced to give up. actionNum 2
+self.mypos: 1
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[19, 12, 50, 35, 47]
+club, 6. 
+spade, 5. 
+diamond, A. 
+club, 10. 
+club, K. 
+cards:[4, 46]
+spade, 3. 
+diamond, K. 
+
+
+Have money 3960 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01chengpuxiongwei
+pos 2: 01nishuodedoudui
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[11, 46, 36, 28, 44]
+club, 4. 
+diamond, K. 
+spade, J. 
+spade, 9. 
+spade, K. 
+cards:[14, 18]
+diamond, 5. 
+diamond, 6. 
+
+
+Have money 3960 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 5
+[ACTION]: player at 0 allin in round 1. actionNum: 6
+***********game over***************
+sharedcards:[0, 47, 27, 31, 23]
+spade, 2. 
+club, K. 
+club, 8. 
+club, 9. 
+club, 7. 
+cards:[29, 17]
+heart, 9. 
+heart, 6. 
+
+
+Have money 3920 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 01nishuodedoudui
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:0 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+self.mypos: 0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+***********game over***************
+sharedcards:[12, 50, 17, 33, 48]
+spade, 5. 
+diamond, A. 
+heart, 6. 
+heart, 10. 
+spade, A. 
+cards:[41, 25]
+heart, Q. 
+heart, 8. 
+
+
+Have money 3920 left
+This ai is begin at the pos 2
+pos 0: 01nishuodedoudui
+pos 1: 01chengpuxiongwei
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+self.mypos: 2
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 120 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[31, 48, 1, 2, 41]
+club, 9. 
+spade, A. 
+heart, 2. 
+diamond, 2. 
+heart, Q. 
+cards:[26, 33]
+diamond, 8. 
+heart, 10. 
+
+
+Have money 3880 left
+This ai is begin at the pos 1
+pos 0: 01nishuodedoudui
+pos 1: 01David
+pos 2: 01chengpuxiongwei
+
+******client initialized****** client:1 step:0
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1

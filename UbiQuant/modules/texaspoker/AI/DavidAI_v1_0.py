@@ -341,7 +341,7 @@ def ai(id, state, records, num_iter=5):
         record_logger.info('***********record finish***************')
 
         # 一等手牌
-        if hole_card_power > 0.76:
+        if hole_card_power > 0.64:
             num_active_player = state.playernum
             # 还剩两个对手，持续下注
             if num_active_player > 2:
@@ -361,7 +361,7 @@ def ai(id, state, records, num_iter=5):
                     return decision
 
         # 二等手牌
-        if hole_card_power > 0.71:
+        if hole_card_power > 0.605:
 
             #之前没有起raise的或者没有3bet的,优先raise
             if time_of_rise<=1:
@@ -380,7 +380,7 @@ def ai(id, state, records, num_iter=5):
             return decision
 
         # 三等手牌
-        if hole_card_power > 0.65:
+        if hole_card_power > 0.550:
             # 没有人rasie
             if time_of_rise==0:
                 amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
@@ -406,7 +406,7 @@ def ai(id, state, records, num_iter=5):
             return decision
 
         # 四等手牌
-        if hole_card_power > 0.57:
+        if hole_card_power > 0.408:
             # 只玩带A或者对子牌 #todo jian understand the logic
             if do_hole_cards_have_A_suit(my_hole_cards) or do_hole_cards_have_pair(my_hole_cards):
                 if can_I_check(id,state):
@@ -455,7 +455,7 @@ def ai(id, state, records, num_iter=5):
     # 桌面上已出现公共牌，3，4，5张策略相同
     else:
         # cal win ratio
-        win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=2)
+        win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=state.playernum-1, num_iter=2)
         my_win_props = win_props[1]
         record_logger.info(f"牌力{my_win_props}")
         # adjust win ratio

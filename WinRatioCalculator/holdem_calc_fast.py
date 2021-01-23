@@ -2,9 +2,9 @@ import random
 import time
 import holdem_functions
 import holdem_argparser
-import numba
+# import numba
 import numpy as np
-from numba import jit
+# from numba import jit
 
 def main():
     hole_cards, num, exact, board, file_name = holdem_argparser.parse_args()
