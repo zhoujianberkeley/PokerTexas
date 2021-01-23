@@ -78,7 +78,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
         unknown_index1 = hole_cards.index((None, None))
         unknown_index2 = hole_cards.index((None, None), unknown_index1+1)
         start_time = time.time()
-        for filler_hole_cards2 in holdem_functions.generate_random_hole_cards(deck, number=4, num_iterations=10000):
+        for filler_hole_cards2 in holdem_functions.generate_random_hole_cards(deck, number=4, num_iterations=5000):
             hole_cards_list[unknown_index1] = filler_hole_cards2[0:2]
             hole_cards_list[unknown_index2] = filler_hole_cards2[2:4]
             deck_list = list(deck)

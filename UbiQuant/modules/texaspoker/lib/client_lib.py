@@ -340,10 +340,18 @@ class Player(object):
         self.allin = 1
         self.money = 0
 
-    # calculate difference to minibet
+
     @property
-    def delta(self):
+    def diff_callbet(self):
+        # calculate difference to state.minbet if we call bet
         return self.state.minbet - self.bet
+
+    def diff_raisebet(self, raise_amount):
+        # calculate difference to state.minbet if we raise bet
+        return raise_amount - self.bet
+
+    #todo Tingwei move can I * to here
+    # todo Tingwei cosider allin when check
 
     def getcards(self):
         return self.cards + self.state.sharedcards

@@ -137,8 +137,8 @@ def ai(id, state):
 
 #
 # totalbet = 0
-#     delta = state.minbet - state.player[state.currpos].bet
-#     if delta >= state.player[state.currpos].money:
+#     diff_callbet = state.minbet - state.player[state.currpos].bet
+#     if diff_callbet >= state.player[state.currpos].money:
 #         totalbet = 2000
 #     else:
 #         totalbet = state.player[state.currpos].totalbet + state.minbet
@@ -190,7 +190,7 @@ def ai(id, state):
 #             # 若已下的注额大于200, 且本次需跟注额不大于50， 则跟注
 #             if totalbet < 150:
 #                     decision.callbet = 1
-#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and delta < 50:
+#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and diff_callbet < 50:
 #                 decision.callbet = 1
 #             else:
 #                 decision.giveup = 1
@@ -220,7 +220,7 @@ def ai(id, state):
 #             # 若已下的注额大于200, 且本次需跟注额不大于50， 则跟注
 #             if totalbet < 300:
 #                     decision.callbet = 1
-#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and delta < 50:
+#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and diff_callbet < 50:
 #                 decision.callbet = 1
 #             else:
 #                 decision.giveup = 1
@@ -271,7 +271,7 @@ def ai(id, state):
 #                 decision = add_bet(state, 300)
 #             elif totalbet < 500:
 #                 decision.callbet = 1
-#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and delta < 50:
+#             elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and diff_callbet < 50:
 #                 decision.callbet = 1
 #             else:
 #                 decision.giveup = 1
@@ -281,7 +281,7 @@ def ai(id, state):
 #                 # 若已下的注额大于200, 且本次需跟注额不大于50， 则跟注
 #                 if totalbet < 200:
 #                     decision.callbet = 1
-#                 elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and delta < 50:
+#                 elif state.player[state.currpos].totalbet + state.player[state.currpos].bet > 200 and diff_callbet < 50:
 #                     decision.callbet = 1
 #                 else:
 #                     decision.giveup = 1
@@ -296,7 +296,7 @@ def ai(id, state):
 #         else:
 #             print('the num of cards is {}'.format(num))
 #             assert(0)
-#     if decision.callbet == 1 and delta == state.player[state.currpos].money:
+#     if decision.callbet == 1 and diff_callbet == state.player[state.currpos].money:
 #         decision.callbet = 0
 #         decision.allin = 1
 #     if decision.callbet == 1 and state.minbet == 0:
