@@ -476,10 +476,10 @@ def ai(id, state, records, num_iter=5):
             if dict_of_move[action]:
                 if action == 'raisebet': # todo Jian update decide raise amount type
                     _amount = amount
-                    current_odds = cal_odds(state, state.currpos, action, _amount)
+                    current_odds = cal_odds(state, state.currpos, action, amount=_amount)
                     record_logger.info(f"{action} {amount}的赔率：{current_odds}")
                 else:
-                    current_odds = cal_odds(state, state.currpos, action, _amount=None)
+                    current_odds = cal_odds(state, state.currpos, action, amount=None)
                     record_logger.info(f"{action} 的赔率：{current_odds}")
 
                 if current_odds < min_odds:
