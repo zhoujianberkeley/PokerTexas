@@ -308,7 +308,7 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
 
 # todo shentingwei 暂定逻辑 待修改
 def can_I_allin(id,state):
-    if state.player[id].money<40:
+    if not can_I_check(id,state) and not can_I_callbet(id,state) and not can_I_raisebet(id,state):
         return True
     return False
 
@@ -482,7 +482,7 @@ def ai(id, state, records, num_iter=5):
                     current_odds = cal_odds(state, state.currpos, action, amount=None)
                     record_logger.info(f"{action} 的赔率：{current_odds}")
 
-                if current_odds < min_odds:
+                if current_odds <= min_odds:
                     min_odds = current_odds
                     best_action = action
         record_logger.info(f"最小赔率：{min_odds}")
