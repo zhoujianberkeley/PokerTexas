@@ -4,8 +4,7 @@
 '''
 import re
 
-from numpy import np
-
+import numpy as np
 from lib.client_lib import State
 from lib.client_lib import Player
 from lib.client_lib import Hand
@@ -33,6 +32,10 @@ def translate_card(cards):
         results.append(value + color[0])
     return results
 
+def hole_cards_power_rank(hole_cards):
+    rank_first = [('Ad','As'),('As','Ks'),('Kd','Ks'),('Kd','As'),('Qd','Qs')]
+    rank_second = [('Qd','As'),('Kd','Qs'),('Jd','Js'),('Td','Ts'),('As','Qs'),('Qs','Ks'),('As','Js')]
+    rank_third = [()]
 
 def cal_win_ratio(hole_cards, board_cards, num_other_player, num_iter):
     """
