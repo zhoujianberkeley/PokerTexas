@@ -140,7 +140,7 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
     """
     round = state.turnNum  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
 
-    r_penalty, a_penalty = 0.02, 0.05
+    r_penalty, a_penalty = 0.035, 0.05
     r_num, a_num = count_raise(records, round, mypos)
 
     if round == 0:
