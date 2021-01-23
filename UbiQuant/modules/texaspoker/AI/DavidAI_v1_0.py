@@ -288,18 +288,25 @@ def can_I_callbet(id, state):
     return False
 
 
-def can_I_raisebet(id, state, records, allow_continue_raisebet=False):
+def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
     #有钱加注
-    min_raise_amount = state.last_raised + state.minbet
+
+    # min_raise_amount = state.last_raised + state.minbet
+    min_raise_amount = amount
     if allow_continue_raisebet:
-        if state.player[id].money> (min_raise_amount - state.player[id].bet):  # todo money
+        if state.player[id].money> (min_raise_amount - state.player[id].bet): 
             return True
         return False
     else:  # 只有本轮的最新加注者不是我自己时才能加注
-        if state.player[id].bet>min_raise_amount and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
+        if state.player[id].money> (min_raise_amount - state.player[id].bet)and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
             return True
         return False
 
+# todo shentingwei 暂定逻辑 待修改
+def can_I_allin(id,state):
+    if state.player[id].money<40:
+        return True
+    return False
 
 def ai(id, state, records, num_iter=5):
     my_hole_cards = translate_card(state.player[id].cards)
@@ -319,10 +326,12 @@ def ai(id, state, records, num_iter=5):
         if hole_card_power > 0.76:
             num_active_player = state.playernum
             # 还剩两个对手，持续下注
-            if num_active_player > 2 and can_I_raisebet(id,state,records,allow_continue_raisebet=True):
-                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
-                decision.raisebet = 1 #todo tingwei change logic
-                return decision
+            if num_active_player > 2:
+                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                if can_I_raisebet(id,state,records,amount,allow_continue_raisebet=True):
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
 
             # call或check
             if num_active_player <= 2:
@@ -337,10 +346,12 @@ def ai(id, state, records, num_iter=5):
         if hole_card_power > 0.71:
 
             #之前没有起raise的或者没有3bet的,优先raise
-            if time_of_rise<=1 and can_I_raisebet(id,state,records):
-                decision.raisebet = 1
-                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
-                return decision #todo tingwei change logic
+            if time_of_rise<=1:
+                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                if can_I_raisebet(id, state, records, amount):
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
 
             #出现4bet，该弃牌了
             if time_of_rise >=3:  #todo 万一我加了很多钱呢，是否加入odds
@@ -353,15 +364,20 @@ def ai(id, state, records, num_iter=5):
         # 三等手牌
         if hole_card_power > 0.65:
             # 没有人rasie
-            if time_of_rise==0 and can_I_raisebet(id,state,records):
-                decision.raisebet = 1
-                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
-                return decision
+            if time_of_rise==0:
+                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                if can_I_raisebet(id, state, records, amount):
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
             # 有人rasie，我3bet
-            if time_of_rise == 1 and state.currpos==2 and can_I_raisebet(id,state,records):
-                decision.raisebet = 1
-                decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
-                return decision
+
+            if time_of_rise == 1 and state.currpos==2:
+                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                if can_I_raisebet(id, state, records, amount):
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
 
             #出现3bet及以上，而且不是我发起的，弃牌
             if time_of_rise >=2 and not am_I_the_last_raiser(records,state.turnNum,state.currpos):
@@ -397,12 +413,13 @@ def ai(id, state, records, num_iter=5):
         #小盲位
         if state.currpos == 1:
             if state.minbet == 40:
-                win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=1) #todo tingwei recalculate 3个人win props
+                win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=2, num_iter=1)
                 my_win_props = win_props[1]
 
                 # adjust win ratio
                 my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-                if can_I_callbet(id, state) and my_win_props< cal_odds(state,state.currpos,'callbet'):
+
+                if can_I_callbet(id, state) and my_win_props > cal_odds(state,state.currpos,'callbet'):
                     decision.callbet = 1
                     return decision
 
@@ -425,19 +442,18 @@ def ai(id, state, records, num_iter=5):
 
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
+        amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
         # 提取合法的行为
         dict_of_move = dict()
         dict_of_move['check'] = can_I_check(id,state)
         dict_of_move['callbet'] = can_I_callbet(id,state)
-        dict_of_move['raisebet'] = can_I_raisebet(id,state,records)
-        # todo tingwei 加all in
+        dict_of_move['raisebet'] = can_I_raisebet(id,state,records,amount)
+        dict_of_move['allin'] = can_I_allin(id,state)
 
         best_action = 'callbet'
         min_odds = np.inf
         for action in dict_of_move.keys():
             amount = 0
-            if action == 'raisebet':
-                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
                 # todo Jian update decide raise amount type
             if dict_of_move[action]:
                 current_odds = cal_odds(state, state.currpos, action, amount)
@@ -455,6 +471,6 @@ def ai(id, state, records, num_iter=5):
         logger.debug(f"decision.{best_action}=1")
         eval('decision.'+best_action+'=1')
         if best_action == 'raisebet': # todo Jian update decide raise amount type
-            decision.amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+            decision.amount = amount
         return decision
 
