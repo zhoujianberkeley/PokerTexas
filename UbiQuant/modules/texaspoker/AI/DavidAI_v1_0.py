@@ -132,6 +132,26 @@ def count_raise(records, round, mypos, skip_self=True):
                 a_num += 1
     return r_num, a_num
 
+def count_raise_history(records, mypos, skip_self=True):
+    """
+    计算某一轮的的raise和all in 次数
+    剔除了自己的raise，剔除了大小盲的raise
+    skip_self:是否跳过自己的flag变量
+    """
+
+    r_num, a_num = 0, 0
+    for record in records.values():
+        for position in record.keys():
+            if position == mypos and skip_self:  # 跳过自己的position
+                continue
+            for action in record[position]:
+                if re.findall("actionNum: [01]", action):  # 跳过actionNum 0 和 actionNum 1，大小盲
+                    continue
+                if "raisebet" in action:
+                    r_num += 1
+                elif "allin" in action:
+                    a_num += 1
+    return r_num, a_num
 
 def adjust_win_ratio(state, mypos, win_ratio, records):
     """
@@ -140,8 +160,9 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
     """
     round = state.turnNum  # 0, 1, 2, 3 for pre-flop round, flop round, turn round and river round
 
-    r_penalty, a_penalty = 0.035, 0.05
-    r_num, a_num = count_raise(records, round, mypos)
+    r_penalty, a_penalty = 0.02, 0.05
+    r_num, a_num = count_raise_history(records,mypos)
+    # r_num, a_num = count_raise(records, round, mypos)
 
     if round == 0:
         # pre-flop round
