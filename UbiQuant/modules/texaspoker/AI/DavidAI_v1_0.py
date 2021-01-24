@@ -595,19 +595,20 @@ def ai(id, state, records, num_iter=5):
         else:
             delta = 0
         # 如果成本>1000而且胜率低
-        if delta > 1000:
-            if state.playernum == 2:
-                threshold = 0.6
-            elif state.playernum == 3:
-                threshold = 0.4
-            if my_win_props < threshold:
-                if can_I_check(id, state):
-                    decision.check = 1
-                    record_logger.info(f"check, my_win_props {my_win_props} < min_odds {min_odds}")
-                else:
-                    decision.giveup = 1
-                    record_logger.info(f"give up, my_win_props {my_win_props} < min_odds {min_odds}")
-                return decision
+        if best_action == 'raisebet':
+            if delta > 1000:
+                if state.playernum == 2:
+                    threshold = 0.6
+                elif state.playernum == 3:
+                    threshold = 0.4
+                if my_win_props < threshold:
+                    if can_I_check(id, state):
+                        decision.check = 1
+                        record_logger.info(f"check, my_win_props {my_win_props} < min_odds {min_odds}")
+                    else:
+                        decision.giveup = 1
+                        record_logger.info(f"give up, my_win_props {my_win_props} < min_odds {min_odds}")
+                    return decision
 
         return decision
 
