@@ -155,11 +155,11 @@ def create_hole_cards(raw_hole_cards):
             hole_cards.append((current_hole_cards[0], current_hole_cards[1]))
             current_hole_cards = []
     if hole_cards.count((None, None)) == 1:
-        print("Have one set of unknown hole cards")
+        print("WinRatio Calculator: Have one set of unknown hole cards")
     elif hole_cards.count((None, None)) == 2:
-        print("Have two set of unknown hole cards")
+        print("WinRatio Calculator: Have two set of unknown hole cards")
     if hole_cards.count((None, None)) > 2:
-            print("Can only have at most two set of unknown hole cards")
+            print("WinRatio Calculator: Can only have at most two set of unknown hole cards")
     return tuple(hole_cards)
 
 # Returns list of board cards: e.g. [As Ks Ad Kd]

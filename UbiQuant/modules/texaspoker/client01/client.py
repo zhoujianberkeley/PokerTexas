@@ -47,9 +47,10 @@ from AI.DavidAI_v1_0 import ai
 
 
 
-# **************************************modify here to set address and port ***********************
+# **************************************modify here to set
+# and port ***********************
 address = '47.103.23.116'
-port = 56713 # 56703-56720
+port = 56703 # 56703-56720
 # 56720是有前端的port，UI链接http://47.103.23.116:56702/card?name=01David&passwd=kxUEGLXn
 # 如果是非56720别的port，得把client02,client03都得连进去
 
@@ -68,7 +69,7 @@ port = 56713 # 56703-56720
 # The server will give the blindbet automatically and brodcast the desicion to all the player.
 #*********
 
-record_logger = AI_Logger('record_logger')
+
 
 CLIENT_VERSION = 'V1.4'
 
@@ -108,8 +109,10 @@ class Client(object):
         self.button = -1
         self.step = -1
         self.logger = logger
+        self.record_logger = AI_Logger('record_logger')
+
         if self.logger is None:
-            self.logger = AI_Logger('root_logger')
+            self.logger = AI_Logger('default_logger')
         self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
 
         self.initialized = False
@@ -190,14 +193,15 @@ class Client(object):
                 # server asking for a decision from the client
                 self.state.currpos = res.pos
                 if res.pos == self.mypos:
-                    print("-------------------------------------")
-                    print(self._decision_so_far)
-                    print("-------------------------------------")
+                    # print("-------------------------------------")
+                    # print(self._decision_so_far)
+                    # print("-------------------------------------")
                     # decision = self.ai(self.mypos, self.state)
-                    logger.debug("self.mypos: " + str(self.mypos))
-                    decision = self.ai(self.mypos, self.state, self._decision_record)
 
-                    record_logger.info(decision)
+                    decision = self.ai(self.mypos, self.state, self._decision_record)
+                    self.logger.info(decision)
+                    self.record_logger.info(decision)
+
 
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')
@@ -305,6 +309,7 @@ class Client(object):
 
                 self.mypos = res.pos
                 self.logger.info('This ai is begin at the pos {}'.format(self.mypos))
+                self.record_logger.info('This ai is begin at the pos {}'.format(self.mypos))
 
                 ### If the player in current position already connected to the game,
                 # then the game server will return msg in which button is -1
@@ -313,7 +318,9 @@ class Client(object):
                     self.logger.info('Game already started. wait for next game.')
                     # self.stoped = True
                     continue
+                # player name
                 self.logger.info(res.extra)
+                self.record_logger.info(res.extra)
                 self.step = 0
                 self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
                 self.state.last_raised = self.bigBlind
@@ -410,9 +417,10 @@ if __name__ == '__main__':
 #     username = "02David"
     username = glob.glob('*David_key.txt')[0][:-8]
 
-    from lib.simple_logger import file_logger
-    fileName = 'action_logger.log'
-    logger = file_logger(fileName)
+    from lib.simple_logger import simple_logger
+    logger = simple_logger()
+    fileName = '../../../../test_result/client_logger.log'
+    # logger = simple_logger(fileName)
 # ****************************************************************************************************
 
 

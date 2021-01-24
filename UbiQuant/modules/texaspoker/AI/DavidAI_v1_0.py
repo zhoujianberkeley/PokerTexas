@@ -15,8 +15,7 @@ from lib.client_lib import Decision
 from lib.AI_logger import AI_Logger
 
 
-logger = AI_Logger('debug_logger')
-
+debug_logger = AI_Logger('debug_logger')
 record_logger = AI_Logger('record_logger')
 
 def decode_card(num):
@@ -116,7 +115,7 @@ def count_raise(records, round, mypos, skip_self=True):
 
     r_num, a_num = 0, 0
     if round not in records.keys():
-        logger.debug(f"{round} not in records keys")
+        debug_logger.debug(f"{round} not in records keys")
         return r_num, a_num
 
     record = records[round]
@@ -138,7 +137,7 @@ def count_raise_history(records, mypos, skip_self=True):
     剔除了自己的raise，剔除了大小盲的raise
     skip_self:是否跳过自己的flag变量
     """
-
+    ex_list = []
     r_num, a_num = 0, 0
     for record in records.values():
         for position in record.keys():
@@ -147,6 +146,8 @@ def count_raise_history(records, mypos, skip_self=True):
             for action in record[position]:
                 if re.findall("actionNum: [01]", action):  # 跳过actionNum 0 和 actionNum 1，大小盲
                     continue
+                if action in ex_list:
+                    continue
                 if "raisebet" in action:
                     r_num += 1
                 elif "allin" in action:
@@ -154,6 +155,7 @@ def count_raise_history(records, mypos, skip_self=True):
     return r_num, a_num
 
 def adjust_win_ratio(state, mypos, win_ratio, records):
+    # todo exclusion list add win ratio when
     """
     观察到all in, 胜率 - a_penalty
     观察到raise, 胜率 - r_penalty
@@ -162,7 +164,6 @@ def adjust_win_ratio(state, mypos, win_ratio, records):
 
     r_penalty, a_penalty = 0.01, 0.05
     r_num, a_num = count_raise_history(records,mypos)
-    # r_num, a_num = count_raise(records, round, mypos)
 
     if round == 0:
         # pre-flop round
@@ -189,7 +190,6 @@ def cal_odds(state, mypos, action, amount=None):
 		 赔率=(x1+z1) / (y1+z1+z1 + p乘以z1) if 除我之外有两个玩家
     """
     pot = state.moneypot  # money in the pot
-    logger.debug("id2"+str(mypos))
     player = state.player[mypos]
     totalbet = player.totalbet + player.bet
 
@@ -210,55 +210,114 @@ def cal_odds(state, mypos, action, amount=None):
             elif state.playernum > 2:
                 odds = (totalbet + player.diff_callbet) / \
                        (pot + player.diff_callbet + sum(
-                           [0.5 * p.diff_callbet for p in state.player if (p.active and p is not player)]))
-    elif action == "raisebet": # todo 考虑 对方没钱的时候
+                           [0.75 * p.diff_callbet for p in state.player if (p.active and p is not player)]))
+    elif action == "raisebet": # todo low priority 考虑对方没钱的时候
         if state.playernum == 2:
             odds = (totalbet + amount) / \
                    (pot + amount + sum([(amount - p.bet) for p in state.player if (p.active and p is not player)]))
         elif state.playernum > 2:
             odds = (totalbet + amount) / \
                    (pot + amount + sum(
-                       [0.5 * (amount - p.bet) for p in state.player if (p.active and p is not player)]))
+                       [0.75 * (amount - p.bet) for p in state.player if (p.active and p is not player)]))
     elif action == "allin":
-        # 如果allin 加的注 > raisebet所需要最小的注，odds和raisebet一样的
-        if player.money > state.last_raised + state.minbet:
-            return cal_odds(state, mypos, action="raisebet", amount=player.money)
-        # 如果allin 加的注 < raisebet所需要最小的注
-        if state.playernum == 2:
-            odds = (totalbet + player.money) / \
-                   (pot + player.money + sum([p.diff_callbet for p in state.player if (p.active and p is not player)]))
-        elif state.playernum > 2:
-            odds = (totalbet + player.money) / \
-                   (pot + player.money + sum([0.5*p.diff_callbet for p in state.player if (p.active and p is not player)]))
+        # odds和raisebet player.money的情况是一样的
+        return cal_odds(state, mypos, action="raisebet", amount=player.money)
+        # # 如果allin 加的注 > raisebet所需要最小的注，odds和raisebet一样的
+        # if player.money > state.last_raised + state.minbet:
+        #     return cal_odds(state, mypos, action="raisebet", amount=player.money)
+        # # 如果allin 加的注 < raisebet所需要最小的注
+        # if state.playernum == 2:
+        #     odds = (totalbet + player.money) / \
+        #            (pot + player.money + sum([player.money - p.bet for p in state.player if (p.active and (p is not player)) ]))
+        # elif state.playernum > 2:
+        #     odds = (totalbet + player.money) / \
+        #            (pot + player.money + sum([0.75*(player.money - p.bet) for p in state.player if (p.active and p is not player)]))
     else:
         raise NotImplementedError("illegal action")
     return odds
 
+def decide_raise_type(power='weak'):
+    """
+    用于preflop轮决定raise amount
+    """
+    if power == 'strong':
+        raise_type = 'fullpot'
+    elif power == 'medium':
+        raise_type = 'halfpot'
+    elif power == 'weak':
+        raise_type = 'min'
+    else:
+        raise_type = False
+    return raise_type
 
-def cal_raise_amount(state, mypos, type):
+
+def decide_raise_type2(state, win_prob):
+    """
+    用于flop/turn/river轮决定raise amount
+    """
+    if state.playernum == 2:
+        if win_prob > 0.9:
+            raise_type = 'allin'
+        elif win_prob > 0.8:
+            raise_type = 'fullpot'
+        elif win_prob > 0.7:
+            raise_type = 'halfpot'
+        elif win_prob > 0.5:
+            raise_type = 'min'
+        else:
+            raise_type = False
+    elif state.playernum == 3:
+        if win_prob > 0.7:
+            raise_type = 'fullpot'
+        elif win_prob > 0.55:
+            raise_type = 'halfpot'
+        elif win_prob > 0.35:
+            raise_type = 'min'
+        else:
+            raise_type = False
+    else:
+        raise NotImplementedError("illegal state.playernum")
+    return raise_type
+
+
+def cal_raise_amount(state, mypos, raise_type):
     """
     基于之前玩家的raise，计算我们如果raise，所需要增加到的总筹码
     """
     pot = state.moneypot  # money in the pot
     min_raise_amount = state.last_raised + state.minbet
     min_remains = remaining_money(state, mypos)
-
-    if type == 'fullpot':
+    if type(raise_type) == int:
+        raise_amount = state.minbet + raise_type*state.last_raised
+    elif raise_type == 'allin':
+        raise_amount = state.player[mypos].money
+    elif raise_type == 'fullpot':
         raise_amount = pot
-    elif type == 'halfpot':
+    elif raise_type == 'halfpot':
         raise_amount = pot // 2
-    else:
+    elif raise_type == 'min':
         raise_amount = min_raise_amount
-    # 如果加注 大于 其他玩家所剩的最少的筹码数量，向下调整到所剩的最少的筹码数量
-    if raise_amount > min_remains:
-        raise_amount = min_remains
-        print(f'raise_amount {raise_amount} > min_remains {min_remains}, decrease to {min_remains}')
+    elif raise_type is False:
+        raise_amount = 0
+    else:
+        raise NotImplementedError("illegal raise amount type, muse be fullpot halfpot or min")
+
+    # # 如果加注 大于 其他玩家所剩的最少的筹码数量，向下调整到所剩的最少的筹码数量
+    # if min_remains < min_raise_amount:
+    #     print(f'min_remains {min_remains} < min_raise_amount {min_raise_amount} > , change decision to callbet')
+    #     raise_amount = 0
+    #
+    # # 如果加注 大于 其他玩家所剩的最少的筹码数量，向下调整到所剩的最少的筹码数量
+    # if raise_amount > min_remains:
+    #     print(f'raise_amount {raise_amount} > min_remains {min_remains}, decrease to {min_remains}')
+    #     raise_amount = min_remains
+
     # 如果加注 小于 最小加注量，向上调整到最小加注量
     if raise_amount < min_raise_amount:
-        raise_amount = min_raise_amount
         print(f'raise_amount {raise_amount} < min_raise_amount {min_raise_amount}, increase to {min_raise_amount}')
+        raise_amount = min_raise_amount
+    record_logger.info(f"raise amount {raise_amount}, raise type {raise_type}")
     return raise_amount
-    ##疑问:那这样的话，是不是假设剩下人的最小筹码如果赶不上min_raise_amount，我还是会选择raise？
 
 
 def remaining_money(state, mypos):
@@ -290,15 +349,6 @@ def add_bet(state, total):
     decision.amount = real_amount
     return decision
 
-
-def decide_raise_amount_type():
-    '''
-    由于不确定到底使用哪种raise amount，现在暂时先random一下
-    '''
-    random.seed(time.time())
-    return random.sample(['fullpot', 'halfpot', 'other'], 1)
-
-
 def can_I_check(id, state):
     # 需要跟注
     if state.player[id].bet < state.minbet:
@@ -306,14 +356,13 @@ def can_I_check(id, state):
     return True
 
 def can_I_callbet(id, state):
-
     # 有钱跟注,而且严格区分callbet和check，如果前人没有raise，就不能call
-    if state.minbet-state.player[id].bet<state.player[id].money and not can_I_check(id,state):
+    if state.minbet-state.player[id].bet <= state.player[id].money and not can_I_check(id,state):
         return True
     return False
 
 
-def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
+def can_I_raisebet(id, state, records, amount, allow_continue_raisebet=False):
     #有钱加注
 
     # min_raise_amount = state.last_raised + state.minbet
@@ -331,9 +380,12 @@ def can_I_raisebet(id, state, records, amount,allow_continue_raisebet=False):
 # 目前的设定是因为出现过有好手牌但是没钱进一步raise了所以要all in
 # 目前因为cal_odd里有对all in赔率的计算，所以即使可以all_in也可能因为赔率太大而give up
 def can_I_allin(id,state,records,amount):
-    if not can_I_check(id,state) and not can_I_callbet(id,state) and not can_I_raisebet(id,state,records,amount):
+    if (not can_I_check(id,state)) and (not can_I_callbet(id,state)) and (not can_I_raisebet(id,state,records,amount)):
         return True
-    return False
+    elif state.player[id].money < 80: # Jian优化，在上面条件都不满足的情况，如果所剩筹码小于80，则允许all in
+        return True
+    else:
+        return False
 
 def ai(id, state, records, num_iter=5):
     # todo logger加下user at pos 是谁
@@ -347,8 +399,6 @@ def ai(id, state, records, num_iter=5):
     record_logger.info('cards:%s' % str(state.player[id].cards))
     for x in state.player[id].cards:
         record_logger.info('%s. ' % decode_card(x))
-    record_logger.info('\n')
-    record_logger.info('Have money {} left'.format(state.player[id].money))
     record_logger.info('\n')
     record_logger.info(f"round {state.turnNum}")
 
@@ -369,7 +419,7 @@ def ai(id, state, records, num_iter=5):
             num_active_player = state.playernum
             # 还剩两个对手，持续下注
             if num_active_player > 2:
-                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                amount = cal_raise_amount(state, state.currpos, decide_raise_type('strong'))
                 if can_I_raisebet(id,state,records,amount,allow_continue_raisebet=True):
                     decision.amount = amount
                     decision.raisebet = 1
@@ -377,6 +427,19 @@ def ai(id, state, records, num_iter=5):
 
             # call或check
             if num_active_player <= 2:
+                # add pot to 200
+                if state.moneypot < 200 and hole_card_power > 0.75:
+                    amount = cal_raise_amount(state, state.currpos, decide_raise_type('strong'))
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
+                # add pot to 150
+                elif state.moneypot < 150 and hole_card_power > 0.7:
+                    amount = cal_raise_amount(state, state.currpos, decide_raise_type('medium'))
+                    decision.amount = amount
+                    decision.raisebet = 1
+                    return decision
+
                 if can_I_check(id, state):
                     decision.check = 1
                     return decision
@@ -389,7 +452,7 @@ def ai(id, state, records, num_iter=5):
 
             #之前没有起raise的或者没有3bet的,优先raise
             if time_of_rise<=1:
-                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                amount = cal_raise_amount(state, state.currpos, decide_raise_type('medium'))
                 if can_I_raisebet(id, state, records, amount):
                     decision.amount = amount
                     decision.raisebet = 1
@@ -407,7 +470,7 @@ def ai(id, state, records, num_iter=5):
         if hole_card_power > 0.550:
             # 没有人rasie
             if time_of_rise==0:
-                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                amount = cal_raise_amount(state, state.currpos, decide_raise_type('weak'))
                 if can_I_raisebet(id, state, records, amount):
                     decision.amount = amount
                     decision.raisebet = 1
@@ -415,7 +478,7 @@ def ai(id, state, records, num_iter=5):
             # 有人rasie，我3bet
 
             if time_of_rise == 1 and state.currpos==2:
-                amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+                amount = cal_raise_amount(state, state.currpos, decide_raise_type('weak'))
                 if can_I_raisebet(id, state, records, amount):
                     decision.amount = amount
                     decision.raisebet = 1
@@ -439,7 +502,7 @@ def ai(id, state, records, num_iter=5):
 
                 #最多只跟一個大盲
                 if can_I_callbet(id,state) and time_of_rise<=1 and state.minbet ==40:
-                    decision.callbet =1
+                    decision.callbet = 1
                     return decision
 
             decision.giveup =1
@@ -481,24 +544,26 @@ def ai(id, state, records, num_iter=5):
         # cal win ratio
         win_props = cal_win_ratio(my_hole_cards, board_cards, num_other_player=state.playernum-1, num_iter=2)
         my_win_props = win_props[1]
-        record_logger.info(f"牌力{my_win_props}")
+        record_logger.info(f"牌力{my_win_props} 其他玩家数量{state.playernum-1}")
         # adjust win ratio
         my_win_props = adjust_win_ratio(state, id, my_win_props, records)
         record_logger.info(f"调整牌力{my_win_props}")
         record_logger.info('***********my decision***************')
-        amount = cal_raise_amount(state, state.currpos, decide_raise_amount_type())
+        # 计算最优的raise amount
+        amount = cal_raise_amount(state, state.currpos, decide_raise_type2(state, my_win_props))
+
         # 提取合法的行为
         dict_of_move = dict()
         dict_of_move['check'] = can_I_check(id,state)
         dict_of_move['callbet'] = can_I_callbet(id,state)
-        dict_of_move['raisebet'] = can_I_raisebet(id,state,records,amount)
+        dict_of_move['raisebet'] = can_I_raisebet(id,state, records, state.last_raised + state.minbet) # can i raise
         dict_of_move['allin'] = can_I_allin(id,state,records,amount)
 
         best_action = 'callbet'
         min_odds = np.inf
         for action in dict_of_move.keys():
             if dict_of_move[action]:
-                if action == 'raisebet': # todo Jian update decide raise amount type
+                if action == 'raisebet':
                     _amount = amount
                     current_odds = cal_odds(state, state.currpos, action, amount=_amount)
                     record_logger.info(f"{action} {amount}的赔率：{current_odds}")
@@ -513,12 +578,36 @@ def ai(id, state, records, num_iter=5):
         if my_win_props < min_odds:
             if can_I_check(id,state):
                 decision.check = 1
+                record_logger.info(f"check, my_win_props {my_win_props} < min_odds {min_odds}")
             else:
                 decision.giveup= 1
+                record_logger.info(f"give up, my_win_props {my_win_props} < min_odds {min_odds}")
             return decision
 
+
+
         exec('decision.'+best_action+'=1')
-        if best_action == 'raisebet': # todo Jian update decide raise amount type
+        if best_action == 'raisebet':
             decision.amount = amount
+            delta =  amount
+        elif best_action == 'callbet':
+            delta = state.player[id].diff_callbet
+        else:
+            delta = 0
+        # 如果成本>1000而且胜率低
+        if delta > 1000:
+            if state.playernum == 2:
+                threshold = 0.6
+            elif state.playernum == 3:
+                threshold = 0.4
+            if my_win_props < threshold:
+                if can_I_check(id, state):
+                    decision.check = 1
+                    record_logger.info(f"check, my_win_props {my_win_props} < min_odds {min_odds}")
+                else:
+                    decision.giveup = 1
+                    record_logger.info(f"give up, my_win_props {my_win_props} < min_odds {min_odds}")
+                return decision
+
         return decision
 

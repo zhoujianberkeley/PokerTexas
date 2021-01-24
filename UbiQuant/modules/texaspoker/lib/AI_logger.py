@@ -6,6 +6,7 @@ Created on Sun Dec 20 20:00:54 2020
 """
 import logging
 import datetime
+import os
 
 
 class AI_Logger(object):
@@ -14,24 +15,24 @@ class AI_Logger(object):
     u need to create a folder log under the folder tool
     problem may be found using spyder, use cmd instead
     '''
-    def __init__(self, loggerFolder ="log\\", exeFileName="", level=logging.DEBUG):
-        self.logger = logging.getLogger()
+    def __init__(self, filename, loggerFolder ="log", level=logging.DEBUG):
+        self.logger = logging.getLogger(filename)
         self.logger.setLevel(level)
         fmt = '%(asctime)-15s %(filename)s[line:%(lineno)d] - %(levelname)s - %(name)s : %(message)s'
         if len(self.logger.handlers) == 0:
             formatter = logging.Formatter(fmt=fmt)
             streamHandler  = logging.StreamHandler()
             streamHandler.setFormatter(formatter)
-            streamHandler.setLevel(logging.INFO)
+            streamHandler.setLevel(logging.CRITICAL)
             self.logger.addHandler(streamHandler)
             
-            logRecordFile = loggerFolder+exeFileName+"_"+datetime.datetime.now().strftime("%Y-%m-%d.log")
+            if not os.path.exists(loggerFolder):
+                os.makedirs(loggerFolder)
+            logRecordFile = os.path.join(loggerFolder,filename) +"_"+datetime.datetime.now().strftime("%h-%d-%H:%M%:%S.log")
             fileHandler=logging.FileHandler(logRecordFile, encoding='utf-8')
             fileHandler.setFormatter(formatter)
             fileHandler.setLevel(logging.INFO)
             self.logger.addHandler(fileHandler)
-
-        
         
     def debug(self,msg):
         self.logger.debug(msg)

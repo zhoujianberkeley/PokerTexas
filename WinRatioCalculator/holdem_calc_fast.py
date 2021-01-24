@@ -57,9 +57,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
     if num_unkonwn_pairs == 1:
         hole_cards_list = list(hole_cards)
         unknown_index = hole_cards.index((None, None))
-        # max_times=2
-        # current_times=0
-        start_time = time.time()
+        # start_time = time.time()
         for filler_hole_cards in holdem_functions.generate_hole_cards(deck):
             # if current_times>max_times:
             #     break
@@ -72,12 +70,12 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
                                          tuple(hole_cards_list), num,
                                          board_length, given_board, winner_list,
                                          result_histograms)
-        print("Time elapsed in for loop:", time.time() - start_time)
+        # print("Time elapsed in for loop:", time.time() - start_time)
     elif num_unkonwn_pairs == 2:
         hole_cards_list = list(hole_cards)
         unknown_index1 = hole_cards.index((None, None))
         unknown_index2 = hole_cards.index((None, None), unknown_index1+1)
-        start_time = time.time()
+        # start_time = time.time()
         for filler_hole_cards2 in holdem_functions.generate_random_hole_cards(deck, number=4, num_iterations=5000):
             hole_cards_list[unknown_index1] = filler_hole_cards2[0:2]
             hole_cards_list[unknown_index2] = filler_hole_cards2[2:4]
@@ -88,7 +86,7 @@ def run_simulation(hole_cards, num, exact, given_board, deck, verbose):
                                          tuple(hole_cards_list), num,
                                          board_length, given_board, winner_list,
                                          result_histograms)
-        print("Time elapsed in for loop:", time.time() - start_time)
+        # print("Time elapsed in for loop:", time.time() - start_time)
     elif num_unkonwn_pairs > 2:
         raise NotImplementedError("The number of unknown pairs are at most 2!")
     else:
