@@ -1,0 +1,3129 @@
+/Users/jianzhou/opt/anaconda3/envs/env_generic/bin/python /Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py
+Error: enter the name for the client!
+self.key is inited to kxUEGLXn
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 02jiucaihezi
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2000
+user at pos 1 has 2000
+user at pos 2 has 2000
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+***********game over***************
+sharedcards:[10, 36, 45, 22, 44]
+diamond, 4. 
+spade, J. 
+heart, K. 
+diamond, 7. 
+spade, K. 
+cards:[19, 33]
+club, 6. 
+heart, 10. 
+
+
+Have money 1960 left
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+Wait for next game begin.
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2040
+user at pos 1 has 2000
+user at pos 2 has 1960
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 1 callbet in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 0 check in round 2. actionNum: 9
+[ACTION]: player at 1 check in round 3. actionNum: 10
+[ACTION]: player at 0 check in round 3. actionNum: 11
+***********game over***************
+sharedcards:[33, 11, 3, 45, 41]
+heart, 10. 
+club, 4. 
+club, 2. 
+heart, K. 
+heart, Q. 
+cards:[47, 17]
+club, K. 
+heart, 6. 
+
+
+Have money 1920 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1960
+user at pos 1 has 1920
+user at pos 2 has 2120
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[23, 7, 44, 28, 42]
+club, 7. 
+club, 3. 
+spade, K. 
+spade, 9. 
+diamond, Q. 
+cards:[38, 32]
+diamond, J. 
+spade, 10. 
+
+
+Have money 1900 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2180
+user at pos 1 has 1920
+user at pos 2 has 1900
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[37, 18, 51, 25, 43]
+heart, J. 
+diamond, 6. 
+club, A. 
+heart, 8. 
+club, Q. 
+cards:[50, 8]
+diamond, A. 
+spade, 4. 
+
+
+Have money 1860 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2140
+user at pos 1 has 2000
+user at pos 2 has 1860
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 60 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 check in round 1. actionNum: 9
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 10
+[ACTION]: player at 0 raisebet to 240 in round 2. actionNum: 11
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 2. actionNum: 12
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 13
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 14
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 3. actionNum: 15
+***********game over***************
+sharedcards:[16, 27, 44, 17, 45]
+spade, 6. 
+club, 8. 
+spade, K. 
+heart, 6. 
+heart, K. 
+cards:[31, 51]
+club, 9. 
+club, A. 
+
+
+Have money 1500 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2580
+user at pos 1 has 1500
+user at pos 2 has 1920
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[18, 24, 35, 39, 46]
+diamond, 6. 
+spade, 8. 
+club, 10. 
+club, J. 
+diamond, K. 
+cards:[7, 36]
+club, 3. 
+spade, J. 
+
+
+Have money 1480 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1880
+user at pos 1 has 1480
+user at pos 2 has 2640
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[41, 15, 21, 45, 38]
+heart, Q. 
+club, 5. 
+heart, 7. 
+heart, K. 
+diamond, J. 
+cards:[3, 9]
+club, 2. 
+heart, 4. 
+
+
+Have money 1460 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1940
+user at pos 1 has 2600
+user at pos 2 has 1460
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 check in round 2. actionNum: 9
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 10
+[ACTION]: player at 0 check in round 3. actionNum: 11
+***********game over***************
+sharedcards:[24, 17, 32, 47, 36]
+spade, 8. 
+heart, 6. 
+spade, 10. 
+club, K. 
+spade, J. 
+cards:[9, 4]
+heart, 4. 
+spade, 3. 
+
+
+Have money 1420 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1420
+user at pos 1 has 2020
+user at pos 2 has 2560
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 callbet in round 1. actionNum: 6
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 7
+[ACTION]: player at 2 callbet in round 2. actionNum: 8
+[ACTION]: player at 1 raisebet to 400 in round 3. actionNum: 9
+[ACTION]: player at 2 giveup in round 3. actionNum: 10
+***********game over***************
+sharedcards:[23, 13, 14, 16, 9]
+club, 7. 
+heart, 5. 
+diamond, 5. 
+spade, 6. 
+heart, 4. 
+cards:[33, 10]
+heart, 10. 
+diamond, 4. 
+
+
+Have money 1420 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2140
+user at pos 1 has 1420
+user at pos 2 has 2440
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 3. actionNum: 9
+[ACTION]: player at 0 check in round 3. actionNum: 10
+***********game over***************
+sharedcards:[47, 27, 45, 34, 38]
+club, K. 
+club, 8. 
+heart, K. 
+diamond, 10. 
+diamond, J. 
+cards:[30, 4]
+diamond, 9. 
+spade, 3. 
+
+
+Have money 1400 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2400
+user at pos 1 has 1400
+user at pos 2 has 2200
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 giveup in round 1. actionNum: 7
+[ACTION]: player at 0 check in round 1. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 9
+[ACTION]: player at 0 check in round 2. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 3. actionNum: 11
+[ACTION]: player at 0 check in round 3. actionNum: 12
+***********game over***************
+sharedcards:[0, 39, 9, 47, 3]
+spade, 2. 
+club, J. 
+heart, 4. 
+club, K. 
+club, 2. 
+cards:[50, 16]
+diamond, A. 
+spade, 6. 
+
+
+Have money 1440 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2440
+user at pos 1 has 2120
+user at pos 2 has 1440
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 280 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[22, 18, 6, 21, 8]
+diamond, 7. 
+diamond, 6. 
+diamond, 3. 
+heart, 7. 
+spade, 4. 
+cards:[41, 17]
+heart, Q. 
+heart, 6. 
+
+
+Have money 1400 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2080
+user at pos 1 has 2520
+user at pos 2 has 1400
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 7
+[ACTION]: player at 1 callbet in round 1. actionNum: 8
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 9
+[ACTION]: player at 1 raisebet to 40 in round 2. actionNum: 10
+[ACTION]: player at 0 callbet in round 2. actionNum: 11
+[ACTION]: player at 1 raisebet to 40 in round 3. actionNum: 12
+[ACTION]: player at 0 callbet in round 3. actionNum: 13
+***********game over***************
+sharedcards:[51, 20, 49, 11, 18]
+club, A. 
+spade, 7. 
+heart, A. 
+club, 4. 
+diamond, 6. 
+cards:[31, 0]
+club, 9. 
+spade, 2. 
+
+
+Have money 1360 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1920
+user at pos 1 has 1360
+user at pos 2 has 2720
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 1. actionNum: 7
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 8
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 1. actionNum: 9
+[ACTION]: player at 2 callbet in round 1. actionNum: 10
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 11
+[ACTION]: player at 0 callbet in round 2. actionNum: 12
+[ACTION]: player at 2 check in round 3. actionNum: 13
+[ACTION]: player at 0 check in round 3. actionNum: 14
+***********game over***************
+sharedcards:[21, 4, 0, 32, 24]
+heart, 7. 
+spade, 3. 
+spade, 2. 
+spade, 10. 
+spade, 8. 
+cards:[51, 30]
+club, A. 
+diamond, 9. 
+
+
+Have money 1280 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2560
+user at pos 1 has 1280
+user at pos 2 has 2160
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[18, 29, 3, 31, 17]
+diamond, 6. 
+heart, 9. 
+club, 2. 
+club, 9. 
+heart, 6. 
+cards:[22, 1]
+diamond, 7. 
+heart, 2. 
+
+
+Have money 1260 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1260
+user at pos 1 has 2620
+user at pos 2 has 2120
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[38, 12, 11, 39, 26]
+diamond, J. 
+spade, 5. 
+club, 4. 
+club, J. 
+diamond, 8. 
+cards:[5, 35]
+heart, 3. 
+club, 10. 
+
+
+Have money 1260 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2580
+user at pos 1 has 1260
+user at pos 2 has 2160
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 raisebet to 280 in round 2. actionNum: 8
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[41, 18, 32, 31, 5]
+heart, Q. 
+diamond, 6. 
+spade, 10. 
+club, 9. 
+heart, 3. 
+cards:[21, 2]
+heart, 7. 
+diamond, 2. 
+
+
+Have money 1240 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2640
+user at pos 1 has 1240
+user at pos 2 has 2120
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[38, 49, 3, 30, 39]
+diamond, J. 
+heart, A. 
+club, 2. 
+diamond, 9. 
+club, J. 
+cards:[4, 35]
+spade, 3. 
+club, 10. 
+
+
+Have money 1220 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2700
+user at pos 1 has 2080
+user at pos 2 has 1220
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 60 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 check in round 1. actionNum: 7
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 raisebet to 240 in round 1. actionNum: 9
+[ACTION]: player at 1 giveup in round 1. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 1. actionNum: 11
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 12
+[ACTION]: player at 0 check in round 2. actionNum: 13
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 14
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 15
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 3. actionNum: 16
+***********game over***************
+sharedcards:[29, 6, 7, 15, 21]
+heart, 9. 
+diamond, 3. 
+club, 3. 
+club, 5. 
+heart, 7. 
+cards:[49, 33]
+heart, A. 
+heart, 10. 
+
+
+Have money 900 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 900
+user at pos 1 has 3100
+user at pos 2 has 2000
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 280 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[44, 48, 50, 2, 14]
+spade, K. 
+spade, A. 
+diamond, A. 
+diamond, 2. 
+diamond, 5. 
+cards:[42, 24]
+diamond, Q. 
+spade, 8. 
+
+
+Have money 900 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1960
+user at pos 1 has 900
+user at pos 2 has 3140
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 280 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[0, 9, 33, 13, 8]
+spade, 2. 
+heart, 4. 
+heart, 10. 
+heart, 5. 
+spade, 4. 
+cards:[2, 39]
+diamond, 2. 
+club, J. 
+
+
+Have money 880 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 880
+user at pos 1 has 1920
+user at pos 2 has 3200
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[23, 7, 13, 17, 29]
+club, 7. 
+club, 3. 
+heart, 5. 
+heart, 6. 
+heart, 9. 
+cards:[5, 35]
+heart, 3. 
+club, 10. 
+
+
+Have money 880 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1880
+user at pos 1 has 3240
+user at pos 2 has 880
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[20, 47, 37, 45, 24]
+spade, 7. 
+club, K. 
+heart, J. 
+heart, K. 
+spade, 8. 
+cards:[11, 46]
+club, 4. 
+diamond, K. 
+
+
+Have money 840 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 3200
+user at pos 1 has 1960
+user at pos 2 has 840
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 60 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 check in round 1. actionNum: 9
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 10
+[ACTION]: player at 0 check in round 2. actionNum: 11
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 12
+[ACTION]: player at 0 raisebet to 240 in round 3. actionNum: 13
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 3. actionNum: 14
+***********game over***************
+sharedcards:[29, 38, 7, 1, 28]
+heart, 9. 
+diamond, J. 
+club, 3. 
+heart, 2. 
+spade, 9. 
+cards:[30, 50]
+diamond, 9. 
+diamond, A. 
+
+
+Have money 1240 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1880
+user at pos 1 has 1240
+user at pos 2 has 2880
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 280 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[17, 23, 11, 28, 49]
+heart, 6. 
+club, 7. 
+club, 4. 
+spade, 9. 
+heart, A. 
+cards:[14, 44]
+diamond, 5. 
+spade, K. 
+
+
+Have money 1220 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1220
+user at pos 1 has 2940
+user at pos 2 has 1840
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 2 raisebet to 280 in round 2. actionNum: 8
+[ACTION]: player at 1 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[11, 23, 36, 18, 10]
+club, 4. 
+club, 7. 
+spade, J. 
+diamond, 6. 
+diamond, 4. 
+cards:[43, 3]
+club, Q. 
+club, 2. 
+
+
+Have money 1220 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1880
+user at pos 1 has 2900
+user at pos 2 has 1220
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 9
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 2. actionNum: 10
+***********game over***************
+sharedcards:[21, 6, 12, 9, 31]
+heart, 7. 
+diamond, 3. 
+spade, 5. 
+heart, 4. 
+club, 9. 
+cards:[30, 11]
+diamond, 9. 
+club, 4. 
+
+
+Have money 1180 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2860
+user at pos 1 has 1180
+user at pos 2 has 1960
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 2 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 240 in round 2. actionNum: 8
+[ACTION]: player at 0 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[14, 23, 5, 32, 43]
+diamond, 5. 
+club, 7. 
+heart, 3. 
+spade, 10. 
+club, Q. 
+cards:[26, 0]
+diamond, 8. 
+spade, 2. 
+
+
+Have money 1160 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1160
+user at pos 1 has 2060
+user at pos 2 has 2780
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 callbet in round 1. actionNum: 6
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+[ACTION]: player at 1 raisebet to 200 in round 2. actionNum: 8
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[48, 5, 12, 2, 32]
+spade, A. 
+heart, 3. 
+spade, 5. 
+diamond, 2. 
+spade, 10. 
+cards:[38, 45]
+diamond, J. 
+heart, K. 
+
+
+Have money 1080 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2260
+user at pos 1 has 2660
+user at pos 2 has 1080
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 check in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 9
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 2. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 3. actionNum: 11
+[ACTION]: player at 0 check in round 3. actionNum: 12
+***********game over***************
+sharedcards:[12, 39, 18, 6, 33]
+spade, 5. 
+club, J. 
+diamond, 6. 
+diamond, 3. 
+heart, 10. 
+cards:[2, 17]
+diamond, 2. 
+heart, 6. 
+
+
+Have money 1200 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1200
+user at pos 1 has 2180
+user at pos 2 has 2620
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 60 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 2. actionNum: 9
+[ACTION]: player at 2 giveup in round 3. actionNum: 10
+***********game over***************
+sharedcards:[35, 41, 17, 6, 9]
+club, 10. 
+heart, Q. 
+heart, 6. 
+diamond, 3. 
+heart, 4. 
+cards:[31, 29]
+club, 9. 
+heart, 9. 
+
+
+Have money 1400 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2100
+user at pos 1 has 1400
+user at pos 2 has 2500
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 0 callbet in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 240 in round 3. actionNum: 9
+[ACTION]: player at 0 callbet in round 3. actionNum: 10
+***********game over***************
+sharedcards:[32, 17, 30, 27, 28]
+spade, 10. 
+heart, 6. 
+diamond, 9. 
+club, 8. 
+spade, 9. 
+cards:[21, 19]
+heart, 7. 
+club, 6. 
+
+
+Have money 1380 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2510
+user at pos 1 has 1380
+user at pos 2 has 2110
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 raisebet to 80 in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 1. actionNum: 7
+[ACTION]: player at 0 giveup in round 1. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 2. actionNum: 9
+[ACTION]: player at 2 check in round 2. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 check in round 3. actionNum: 11
+[ACTION]: player at 2 check in round 3. actionNum: 12
+***********game over***************
+sharedcards:[5, 42, 8, 32, 0]
+heart, 3. 
+diamond, Q. 
+spade, 4. 
+spade, 10. 
+spade, 2. 
+cards:[18, 50]
+diamond, 6. 
+diamond, A. 
+
+
+Have money 1300 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1300
+user at pos 1 has 2270
+user at pos 2 has 2430
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 60 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 1 callbet in round 1. actionNum: 8
+[ACTION]: player at 1 check in round 2. actionNum: 9
+[ACTION]: player at 2 check in round 2. actionNum: 10
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 2. actionNum: 11
+[ACTION]: player at 1 check in round 3. actionNum: 12
+[ACTION]: player at 2 raisebet to 200 in round 3. actionNum: 13
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 3. actionNum: 14
+[ACTION]: player at 1 giveup in round 3. actionNum: 15
+***********game over***************
+sharedcards:[22, 21, 51, 44, 19]
+diamond, 7. 
+heart, 7. 
+club, A. 
+spade, K. 
+club, 6. 
+cards:[37, 38]
+heart, J. 
+diamond, J. 
+
+
+Have money 1740 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2150
+user at pos 1 has 2110
+user at pos 2 has 1740
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[21, 40, 50, 20, 24]
+heart, 7. 
+spade, Q. 
+diamond, A. 
+spade, 7. 
+spade, 8. 
+cards:[48, 4]
+spade, A. 
+spade, 3. 
+
+
+Have money 1900 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1900
+user at pos 1 has 2070
+user at pos 2 has 2030
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[16, 26, 9, 11, 42]
+spade, 6. 
+diamond, 8. 
+heart, 4. 
+club, 4. 
+diamond, Q. 
+cards:[8, 15]
+spade, 4. 
+club, 5. 
+
+
+Have money 1900 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1900
+user at pos 1 has 2030
+user at pos 2 has 2070
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[29, 3, 17, 43, 15]
+heart, 9. 
+club, 2. 
+heart, 6. 
+club, Q. 
+club, 5. 
+cards:[11, 18]
+club, 4. 
+diamond, 6. 
+
+
+Have money 1900 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2070
+user at pos 1 has 1900
+user at pos 2 has 2030
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[25, 20, 49, 47, 1]
+heart, 8. 
+spade, 7. 
+heart, A. 
+club, K. 
+heart, 2. 
+cards:[45, 3]
+heart, K. 
+club, 2. 
+
+
+Have money 1880 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1880
+user at pos 1 has 2130
+user at pos 2 has 1990
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 30 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 2. actionNum: 9
+[ACTION]: player at 2 check in round 3. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 3. actionNum: 11
+***********game over***************
+sharedcards:[29, 0, 39, 23, 19]
+heart, 9. 
+spade, 2. 
+club, J. 
+club, 7. 
+club, 6. 
+cards:[51, 36]
+club, A. 
+spade, J. 
+
+
+Have money 2080 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1870
+user at pos 1 has 2050
+user at pos 2 has 2080
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[20, 12, 37, 38, 35]
+spade, 7. 
+spade, 5. 
+heart, J. 
+diamond, J. 
+club, 10. 
+cards:[25, 5]
+heart, 8. 
+heart, 3. 
+
+
+Have money 2160 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 2160
+user at pos 1 has 1830
+user at pos 2 has 2010
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 1 giveup in round 3. actionNum: 9
+***********game over***************
+sharedcards:[15, 24, 10, 46, 34]
+club, 5. 
+spade, 8. 
+diamond, 4. 
+diamond, K. 
+diamond, 10. 
+cards:[7, 14]
+club, 3. 
+diamond, 5. 
+
+
+Have money 2160 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 1790
+user at pos 1 has 2050
+user at pos 2 has 2160
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[14, 16, 46, 39, 8]
+diamond, 5. 
+spade, 6. 
+diamond, K. 
+club, J. 
+spade, 4. 
+cards:[42, 18]
+diamond, Q. 
+diamond, 6. 
+
+
+Have money 2120 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2010
+user at pos 1 has 1870
+user at pos 2 has 2120
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 raisebet to 240 in round 1. actionNum: 7
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 480, increase to 480
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 8
+[ACTION]: player at 0 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[13, 2, 0, 3, 31]
+heart, 5. 
+diamond, 2. 
+spade, 2. 
+club, 2. 
+club, 9. 
+cards:[43, 32]
+club, Q. 
+spade, 10. 
+
+
+Have money 2040 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 2040
+user at pos 1 has 2030
+user at pos 2 has 1930
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[44, 12, 51, 38, 14]
+spade, K. 
+spade, 5. 
+club, A. 
+diamond, J. 
+diamond, 5. 
+cards:[1, 50]
+heart, 2. 
+diamond, A. 
+
+
+Have money 2040 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 2040
+user at pos 1 has 2070
+user at pos 2 has 1890
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[27, 42, 6, 43, 49]
+club, 8. 
+diamond, Q. 
+diamond, 3. 
+club, Q. 
+heart, A. 
+cards:[30, 5]
+diamond, 9. 
+heart, 3. 
+
+
+Have money 2040 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2030
+user at pos 1 has 2040
+user at pos 2 has 1930
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[45, 14, 42, 44, 28]
+heart, K. 
+diamond, 5. 
+diamond, Q. 
+spade, K. 
+spade, 9. 
+cards:[26, 20]
+diamond, 8. 
+spade, 7. 
+
+
+Have money 2020 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2090
+user at pos 1 has 1890
+user at pos 2 has 2020
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 9
+[ACTION]: player at 1 callbet in round 2. actionNum: 10
+[ACTION]: player at 1 check in round 3. actionNum: 11
+[ACTION]: player at 0 raisebet to 400 in round 3. actionNum: 12
+[ACTION]: player at 1 giveup in round 3. actionNum: 13
+***********game over***************
+sharedcards:[12, 4, 13, 39, 10]
+spade, 5. 
+spade, 3. 
+heart, 5. 
+club, J. 
+diamond, 4. 
+cards:[2, 9]
+diamond, 2. 
+heart, 4. 
+
+
+Have money 1980 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2250
+user at pos 1 has 1770
+user at pos 2 has 1980
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 raisebet to 80 in round 0. actionNum: 4
+[ACTION]: player at 0 callbet in round 0. actionNum: 5
+[ACTION]: player at 1 callbet in round 0. actionNum: 6
+[ACTION]: player at 1 check in round 1. actionNum: 7
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 8
+[ACTION]: player at 0 raisebet to 240 in round 1. actionNum: 9
+[ACTION]: player at 1 giveup in round 1. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 480, increase to 480
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 callbet in round 1. actionNum: 11
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+$$$ This client made a invalid decision
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=0
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 2. actionNum: 12
+[ACTION]: player at 0 raisebet to 40 in round 2. actionNum: 13
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 2. actionNum: 14
+***********game over***************
+sharedcards:[33, 4, 41, 36, 46]
+heart, 10. 
+spade, 3. 
+heart, Q. 
+spade, J. 
+diamond, K. 
+cards:[48, 30]
+spade, A. 
+diamond, 9. 
+
+
+Have money 1660 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2650
+user at pos 1 has 1690
+user at pos 2 has 1660
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+WinRatio Calculator: Have two set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 raisebet to 280 in round 1. actionNum: 7
+[ACTION]: player at 1 giveup in round 1. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 560, increase to 560
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 1. actionNum: 9
+***********game over***************
+sharedcards:[6, 4, 42, 36, 25]
+diamond, 3. 
+spade, 3. 
+diamond, Q. 
+spade, J. 
+heart, 8. 
+cards:[13, 17]
+heart, 5. 
+heart, 6. 
+
+
+Have money 1620 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1650
+user at pos 1 has 1620
+user at pos 2 has 2730
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[50, 29, 4, 26, 44]
+diamond, A. 
+heart, 9. 
+spade, 3. 
+diamond, 8. 
+spade, K. 
+cards:[35, 8]
+club, 10. 
+spade, 4. 
+
+
+Have money 1600 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1600
+user at pos 1 has 2690
+user at pos 2 has 1710
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 1 raisebet to 280 in round 3. actionNum: 9
+[ACTION]: player at 2 giveup in round 3. actionNum: 10
+***********game over***************
+sharedcards:[24, 23, 44, 48, 50]
+spade, 8. 
+club, 7. 
+spade, K. 
+spade, A. 
+diamond, A. 
+cards:[7, 28]
+club, 3. 
+spade, 9. 
+
+
+Have money 1600 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1600
+user at pos 1 has 1670
+user at pos 2 has 2730
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[50, 3, 16, 12, 41]
+diamond, A. 
+club, 2. 
+spade, 6. 
+spade, 5. 
+heart, Q. 
+cards:[24, 44]
+spade, 8. 
+spade, K. 
+
+
+Have money 1760 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1590
+user at pos 1 has 1760
+user at pos 2 has 2650
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 0 callbet in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 240 in round 2. actionNum: 7
+[ACTION]: player at 0 callbet in round 2. actionNum: 8
+[ACTION]: player at 2 raisebet to 40 in round 3. actionNum: 9
+[ACTION]: player at 0 callbet in round 3. actionNum: 10
+***********game over***************
+sharedcards:[20, 42, 15, 14, 35]
+spade, 7. 
+diamond, Q. 
+club, 5. 
+diamond, 5. 
+club, 10. 
+cards:[33, 18]
+heart, 10. 
+diamond, 6. 
+
+
+Have money 1740 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 3030
+user at pos 1 has 1230
+user at pos 2 has 1740
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 1 raisebet to 280 in round 2. actionNum: 7
+[ACTION]: player at 0 giveup in round 2. actionNum: 8
+***********game over***************
+sharedcards:[5, 28, 51, 37, 15]
+heart, 3. 
+spade, 9. 
+club, A. 
+heart, J. 
+club, 5. 
+cards:[25, 39]
+heart, 8. 
+club, J. 
+
+
+Have money 1700 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1700
+user at pos 1 has 2990
+user at pos 2 has 1310
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[32, 10, 45, 39, 18]
+spade, 10. 
+diamond, 4. 
+heart, K. 
+club, J. 
+diamond, 6. 
+cards:[46, 3]
+diamond, K. 
+club, 2. 
+
+
+Have money 1700 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1700
+user at pos 1 has 2950
+user at pos 2 has 1350
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[2, 19, 49, 18, 8]
+diamond, 2. 
+club, 6. 
+heart, A. 
+diamond, 6. 
+spade, 4. 
+cards:[11, 29]
+club, 4. 
+heart, 9. 
+
+
+Have money 1700 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2910
+user at pos 1 has 1700
+user at pos 2 has 1390
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 3. actionNum: 9
+[ACTION]: player at 0 check in round 3. actionNum: 10
+***********game over***************
+sharedcards:[17, 11, 26, 6, 50]
+heart, 6. 
+club, 4. 
+diamond, 8. 
+diamond, 3. 
+diamond, A. 
+cards:[8, 47]
+spade, 4. 
+club, K. 
+
+
+Have money 1680 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1680
+user at pos 1 has 2970
+user at pos 2 has 1350
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 40, increase to 40
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 2. actionNum: 9
+[ACTION]: player at 2 raisebet to 200 in round 3. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 0 < min_raise_amount 400, increase to 400
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 3. actionNum: 11
+***********game over***************
+sharedcards:[37, 3, 10, 49, 1]
+heart, J. 
+club, 2. 
+diamond, 4. 
+heart, A. 
+heart, 2. 
+cards:[46, 32]
+diamond, K. 
+spade, 10. 
+
+
+Have money 1560 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2890
+user at pos 1 has 1550
+user at pos 2 has 1560
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[30, 11, 43, 6, 45]
+diamond, 9. 
+club, 4. 
+club, Q. 
+diamond, 3. 
+heart, K. 
+cards:[9, 39]
+heart, 4. 
+club, J. 
+
+
+Have money 1520 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2850
+user at pos 1 has 1630
+user at pos 2 has 1520
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[12, 23, 3, 37, 13]
+spade, 5. 
+club, 7. 
+club, 2. 
+heart, J. 
+heart, 5. 
+cards:[28, 1]
+spade, 9. 
+heart, 2. 
+
+
+Have money 1600 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2810
+user at pos 1 has 1590
+user at pos 2 has 1600
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 0 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[17, 27, 32, 44, 26]
+heart, 6. 
+club, 8. 
+spade, 10. 
+spade, K. 
+diamond, 8. 
+cards:[34, 0]
+diamond, 10. 
+spade, 2. 
+
+
+Have money 1680 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1680
+user at pos 1 has 2770
+user at pos 2 has 1550
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[36, 20, 29, 27, 46]
+spade, J. 
+spade, 7. 
+heart, 9. 
+club, 8. 
+diamond, K. 
+cards:[2, 45]
+diamond, 2. 
+heart, K. 
+
+
+Have money 1680 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2730
+user at pos 1 has 1680
+user at pos 2 has 1590
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 560 in round 2. actionNum: 7
+[ACTION]: player at 0 callbet in round 2. actionNum: 8
+[ACTION]: player at 2 check in round 3. actionNum: 9
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 10
+[ACTION]: player at 2 callbet in round 3. actionNum: 11
+***********game over***************
+sharedcards:[40, 50, 24, 25, 44]
+spade, Q. 
+diamond, A. 
+spade, 8. 
+heart, 8. 
+spade, K. 
+cards:[41, 2]
+heart, Q. 
+diamond, 2. 
+
+
+Have money 1660 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2090
+user at pos 1 has 1660
+user at pos 2 has 2250
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[3, 38, 40, 16, 18]
+club, 2. 
+diamond, J. 
+spade, Q. 
+spade, 6. 
+diamond, 6. 
+cards:[2, 51]
+diamond, 2. 
+club, A. 
+
+
+Have money 1640 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 03David
+pos 2: 02David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1640
+user at pos 1 has 2210
+user at pos 2 has 2150
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 280 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[37, 25, 24, 12, 3]
+heart, J. 
+heart, 8. 
+spade, 8. 
+spade, 5. 
+club, 2. 
+cards:[2, 38]
+diamond, 2. 
+diamond, J. 
+
+
+Have money 1640 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1640
+user at pos 1 has 2230
+user at pos 2 has 2130
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 40 in round 1. actionNum: 6
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 1. actionNum: 7
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 8
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=0, callbet=1, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 callbet in round 2. actionNum: 9
+[ACTION]: player at 2 check in round 3. actionNum: 10
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=0, allin=0, check=1, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 check in round 3. actionNum: 11
+***********game over***************
+sharedcards:[16, 0, 45, 34, 30]
+spade, 6. 
+spade, 2. 
+heart, K. 
+diamond, 10. 
+diamond, 9. 
+cards:[26, 46]
+diamond, 8. 
+diamond, K. 
+
+
+Have money 1880 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 1970
+user at pos 1 has 1880
+user at pos 2 has 2150
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[13, 8, 42, 7, 51]
+heart, 5. 
+spade, 4. 
+diamond, Q. 
+club, 3. 
+club, A. 
+cards:[27, 5]
+club, 8. 
+heart, 3. 
+
+
+Have money 1860 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2110
+user at pos 1 has 2030
+user at pos 2 has 1860
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 40 in round 1. actionNum: 6
+[ACTION]: player at 1 callbet in round 1. actionNum: 7
+[ACTION]: player at 1 check in round 2. actionNum: 8
+[ACTION]: player at 0 check in round 2. actionNum: 9
+[ACTION]: player at 1 check in round 3. actionNum: 10
+[ACTION]: player at 0 raisebet to 40 in round 3. actionNum: 11
+[ACTION]: player at 1 callbet in round 3. actionNum: 12
+***********game over***************
+sharedcards:[51, 14, 16, 34, 28]
+club, A. 
+diamond, 5. 
+spade, 6. 
+diamond, 10. 
+spade, 9. 
+cards:[38, 27]
+diamond, J. 
+club, 8. 
+
+
+Have money 1820 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1820
+user at pos 1 has 2270
+user at pos 2 has 1910
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 raisebet to 560 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[39, 30, 43, 9, 25]
+club, J. 
+diamond, 9. 
+club, Q. 
+heart, 4. 
+heart, 8. 
+cards:[26, 29]
+diamond, 8. 
+heart, 9. 
+
+
+Have money 1820 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2190
+user at pos 1 has 1990
+user at pos 2 has 1820
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[39, 46, 3, 7, 43]
+club, J. 
+diamond, K. 
+club, 2. 
+club, 3. 
+club, Q. 
+cards:[9, 51]
+heart, 4. 
+club, A. 
+
+
+Have money 1780 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1780
+user at pos 1 has 2150
+user at pos 2 has 2070
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[22, 3, 37, 50, 20]
+diamond, 7. 
+club, 2. 
+heart, J. 
+diamond, A. 
+spade, 7. 
+cards:[9, 14]
+heart, 4. 
+diamond, 5. 
+
+
+Have money 1780 left
+This ai is begin at the pos 2
+pos 0: 03David
+pos 1: 02David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2110
+user at pos 1 has 2110
+user at pos 2 has 1780
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 280 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[49, 45, 12, 2, 16]
+heart, A. 
+heart, K. 
+spade, 5. 
+diamond, 2. 
+spade, 6. 
+cards:[33, 39]
+heart, 10. 
+club, J. 
+
+
+Have money 1740 left
+This ai is begin at the pos 1
+pos 0: 03David
+pos 1: 01David
+pos 2: 02David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2070
+user at pos 1 has 1740
+user at pos 2 has 2190
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+WinRatio Calculator: Have two set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 raisebet to 560 in round 1. actionNum: 5
+[ACTION]: player at 0 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[43, 37, 41, 38, 31]
+club, Q. 
+heart, J. 
+heart, Q. 
+diamond, J. 
+club, 9. 
+cards:[30, 6]
+diamond, 9. 
+diamond, 3. 
+
+
+Have money 1720 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2250
+user at pos 1 has 2030
+user at pos 2 has 1720
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 0 check in round 2. actionNum: 8
+[ACTION]: player at 1 check in round 3. actionNum: 9
+[ACTION]: player at 0 raisebet to 280 in round 3. actionNum: 10
+[ACTION]: player at 1 giveup in round 3. actionNum: 11
+***********game over***************
+sharedcards:[27, 40, 8, 29, 45]
+club, 8. 
+spade, Q. 
+spade, 4. 
+heart, 9. 
+heart, K. 
+cards:[16, 20]
+spade, 6. 
+spade, 7. 
+
+
+Have money 1680 left
+This ai is begin at the pos 2
+pos 0: 02David
+pos 1: 03David
+pos 2: 01David
+
+******client initialized****** client:2 step:0
+user at pos 0 has 2330
+user at pos 1 has 1990
+user at pos 2 has 1680
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 2
+[ACTION]: player at 2 giveup in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 0 raisebet to 280 in round 1. actionNum: 6
+[ACTION]: player at 1 giveup in round 1. actionNum: 7
+***********game over***************
+sharedcards:[30, 31, 35, 36, 18]
+diamond, 9. 
+club, 9. 
+club, 10. 
+spade, J. 
+diamond, 6. 
+cards:[46, 15]
+diamond, K. 
+club, 5. 
+
+
+Have money 1640 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1640
+user at pos 1 has 2410
+user at pos 2 has 1950
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 280 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[34, 5, 22, 8, 43]
+diamond, 10. 
+heart, 3. 
+diamond, 7. 
+spade, 4. 
+club, Q. 
+cards:[28, 9]
+spade, 9. 
+heart, 4. 
+
+
+Have money 1640 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2450
+user at pos 1 has 1640
+user at pos 2 has 1910
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 check in round 1. actionNum: 5
+[ACTION]: player at 0 check in round 1. actionNum: 6
+[ACTION]: player at 2 raisebet to 40 in round 2. actionNum: 7
+[ACTION]: player at 0 raisebet to 280 in round 2. actionNum: 8
+[ACTION]: player at 2 giveup in round 2. actionNum: 9
+***********game over***************
+sharedcards:[23, 18, 31, 3, 28]
+club, 7. 
+diamond, 6. 
+club, 9. 
+club, 2. 
+spade, 9. 
+cards:[39, 19]
+club, J. 
+club, 6. 
+
+
+Have money 1620 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1620
+user at pos 1 has 2550
+user at pos 2 has 1830
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[44, 0, 50, 11, 38]
+spade, K. 
+spade, 2. 
+diamond, A. 
+club, 4. 
+diamond, J. 
+cards:[12, 1]
+spade, 5. 
+heart, 2. 
+
+
+Have money 1620 left
+This ai is begin at the pos 1
+pos 0: 02David
+pos 1: 01David
+pos 2: 03David
+
+******client initialized****** client:1 step:0
+user at pos 0 has 2590
+user at pos 1 has 1620
+user at pos 2 has 1790
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+[ACTION]: player at 0 callbet in round 0. actionNum: 2
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 1
+[ACTION]: player at 1 giveup in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 2 giveup in round 1. actionNum: 5
+***********game over***************
+sharedcards:[14, 43, 6, 17, 38]
+diamond, 5. 
+club, Q. 
+diamond, 3. 
+heart, 6. 
+diamond, J. 
+cards:[16, 29]
+spade, 6. 
+heart, 9. 
+
+
+Have money 1600 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1600
+user at pos 1 has 2650
+user at pos 2 has 1750
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 raisebet to 40 in round 1. actionNum: 5
+[ACTION]: player at 2 giveup in round 1. actionNum: 6
+***********game over***************
+sharedcards:[12, 7, 43, 33, 40]
+spade, 5. 
+club, 3. 
+club, Q. 
+heart, 10. 
+spade, Q. 
+cards:[37, 19]
+heart, J. 
+club, 6. 
+
+
+Have money 1600 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1600
+user at pos 1 has 2690
+user at pos 2 has 1710
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+giveup=1, allin=0, check=0, callbet=0, raisebet=0, amount=0
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 giveup in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 check in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+[ACTION]: player at 2 check in round 1. actionNum: 6
+[ACTION]: player at 1 check in round 2. actionNum: 7
+[ACTION]: player at 2 check in round 2. actionNum: 8
+[ACTION]: player at 1 giveup in round 3. actionNum: 9
+***********game over***************
+sharedcards:[14, 10, 29, 27, 45]
+diamond, 5. 
+diamond, 4. 
+heart, 9. 
+club, 8. 
+heart, K. 
+cards:[42, 8]
+diamond, Q. 
+spade, 4. 
+
+
+Have money 1600 left
+This ai is begin at the pos 0
+pos 0: 01David
+pos 1: 02David
+pos 2: 03David
+
+******client initialized****** client:0 step:0
+user at pos 0 has 1600
+user at pos 1 has 2650
+user at pos 2 has 1750
+[ACTION]: player at 1 raisebet to 20 in round 0. actionNum: 0
+[ACTION]: player at 2 raisebet to 40 in round 0. actionNum: 1
+WinRatio Calculator: Have one set of unknown hole cards
+raise_amount 30 < min_raise_amount 80, increase to 80
+giveup=0, allin=0, check=0, callbet=0, raisebet=1, amount=80
+$$$ This client made a decision at pos 0
+[ACTION]: player at 0 raisebet to 80 in round 0. actionNum: 2
+[ACTION]: player at 1 callbet in round 0. actionNum: 3
+[ACTION]: player at 2 callbet in round 0. actionNum: 4
+[ACTION]: player at 1 check in round 1. actionNum: 5
+Traceback (most recent call last):
+  File "/Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py", line 428, in <module>
+    ClientJob(c).run()
+  File "/Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py", line 400, in run
+    client_start(self.client)
+  File "/Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py", line 391, in client_start
+    thread.start()
+  File "/Users/jianzhou/Desktop/PokerTexasRoot/PokerTexas/UbiQuant/modules/texaspoker/client01/client.py", line 186, in start
+    for res in responses:
+  File "/Users/jianzhou/opt/anaconda3/envs/env_generic/lib/python3.7/site-packages/grpc/_channel.py", line 416, in __next__
+    return self._next()
+  File "/Users/jianzhou/opt/anaconda3/envs/env_generic/lib/python3.7/site-packages/grpc/_channel.py", line 697, in _next
+    _common.wait(self._state.condition.wait, _response_ready)
+  File "/Users/jianzhou/opt/anaconda3/envs/env_generic/lib/python3.7/site-packages/grpc/_common.py", line 138, in wait
+    _wait_once(wait_fn, MAXIMUM_WAIT_TIMEOUT, spin_cb)
+  File "/Users/jianzhou/opt/anaconda3/envs/env_generic/lib/python3.7/site-packages/grpc/_common.py", line 103, in _wait_once
+    wait_fn(timeout=timeout)
+  File "/Users/jianzhou/opt/anaconda3/envs/env_generic/lib/python3.7/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+
+Process finished with exit code 1
