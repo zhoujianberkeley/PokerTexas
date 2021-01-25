@@ -1,4 +1,5 @@
 import glob
+import pickle
 import sys
 import threading
 import grpc
@@ -33,21 +34,26 @@ from lib.client_lib import MessageType_GameOver
 from lib.client_lib import MessageType_InvalidToken
 from lib.client_lib import MessageType_GameStarted
 from lib.client_lib import MessageType_IllegalDecision
-from lib.simple_logger import simple_logger
+from lib.AI_logger import AI_Logger
 # *******************************************************************************************
 
 
 
 
 # **************************************modify here to use your own RLAI! ***************************
-from AI.v1_1 import ai
+# from AI.v1_1 import ai
+from AI.DavidAI_v1_0 import ai
 # *************************************************************************************************
 
 
 
-# **************************************modify here to set address and port ***********************
+# **************************************modify here to set
+# and port ***********************
 address = '47.103.23.116'
-port = 56714
+port = 56703 # 56703-56720
+# 56720是有前端的port，UI链接http://47.103.23.116:56702/card?name=01David&passwd=kxUEGLXn
+# 如果是非56720别的port，得把client02,client03都得连进去
+
 # *************************************************************************************************
 
 
@@ -62,6 +68,7 @@ port = 56714
 # Your ai doesn't need to send the smallBlind or the bigBlind decision to the sever.
 # The server will give the blindbet automatically and brodcast the desicion to all the player.
 #*********
+
 
 
 CLIENT_VERSION = 'V1.4'
@@ -88,6 +95,10 @@ class Client(object):
         self.ai = AI
         self._lock = threading.Lock()
         self._decision_so_far = []  # history of the decision info from the server
+        self._decision_record = {}  # history of the decision info from the server,
+        # first key is round, second key is player id, value is decision
+
+
         self._new_response = []     # response list from the server
         self._new_request = []      # request list waiting to send to the server
 
@@ -96,10 +107,12 @@ class Client(object):
         self.bigBlind = -1
         self.totalPlayer = -1
         self.button = -1
-        self.logger = logger
         self.step = -1
+        self.logger = logger
+        self.record_logger = AI_Logger('record_logger')
+
         if self.logger is None:
-            self.logger = simple_logger()
+            self.logger = AI_Logger('default_logger')
         self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
 
         self.initialized = False
@@ -129,6 +142,17 @@ class Client(object):
             string += 'raisebet to {} '.format(res.amount)
         string += 'in round {}. actionNum: {}'.format(self.round, res.actionNum)
         self.logger.info(string)
+        # print(self._decision_record)
+        self.record_decision(res, string)
+
+    def record_decision(self, res, record):
+        _round = self.round
+        _position = res.pos
+        if _round not in self._decision_record.keys():
+            self._decision_record[_round] = {}
+        if _position not in self._decision_record[_round].keys():
+            self._decision_record[_round][_position] = []
+        self._decision_record[_round][_position].append(record)
 
     def chat_with_server(self):
         while True:
@@ -169,7 +193,16 @@ class Client(object):
                 # server asking for a decision from the client
                 self.state.currpos = res.pos
                 if res.pos == self.mypos:
-                    decision = self.ai(self.mypos, self.state)
+                    # print("-------------------------------------")
+                    # print(self._decision_so_far)
+                    # print("-------------------------------------")
+                    # decision = self.ai(self.mypos, self.state)
+
+                    decision = self.ai(self.mypos, self.state, self._decision_record)
+                    self.logger.info(decision)
+                    self.record_logger.info(decision)
+
+
                     if not decision.isValid():
                         self.logger.info('$$$ This client made a invalid decision')
                         print(decision, flush=True)
@@ -276,6 +309,7 @@ class Client(object):
 
                 self.mypos = res.pos
                 self.logger.info('This ai is begin at the pos {}'.format(self.mypos))
+                self.record_logger.info('This ai is begin at the pos {}'.format(self.mypos))
 
                 ### If the player in current position already connected to the game,
                 # then the game server will return msg in which button is -1
@@ -284,7 +318,9 @@ class Client(object):
                     self.logger.info('Game already started. wait for next game.')
                     # self.stoped = True
                     continue
+                # player name
                 self.logger.info(res.extra)
+                self.record_logger.info(res.extra)
                 self.step = 0
                 self.state = State(self.logger, self.totalPlayer, self.initMoney, self.bigBlind, self.button)
                 self.state.last_raised = self.bigBlind
@@ -298,14 +334,21 @@ class Client(object):
                 self.logger.info('***********game over***************')
                 self.logger.info('sharedcards:%s' % str(self.state.sharedcards))
                 for x in self.state.sharedcards:
-                    self.logger.info('%s. '%printcard(x))
+                    self.logger.info('%s. ' % decode_card(x))
                 self.logger.info('cards:%s' % str(self.state.player[self.mypos].cards))
                 for x in self.state.player[self.mypos].cards:
-                    self.logger.info('%s. '%printcard(x))
+                    self.logger.info('%s. ' % decode_card(x))
                 self.logger.info('\n')
                 self.logger.info('Have money {} left'.format(res.userMoney[self.mypos]))
 
                 self.stoped = True
+                # # save decision record
+                # record_path = "records"
+                # if not os.path.exists(record_path):
+                #     os.makedirs(record_path)
+                # with open(os.path.join(record_path, 'decision_record.pickle'), 'wb') as f:
+                #     # Pickle the 'data' dictionary using the highest protocol available.
+                #     pickle.dump(self._decision_record, f, pickle.HIGHEST_PROTOCOL)
 
                 # self.client_reset(self.username, self.ai, self.logger, self.mypos)
                 if ISTESTING:
@@ -331,7 +374,7 @@ class Client(object):
         return dealer_pb2.DealerRequest(user=self.username, command='heartbeat', type=0, pos=self.mypos,
                                         token=self.key, status=self.step)
 
-def printcard(num):
+def decode_card(num):
     name = ['spade', 'heart', 'diamond', 'club']
     value = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
     return '%s, %s' %(name[num%4], value[num//4])
@@ -374,7 +417,10 @@ if __name__ == '__main__':
 #     username = "02David"
     username = glob.glob('*David_key.txt')[0][:-8]
 
+    from lib.simple_logger import simple_logger
     logger = simple_logger()
+    fileName = '../../../../test_result/client_logger.log'
+    # logger = simple_logger(fileName)
 # ****************************************************************************************************
 
 

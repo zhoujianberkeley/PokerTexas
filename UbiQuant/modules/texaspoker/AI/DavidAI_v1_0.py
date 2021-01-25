@@ -240,7 +240,9 @@ def decide_raise_type(power='weak'):
     """
     用于preflop轮决定raise amount
     """
-    if power == 'strong':
+    if power == 'allin':
+        raise_type = 3
+    elif power == 'strong':
         raise_type = 'fullpot'
     elif power == 'medium':
         raise_type = 'halfpot'
@@ -256,11 +258,11 @@ def decide_raise_type2(state, win_prob):
     用于flop/turn/river轮决定raise amount
     """
     if state.playernum == 2:
-        if win_prob > 0.9:
+        if win_prob > 0.75:
             raise_type = 'allin'
-        elif win_prob > 0.8:
-            raise_type = 'fullpot'
         elif win_prob > 0.7:
+            raise_type = 'fullpot'
+        elif win_prob > 0.6:
             raise_type = 'halfpot'
         elif win_prob > 0.5:
             raise_type = 'min'
@@ -419,7 +421,10 @@ def ai(id, state, records, num_iter=5):
             num_active_player = state.playernum
             # 还剩两个对手，持续下注
             if num_active_player > 2:
-                amount = cal_raise_amount(state, state.currpos, decide_raise_type('strong'))
+                if hole_card_power > 0.8:
+                    amount = cal_raise_amount(state, state.currpos, decide_raise_type('allin'))
+                else:
+                    amount = cal_raise_amount(state, state.currpos, decide_raise_type('strong'))
                 if can_I_raisebet(id,state,records,amount,allow_continue_raisebet=True):
                     decision.amount = amount
                     decision.raisebet = 1
@@ -448,7 +453,7 @@ def ai(id, state, records, num_iter=5):
                     return decision
 
         # 二等手牌
-        if hole_card_power > 0.605:
+        if hole_card_power > 0.575:
 
             #之前没有起raise的或者没有3bet的,优先raise
             if time_of_rise<=1:
@@ -467,7 +472,7 @@ def ai(id, state, records, num_iter=5):
             return decision
 
         # 三等手牌
-        if hole_card_power > 0.550:
+        if hole_card_power > 0.48:
             # 没有人rasie
             if time_of_rise==0:
                 amount = cal_raise_amount(state, state.currpos, decide_raise_type('weak'))
@@ -493,7 +498,7 @@ def ai(id, state, records, num_iter=5):
             return decision
 
         # 四等手牌
-        if hole_card_power > 0.408:
+        if hole_card_power > 0.35:
             # 只玩带A或者对子牌 #todo jian understand the logic
             if do_hole_cards_have_A_suit(my_hole_cards) or do_hole_cards_have_pair(my_hole_cards):
                 if can_I_check(id,state):
@@ -505,7 +510,11 @@ def ai(id, state, records, num_iter=5):
                     decision.callbet = 1
                     return decision
 
-            decision.giveup =1
+            if can_I_check(id,state):
+                decision.check=1
+                return decision
+            else:
+                decision.giveup =1
             return decision
 
         ##三人局，0号button，1号小盲，2号大盲
@@ -523,8 +532,8 @@ def ai(id, state, records, num_iter=5):
 
                 # adjust win ratio
                 my_win_props = adjust_win_ratio(state, id, my_win_props, records)
-
-                if can_I_callbet(id, state) and my_win_props > cal_odds(state,state.currpos,'callbet'):
+                if can_I_callbet(id, state):
+                # if can_I_callbet(id, state) and my_win_props > cal_odds(state,state.currpos,'callbet'):
                     decision.callbet = 1
                     return decision
 
@@ -595,8 +604,8 @@ def ai(id, state, records, num_iter=5):
         else:
             delta = 0
         # 如果成本>1000而且胜率低
-        if best_action == 'raisebet':
-            if delta > 1000:
+        if best_action == 'giveup':
+            if delta > 2000:
                 if state.playernum == 2:
                     threshold = 0.6
                 elif state.playernum == 3:
