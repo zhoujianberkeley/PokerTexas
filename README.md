@@ -1,6 +1,10 @@
-### Jian todo in Jan. 20th
-Must finish - Configure and test Deep mind pokerbot 
-
+### Recall of Poker AI
+* Too conservative 
+* Can't proactively beat benchmark
+* Others use neutral network/ contraction 
+* Take-away1: actively test against benchmark
+* Take-away2: actively test against other player
+* Tons of fun though we fail
 
 
 ### Jian wrote in Jan. 17th
